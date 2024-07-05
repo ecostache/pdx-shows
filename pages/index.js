@@ -42,8 +42,8 @@ const Home = () => {
       <ul className="space-y-4">
         {filteredEvents.map((event, index) => (
           <li key={index} className="p-6 bg-gray-100 shadow-md dark:bg-gray-700">
-            <p className="text-sm dark:text-gray-400">{new Date(event.date).toLocaleDateString()}</p>
-            <p className="mt-2 font-semibold dark:text-gray-400">{event.title}</p>
+            <p className="text-sm font-light dark:text-gray-400">{new Date(event.date).toLocaleDateString()}</p>
+            <p className="mt-2 text-lg font-semibold dark:text-gray-400">{event.title}</p>
             <p className="text-sm font-light mt-1 dark:text-gray-400">{event.venue}</p>
           </li>
         ))}

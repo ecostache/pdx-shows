@@ -5,20 +5,21 @@ Under development.
 A basic listing page for shows in Portland, Oregon. Currently includes listings from:
 
 * Aladdin Theater
-* Arlene Schnitzer Concert Hall
+* Arlene Schnitzer Concert Hall (incomplete)
 * Crystal Ballroom
-* Cuthbert Amphitheater
-* Edgefield
-* Get Down
-* Grand Lodge
-* Hawthorne Theatre
+* Cuthbert Amphitheater (incomplete)
+* Edgefield (incomplete)
+* Get Down (incomplete)
+* Grand Lodge (incomplete)
+* Hawthorne Theatre (incomplete)
 * Holocene
-* Keller Auditorium
+* Keller Auditorium (incomplete)
 * Lollipop Shoppe
-* Mission Theater
+* Mission Theater (incomplete)
 * Mississippi Studios
-* Moda Center
-* Old Church
+* Moda Center (incomplete)
+* Old Church (incomplete)
+* Pioneer Courthouse Square (PDX Live)
 * Polaris Hall
 * Revolution Hall
 * Roseland Theater
