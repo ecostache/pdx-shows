@@ -4,14 +4,15 @@ import axios from 'axios';
 const Home = () => {
   const [events, setEvents] = useState([]);
   const [venues, setVenues] = useState([]);
-  const [selectedVenue, setSelectedVenue] = useState('All');
+  const [selectedVenue, setSelectedVenue] = useState('All Venues');
 
   useEffect(() => {
     axios.get('/events.json')
       .then(response => {
         setEvents(response.data);
         const uniqueVenues = [...new Set(response.data.map(event => event.venue))];
-        setVenues(['All', ...uniqueVenues]);
+        uniqueVenues.sort(); // Sort venues alphabetically
+        setVenues(['All Venues', ...uniqueVenues]);
       })
       .catch(error => {
         console.error("Error fetching data: ", error);
@@ -22,7 +23,7 @@ const Home = () => {
     setSelectedVenue(e.target.value);
   };
 
-  const filteredEvents = selectedVenue === 'All' ? events : events.filter(event => event.venue === selectedVenue);
+  const filteredEvents = selectedVenue === 'All Venues' ? events : events.filter(event => event.venue === selectedVenue);
 
   return (
     <div className="container mx-auto p-4">
