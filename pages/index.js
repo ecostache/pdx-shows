@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold text-center mb-8">Upcoming Events</h1>
+      <h1 className="text-2xl font-bold text-center mb-8">PDX Shows</h1>
       <div className="flex justify-center mb-4">
         <label htmlFor="venue" className="mr-2">Venue:</label>
         <select
