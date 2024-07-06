@@ -10,7 +10,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 225, 225, 225;
-    --background-rgb: 25, 25, 25;
+    --background-rgb: 0, 0, 0;
   }
 }
 

@@ -9,8 +9,11 @@ const Home = () => {
   useEffect(() => {
     axios.get('/events.json')
       .then(response => {
-        setEvents(response.data);
-        const uniqueVenues = [...new Set(response.data.map(event => event.venue))];
+        const currentDate = new Date();
+        currentDate.setHours(0,0,0,0);
+        const futureEvents = response.data.filter(event => new Date(event.date) >= currentDate);
+        setEvents(futureEvents);
+        const uniqueVenues = [...new Set(futureEvents.map(event => event.venue))];
         uniqueVenues.sort(); // Sort venues alphabetically
         setVenues(['All Venues', ...uniqueVenues]);
       })
@@ -27,13 +30,13 @@ const Home = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold text-center mb-8">PDX Shows</h1>
+      <h1 className="text-2xl font-bold text-center mb-8 text-gray-900 dark:text-gray-100">PDX Shows</h1>
       <div className="flex justify-center mb-4">
         <select
           id="venue"
           value={selectedVenue}
           onChange={handleVenueChange}
-          className="p-2 bg-gray-100 text-gray-900 dark:bg-gray-700 dark:text-gray-400">
+          className="p-2 bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
           {venues.map((venue, index) => (
             <option key={index} value={venue}>{venue}</option>
           ))}
@@ -41,10 +44,10 @@ const Home = () => {
       </div>
       <ul className="space-y-4">
         {filteredEvents.map((event, index) => (
-          <li key={index} className="p-6 bg-gray-100 shadow-md dark:bg-gray-700">
-            <p className="text-sm font-light dark:text-gray-400">{new Date(event.date).toLocaleDateString()}</p>
-            <p className="mt-2 text-lg font-semibold dark:text-gray-400">{event.title}</p>
-            <p className="text-sm font-light mt-1 dark:text-gray-400">{event.venue}</p>
+          <li key={index} className="p-6 bg-gray-100 dark:bg-gray-900">
+            <p className="text-sm font-light text-gray-700 dark:text-gray-400">{new Date(event.date).toLocaleDateString()}</p>
+            <p className="mt-1 text-lg font-semibold text-gray-900 dark:text-gray-100">{event.title}</p>
+            <p className="mt-1 text-sm font-light text-gray-700 dark:text-gray-400">{event.venue}</p>
           </li>
         ))}
       </ul>
