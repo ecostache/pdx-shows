@@ -28,4 +28,4 @@ A basic listing page for shows in Portland, Oregon. Currently includes listings 
 * Star Theater
 * Wonder Ballroom
 
-Inspired by [PromotePDX](https://www.instagram.com/promotepdx/), which is still the most comprehensive resource for what's going on this week.
+Inspired by [PromotePDX](https://www.instagram.com/promotepdx/), [NearHear](https://nearhear.app/), and the old [kingbanana.net](https://web.archive.org/web/20010501000000*/kingbanana.net).
