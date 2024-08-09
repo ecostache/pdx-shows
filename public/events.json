@@ -1,363 +1,8 @@
 [
   {
-    "date": "2024-07-30T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "LOCAL LOVE LETTER #4: GATA GALÁCTICA"
-  },
-  {
-    "date": "2024-07-30T00:00:00.000",
-    "venue": "SHOW BAR",
-    "title": "MAE.SUN"
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
-    "venue": "ALADDIN THEATER",
-    "title": "MAGIC MEN AUSTRALIA"
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
-    "venue": "HOLOCENE",
-    "title": "PELADA W/ CRYSTAL QUARTEZ – 21+"
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
+    "date": "2024-08-08T00:00:00.000",
     "venue": "LOLLIPOP SHOPPE",
-    "title": "LOLLIPOP KARAOKE "
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "THE FAMILY CREST"
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
-    "venue": "POLARIS HALL",
-    "title": "SPIRITUAL CRAMP"
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
-    "venue": "ROSELAND THEATER",
-    "title": "THE GASLIGHT ANTHEM"
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
-    "venue": "SHOW BAR",
-    "title": "SEAN ROWE"
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "THE WAYMORES WITH MEGAN ALDER"
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
-    "venue": "STAR THEATER",
-    "title": "SMIF-N-WESSUN WITH SWIGGLE MANDELA"
-  },
-  {
-    "date": "2024-07-31T00:00:00.000",
-    "venue": "SWAN DIVE",
-    "title": "QUIVERS + MYRIADS + FOUND SPACE"
-  },
-  {
-    "date": "2024-08-01T00:00:00.000",
-    "venue": "CUTHBERT AMPHITHEATER",
-    "title": "NORAH JONES – VISION TOUR 2024"
-  },
-  {
-    "date": "2024-08-01T00:00:00.000",
-    "venue": "HOLOCENE",
-    "title": "HOLOCENE AND SPEND THE NIGHT PRESENT: ELKKA W/ BANGS – 21+"
-  },
-  {
-    "date": "2024-08-01T00:00:00.000",
-    "venue": "LOLLIPOP SHOPPE",
-    "title": "THE THESIS"
-  },
-  {
-    "date": "2024-08-01T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "TOMMY ALEXANDER / KASSI VALAZZA"
-  },
-  {
-    "date": "2024-08-01T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "KELSEY WALDON WITH MAC CORNISH AND THE HENS"
-  },
-  {
-    "date": "2024-08-01T00:00:00.000",
-    "venue": "STAR THEATER",
-    "title": "BOOTBLACKS WITH NYX DIVISION & THE GENTRY"
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "CRYSTAL BALLROOM",
-    "title": "TERRAPIN TWIRL: A GRATEFUL DEAD DANCE PARTY"
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "EDGEFIELD",
-    "title": "LAKE STREET DIVE"
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "HOLOCENE",
-    "title": "EMO NITE AT HOLOCENE PRESENTED BY EMO NITE LA – 21+ EVENT"
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "J.R.C.G."
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "RESCHEDULED TO 7/16/25: GYEDU-BLAY AMBOLLEY"
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "POLARIS HALL",
-    "title": "MOVED TO MISSISSIPPI STUDIOS: J.R.C.G."
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "ROSELAND THEATER",
-    "title": "EMO NIGHT TOUR"
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "JOHN HAYWOOD WITH CALEB AND THE MONSTERS"
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "STAR THEATER",
-    "title": "FREE : REGGAE ON THE PATIO (HAPPY HOUR)"
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "SWAN DIVE",
-    "title": "CHIPPED NAIL POLISH + PILLOW SPIDERS + STRAWBERRY SODA"
-  },
-  {
-    "date": "2024-08-02T00:00:00.000",
-    "venue": "WONDER BALLROOM",
-    "title": "GROWING PAINS"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "ALADDIN THEATER",
-    "title": "MOVED TO MISSISSIPPI STUDIOS: GIACOMO TURRA & THE FUNKY MINUTES"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "CRYSTAL BALLROOM",
-    "title": "COUNTRY DANCE FLASHBACK"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "EDGEFIELD",
-    "title": "THE DECEMBERISTS"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "GRAND LODGE",
-    "title": "AUSTRALIAN PINK FLOYD"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "HOLOCENE",
-    "title": "GLOBAL BASED PRESENTS: QUIERO CUMBIA W/ PHILTHY DRONEZ – 21+"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "LOLLIPOP SHOPPE",
-    "title": "NONBINARY GIRLFRIEND WITH BUG SEANCE + LAZY SUNDAY"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "GIACOMO TURRA & THE FUNKY MINUTES"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "RESCHEDULED TO 2/1/25: LO MOON"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "POLARIS HALL",
-    "title": "SOLD OUT: RACHEL SCANLON"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "ROSELAND THEATER",
-    "title": "CHASE & STATUS"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "SHOW BAR",
-    "title": "80S VIDEO DANCE ATTACK"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "ELLIS BULLARD WITH JAKE AND THE HILL PEOPLE"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "STAR THEATER",
-    "title": "SAMIAM WITH OFF WITH THEIR HEADS & WEIRD MOOD"
-  },
-  {
-    "date": "2024-08-03T00:00:00.000",
-    "venue": "SWAN DIVE",
-    "title": "PHONE CALL + WHISPER HISS + PAPER GATES"
-  },
-  {
-    "date": "2024-08-04T00:00:00.000",
-    "venue": "HOLOCENE",
-    "title": "ZAUBERER: A KLAUS SCHULZE BIRTHDAY CELEBRATION FEAT. PULSE EMITTER, ARKHAM SUNSET, FUNSIZE RENEGADE- 21+"
-  },
-  {
-    "date": "2024-08-04T00:00:00.000",
-    "venue": "LOLLIPOP SHOPPE",
-    "title": "CAMERON LANDERS TRIO WITH CORK THE BAND + JARRET TETSUO DOMEN"
-  },
-  {
-    "date": "2024-08-04T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "BRIJEAN"
-  },
-  {
-    "date": "2024-08-04T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "MELISSA CARPER WITH FOG HOLLER"
-  },
-  {
-    "date": "2024-08-04T00:00:00.000",
-    "venue": "STAR THEATER",
-    "title": "PIANO QUEEN FEATURING SAINT SYNDROME AND JILLIAN SNOW AS LIZA MINNELLI"
-  },
-  {
-    "date": "2024-08-04T00:00:00.000",
-    "venue": "STAR THEATER",
-    "title": "CHURCH OF HIVE"
-  },
-  {
-    "date": "2024-08-05T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "OWEN"
-  },
-  {
-    "date": "2024-08-05T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "JAMES CAROTHERS WITH DUSTY RUST"
-  },
-  {
-    "date": "2024-08-06T00:00:00.000",
-    "venue": "GRAND LODGE",
-    "title": "HERMANOS GUTIÉRREZ"
-  },
-  {
-    "date": "2024-08-06T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "GENERACION SUICIDA"
-  },
-  {
-    "date": "2024-08-06T00:00:00.000",
-    "venue": "REVOLUTION HALL",
-    "title": "THE INFAMOUS STRINGDUSTERS / MOLLY TUTTLE & GOLDEN HIGHWAY (NIGHT 1)"
-  },
-  {
-    "date": "2024-08-06T00:00:00.000",
-    "venue": "ROSELAND THEATER",
-    "title": "HOMIXIDE GANG"
-  },
-  {
-    "date": "2024-08-06T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "WEST TEXAS EXILES AND NEVER COME DOWN"
-  },
-  {
-    "date": "2024-08-06T00:00:00.000",
-    "venue": "WONDER BALLROOM",
-    "title": "THE GREETING COMMITTEE"
-  },
-  {
-    "date": "2024-08-07T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "BOB SUMNER"
-  },
-  {
-    "date": "2024-08-07T00:00:00.000",
-    "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "SLEATER-KINNEY / AMYL AND THE SNIFFERS"
-  },
-  {
-    "date": "2024-08-07T00:00:00.000",
-    "venue": "REVOLUTION HALL",
-    "title": "THE INFAMOUS STRINGDUSTERS / MOLLY TUTTLE & GOLDEN HIGHWAY (NIGHT 2)"
-  },
-  {
-    "date": "2024-08-07T00:00:00.000",
-    "venue": "SHOW BAR",
-    "title": "THE PEOPLE'S JAM (FREE)"
-  },
-  {
-    "date": "2024-08-07T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "HANNAH JUANITA AND MOSE WILSON WITH ALDER BROOK AND ALBERT NICHOLAS"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "EDGEFIELD",
-    "title": "THE DEAD SOUTH"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "HOLOCENE",
-    "title": "MIRAH – W/ ANNA DIEM – EARLY ALL AGES SHOW!"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "HOLOCENE",
-    "title": "HOLOCENE, MONQUI AND SPEND THE NIGHT PRESENT: ROMY: CLUB MID AIR TOUR 2024 AT WONDER BALLROOM – 21+"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "HOLOCENE",
-    "title": "ROSE ENTERTAINMENT PRESENTS: DUSKY  –  21+"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "MISSION THEATER",
-    "title": "SON LITTLE"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "MISSISSIPPI STUDIOS",
-    "title": "SHAMARR ALLEN"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "SOLD OUT: AN EVENING WITH WEEN (NIGHT 1)"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "POLARIS HALL",
-    "title": "ATTA BOY"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "LASERS LASERS BIRMINGHAM WITH THE FLOATING EASEMENTS"
-  },
-  {
-    "date": "2024-08-08T00:00:00.000",
-    "venue": "WONDER BALLROOM",
-    "title": "ROMY PRESENTS CLUB MID AIR AT WONDER BALLROOM"
+    "title": "NEILSON FAMILY WITH LOOSE + ELM"
   },
   {
     "date": "2024-08-09T00:00:00.000",
@@ -386,16 +31,6 @@
   },
   {
     "date": "2024-08-09T00:00:00.000",
-    "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "SOLD OUT: AN EVENING WITH WEEN (NIGHT 2)"
-  },
-  {
-    "date": "2024-08-09T00:00:00.000",
-    "venue": "POLARIS HALL",
-    "title": "FIND YOUR FRIENDS"
-  },
-  {
-    "date": "2024-08-09T00:00:00.000",
     "venue": "REVOLUTION HALL",
     "title": "DWEEZIL ZAPPA - THE ROX(POSTROPH)Y TOUR"
   },
@@ -403,11 +38,6 @@
     "date": "2024-08-09T00:00:00.000",
     "venue": "SHOWDOWN",
     "title": "IAN MOORE AND CRUZ CONTRERAS (OF THE BLACK LILLIES)"
-  },
-  {
-    "date": "2024-08-09T00:00:00.000",
-    "venue": "STAR THEATER",
-    "title": "FREE : REGGAE ON THE PATIO (HAPPY HOUR)"
   },
   {
     "date": "2024-08-09T00:00:00.000",
@@ -441,13 +71,18 @@
   },
   {
     "date": "2024-08-10T00:00:00.000",
+    "venue": "LOLLIPOP SHOPPE",
+    "title": "SOLD OUT BACK ON OUR BACKS: A 90S DYKE THEMED DANCE PARTY"
+  },
+  {
+    "date": "2024-08-10T00:00:00.000",
     "venue": "MISSISSIPPI STUDIOS",
     "title": "LAMBRINI GIRLS"
   },
   {
     "date": "2024-08-10T00:00:00.000",
     "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "SOLD OUT: DESCENDENTS"
+    "title": "DESCENDENTS"
   },
   {
     "date": "2024-08-10T00:00:00.000",
@@ -491,6 +126,11 @@
   },
   {
     "date": "2024-08-11T00:00:00.000",
+    "venue": "LOLLIPOP SHOPPE",
+    "title": "ROSE TINTED WITH ROSE TINTED WITH MLTZR + LUVJONES"
+  },
+  {
+    "date": "2024-08-11T00:00:00.000",
     "venue": "PIONEER COURTHOUSE SQUARE",
     "title": "THE JAPANESE HOUSE"
   },
@@ -517,7 +157,7 @@
   {
     "date": "2024-08-11T00:00:00.000",
     "venue": "STAR THEATER",
-    "title": "CHURCH OF HIVE"
+    "title": "CHURCH OF HIVE - MOVED TO THE KIT KAT CLUB"
   },
   {
     "date": "2024-08-11T00:00:00.000",
@@ -527,17 +167,17 @@
   {
     "date": "2024-08-12T00:00:00.000",
     "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "SOLD OUT: SIERRA FERRELL - SHOOT FOR THE MOON TOUR"
+    "title": "SIERRA FERRELL - SHOOT FOR THE MOON TOUR"
   },
   {
     "date": "2024-08-12T00:00:00.000",
     "venue": "REVOLUTION HALL",
-    "title": "SCHOOLBOY Q – BLUE LIPS WEEKENDS"
+    "title": "SOLD OUT: SCHOOLBOY Q – BLUE LIPS WEEKENDS"
   },
   {
     "date": "2024-08-12T00:00:00.000",
     "venue": "ROSELAND THEATER",
-    "title": "FITZ & THE TANTRUMS"
+    "title": "FITZ AND THE TANTRUMS"
   },
   {
     "date": "2024-08-12T00:00:00.000",
@@ -572,7 +212,7 @@
   {
     "date": "2024-08-13T00:00:00.000",
     "venue": "SHOWDOWN",
-    "title": "TWO-STEP TUESDAY WITH THE LEFTOVERS"
+    "title": "TWO-STEP TUESDAY WITH THE LEFTOVERS AND DANCE LESSONS"
   },
   {
     "date": "2024-08-13T00:00:00.000",
@@ -591,13 +231,18 @@
   },
   {
     "date": "2024-08-14T00:00:00.000",
+    "venue": "LOLLIPOP SHOPPE",
+    "title": "ERIC + CALEB + OUDALAY'S TRIPLE BIRTHDAY BASH "
+  },
+  {
+    "date": "2024-08-14T00:00:00.000",
     "venue": "MISSISSIPPI STUDIOS",
     "title": "KATE WILLETT"
   },
   {
     "date": "2024-08-14T00:00:00.000",
     "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "SOLD OUT: YO LA TENGO / BUILT TO SPILL-THERE’S NOTHING WRONG WITH LOVE 30TH ANNIVERSARY"
+    "title": "YO LA TENGO / BUILT TO SPILL-THERE’S NOTHING WRONG WITH LOVE 30TH ANNIVERSARY"
   },
   {
     "date": "2024-08-14T00:00:00.000",
@@ -692,7 +337,7 @@
   {
     "date": "2024-08-16T00:00:00.000",
     "venue": "ROSELAND THEATER",
-    "title": "JPEGMAFIA"
+    "title": "JPEGMAFIA – LAY DOWN MY LIFE TOUR"
   },
   {
     "date": "2024-08-16T00:00:00.000",
@@ -701,13 +346,8 @@
   },
   {
     "date": "2024-08-16T00:00:00.000",
-    "venue": "STAR THEATER",
-    "title": "FREE : REGGAE ON THE PATIO (HAPPY HOUR)"
-  },
-  {
-    "date": "2024-08-16T00:00:00.000",
     "venue": "SWAN DIVE",
-    "title": "CHERRY CHEEKS (EURO TOUR KICKOFF) + CARNY CUMM + 22RE"
+    "title": "CHERRY CHEEKS (EURO TOUR KICKOFF) + CARNY CUMM + 22RE + BLACK SHELTON"
   },
   {
     "date": "2024-08-16T00:00:00.000",
@@ -822,7 +462,7 @@
   {
     "date": "2024-08-18T00:00:00.000",
     "venue": "STAR THEATER",
-    "title": "CHURCH OF HIVE"
+    "title": "CHURCH OF HIVE - MOVED TO THE KIT KAT CLUB"
   },
   {
     "date": "2024-08-19T00:00:00.000",
@@ -842,7 +482,7 @@
   {
     "date": "2024-08-19T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "SHING02 + OMA"
+    "title": "OMA + SHING02 – LUV(SIC) HEXALOGY TOUR"
   },
   {
     "date": "2024-08-19T00:00:00.000",
@@ -862,7 +502,7 @@
   {
     "date": "2024-08-20T00:00:00.000",
     "venue": "MISSION THEATER",
-    "title": "HOT FREAKS"
+    "title": "HOT FREAKS, ALL AGES"
   },
   {
     "date": "2024-08-20T00:00:00.000",
@@ -873,6 +513,11 @@
     "date": "2024-08-20T00:00:00.000",
     "venue": "REVOLUTION HALL",
     "title": "ELLE KING"
+  },
+  {
+    "date": "2024-08-20T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "BLUEGRASS TUESDAYS FEATURING FOG HOLLER AND SPECIAL GUESTS!"
   },
   {
     "date": "2024-08-21T00:00:00.000",
@@ -926,11 +571,6 @@
   },
   {
     "date": "2024-08-22T00:00:00.000",
-    "venue": "ALADDIN THEATER",
-    "title": "MEG4N: THE UNAUTHORIZED PARODY MUSICAL"
-  },
-  {
-    "date": "2024-08-22T00:00:00.000",
     "venue": "HOLOCENE",
     "title": "NEW DATE!: HOTEL POOLS, NIGHT HERON (DJ SET), THE.HALFLIFE – 21+"
   },
@@ -947,12 +587,22 @@
   {
     "date": "2024-08-22T00:00:00.000",
     "venue": "SHOWDOWN",
+    "title": "CARRIE CLARK & THE LONESOME LOVERS AND CHAD BAULT"
+  },
+  {
+    "date": "2024-08-22T00:00:00.000",
+    "venue": "SHOWDOWN",
     "title": "JACOB ARANDA WITH CHAD BAULT"
   },
   {
     "date": "2024-08-22T00:00:00.000",
     "venue": "STAR THEATER",
     "title": "JONAH MARAIS: THE YOUNG & OPTIMISTIC TOUR"
+  },
+  {
+    "date": "2024-08-22T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "JONAH MARAIS"
   },
   {
     "date": "2024-08-22T00:00:00.000",
@@ -977,7 +627,7 @@
   {
     "date": "2024-08-23T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "LEVELS HOUSE PARTY"
+    "title": "LEVELS HOUSE PARTY: THROWBACK ELECTRO-POP BANGERS"
   },
   {
     "date": "2024-08-23T00:00:00.000",
@@ -988,6 +638,11 @@
     "date": "2024-08-23T00:00:00.000",
     "venue": "LOLLIPOP SHOPPE",
     "title": "CANCELLED TWEN + SPECIAL GUESTS"
+  },
+  {
+    "date": "2024-08-23T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "SAPPHIC FACTORY: QUEER JOY PARTY (21+)"
   },
   {
     "date": "2024-08-23T00:00:00.000",
@@ -1018,6 +673,11 @@
     "date": "2024-08-23T00:00:00.000",
     "venue": "STAR THEATER",
     "title": "SCHISM - A TRIBUTE TO TOOL"
+  },
+  {
+    "date": "2024-08-23T00:00:00.000",
+    "venue": "SWAN DIVE",
+    "title": "PICKATHON PRESENTS: TWEN + KATELYN CONVERY"
   },
   {
     "date": "2024-08-23T00:00:00.000",
@@ -1126,6 +786,11 @@
   },
   {
     "date": "2024-08-25T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "CHURCH OF HIVE"
+  },
+  {
+    "date": "2024-08-25T00:00:00.000",
     "venue": "WONDER BALLROOM",
     "title": "SINÉAD HARNETT"
   },
@@ -1153,6 +818,11 @@
     "date": "2024-08-28T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
     "title": "BILMURI"
+  },
+  {
+    "date": "2024-08-28T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "XRAY DANCE PARTY, FEATURING DJS HONEST JOHN, MORNING REMORSE AND SMASHELTOOTH"
   },
   {
     "date": "2024-08-28T00:00:00.000",
@@ -1187,7 +857,7 @@
   {
     "date": "2024-08-29T00:00:00.000",
     "venue": "HOLOCENE",
-    "title": "INTRA-PSYCHEDELIA: AN IMMERSIVE SINGLE-RELEASE EVENT FEATURING PRESIDIO, TANGO ALPHA TANGO, AND PSYCHEDELIC THERAPY ORGS – 21+"
+    "title": "INTRA-PSYCHEDELIA: AN IMMERSIVE EXPERIENCE FEATURING PRESIDIO, TANGO ALPHA TANGO, AND PSYCHEDELIC THERAPY ORGS – 21+"
   },
   {
     "date": "2024-08-29T00:00:00.000",
@@ -1218,6 +888,11 @@
     "date": "2024-08-30T00:00:00.000",
     "venue": "EDGEFIELD",
     "title": "311: UNITY TOUR WITH SPECIAL GUESTS AWOLNATION & NEON TREES"
+  },
+  {
+    "date": "2024-08-30T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "SNAP! Y2K: 90S VS 00S DANCE PARTY – SUMMER CAMP"
   },
   {
     "date": "2024-08-30T00:00:00.000",
@@ -1277,7 +952,7 @@
   {
     "date": "2024-08-31T00:00:00.000",
     "venue": "MISSISSIPPI STUDIOS",
-    "title": "EJ MARCUS (LATE SHOW)"
+    "title": "SOLD OUT: EJ MARCUS (LATE SHOW)"
   },
   {
     "date": "2024-08-31T00:00:00.000",
@@ -1303,6 +978,11 @@
     "date": "2024-08-31T00:00:00.000",
     "venue": "SWAN DIVE",
     "title": "SHADY COVE (ALBUM RELEASE) + AAN + ACHE MONO"
+  },
+  {
+    "date": "2024-09-01T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "OMARI JAZZ, LEEONN, NATHAN DETROIT, BEN TACTIC – 21+"
   },
   {
     "date": "2024-09-01T00:00:00.000",
@@ -1357,7 +1037,7 @@
   {
     "date": "2024-09-04T00:00:00.000",
     "venue": "SHOWDOWN",
-    "title": "HILLFOLK NOIR"
+    "title": "HILLFOLK NOIR WITH MIKE COYKENDALL"
   },
   {
     "date": "2024-09-04T00:00:00.000",
@@ -1417,7 +1097,7 @@
   {
     "date": "2024-09-06T00:00:00.000",
     "venue": "CRYSTAL BALLROOM",
-    "title": "MM"
+    "title": "PUB CHOIR “FRINGE BENEFITS” TOUR,  18 & OVER"
   },
   {
     "date": "2024-09-06T00:00:00.000",
@@ -1433,6 +1113,11 @@
     "date": "2024-09-06T00:00:00.000",
     "venue": "HOLOCENE",
     "title": "ROCCO: THE ROCCO REVOLUTION TOUR- EARLY SHOW! – ALL AGES"
+  },
+  {
+    "date": "2024-09-06T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "EMO NITE AT HOLOCENE PRESENTED BY EMO NITE LA – 21+ EVENT"
   },
   {
     "date": "2024-09-06T00:00:00.000",
@@ -1471,6 +1156,11 @@
   },
   {
     "date": "2024-09-06T00:00:00.000",
+    "venue": "SWAN DIVE",
+    "title": "WOOLLY MOUNTAIN + MAJORETTE + OUCH!"
+  },
+  {
+    "date": "2024-09-06T00:00:00.000",
     "venue": "WONDER BALLROOM",
     "title": "CUPCAKKE"
   },
@@ -1482,7 +1172,7 @@
   {
     "date": "2024-09-07T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "SUPER AMERICAN"
+    "title": "EMO NIGHT BROOKLYN PRESENTS: SUPER AMERICAN"
   },
   {
     "date": "2024-09-07T00:00:00.000",
@@ -1547,7 +1237,7 @@
   {
     "date": "2024-09-08T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "APES OF STATE"
+    "title": "APES OF THE STATE"
   },
   {
     "date": "2024-09-08T00:00:00.000",
@@ -1567,7 +1257,7 @@
   {
     "date": "2024-09-08T00:00:00.000",
     "venue": "SHOWDOWN",
-    "title": "LOVE HISS"
+    "title": "LOVE HISS WITH HIGH GLOW"
   },
   {
     "date": "2024-09-09T00:00:00.000",
@@ -1592,7 +1282,7 @@
   {
     "date": "2024-09-09T00:00:00.000",
     "venue": "SHOWDOWN",
-    "title": "MATT HOPPER & THE ROMAN CANDLES WITH THE RESOLECTRICS"
+    "title": "MATT HOPPER & THE ROMAN CANDLES WITH THE RESOLECTRICS AND SUNTEX"
   },
   {
     "date": "2024-09-09T00:00:00.000",
@@ -1627,7 +1317,7 @@
   {
     "date": "2024-09-10T00:00:00.000",
     "venue": "SHOWDOWN",
-    "title": "UNDER THE RUG"
+    "title": "UNDER THE RUG WITH BASIC PRINTER AND SOCIAL ANIMALS"
   },
   {
     "date": "2024-09-10T00:00:00.000",
@@ -1771,8 +1461,8 @@
   },
   {
     "date": "2024-09-13T00:00:00.000",
-    "venue": "ROSELAND THEATER",
-    "title": "OMD"
+    "venue": "SHOW BAR",
+    "title": "80S VIDEO DANCE ATTACK"
   },
   {
     "date": "2024-09-13T00:00:00.000",
@@ -1783,6 +1473,11 @@
     "date": "2024-09-13T00:00:00.000",
     "venue": "STAR THEATER",
     "title": "FREE : REGGAE ON THE PATIO (HAPPY HOUR)"
+  },
+  {
+    "date": "2024-09-13T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "BIG BUBBLE RAVE"
   },
   {
     "date": "2024-09-13T00:00:00.000",
@@ -1816,6 +1511,11 @@
   },
   {
     "date": "2024-09-14T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "THE MIKEY HIGH LIFE BAND"
+  },
+  {
+    "date": "2024-09-14T00:00:00.000",
     "venue": "STAR THEATER",
     "title": "BRIDGE CITY FEST 4 - DAY TWO"
   },
@@ -1832,12 +1532,12 @@
   {
     "date": "2024-09-15T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "MARC E. BASSY"
+    "title": "MARC E. BASSY & SKIZZY MARS PRESENT: FOLK HEROES NORTH AMERICA 2024"
   },
   {
     "date": "2024-09-15T00:00:00.000",
     "venue": "HOLOCENE",
-    "title": "ARK PATROL – 21+"
+    "title": "ARK PATROL W/ ALTRICE- 21+"
   },
   {
     "date": "2024-09-15T00:00:00.000",
@@ -1870,14 +1570,24 @@
     "title": "GARDENS & VILLA"
   },
   {
+    "date": "2024-09-15T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "PINK ELEPHANT CABARET"
+  },
+  {
     "date": "2024-09-16T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "RARE OCCASIONS"
+    "title": "THE RARE OCCASIONS"
   },
   {
     "date": "2024-09-16T00:00:00.000",
     "venue": "SHOW BAR",
     "title": "PDX SONGWRITERS OPEN MIC (FREE)"
+  },
+  {
+    "date": "2024-09-16T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "SQUARE DANCING WITH CALLER STEPH NOLL AND STUMPTOWN STRINGBAND"
   },
   {
     "date": "2024-09-16T00:00:00.000",
@@ -1928,6 +1638,11 @@
     "date": "2024-09-17T00:00:00.000",
     "venue": "ROSELAND THEATER",
     "title": "TESTAMENT & KREATOR WITH SPECIAL GUESTS POSSESSED"
+  },
+  {
+    "date": "2024-09-17T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "BLUEGRASS TUESDAYS FEATURING FOG HOLLER WITH SPECIAL GUESTS!"
   },
   {
     "date": "2024-09-17T00:00:00.000",
@@ -2012,7 +1727,7 @@
   {
     "date": "2024-09-20T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "AMORPHIS / DARK TRANQUILLITY"
+    "title": "DARK TRANQUILLITY / AMORPHIS"
   },
   {
     "date": "2024-09-20T00:00:00.000",
@@ -2023,11 +1738,6 @@
     "date": "2024-09-20T00:00:00.000",
     "venue": "MISSISSIPPI STUDIOS",
     "title": "ASSEMBLY OF DUST"
-  },
-  {
-    "date": "2024-09-20T00:00:00.000",
-    "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "PORTLAND OKTOBERFEST"
   },
   {
     "date": "2024-09-20T00:00:00.000",
@@ -2078,11 +1788,6 @@
     "date": "2024-09-21T00:00:00.000",
     "venue": "MISSION THEATER",
     "title": "MOTFD"
-  },
-  {
-    "date": "2024-09-21T00:00:00.000",
-    "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "PORTLAND OKTOBERFEST"
   },
   {
     "date": "2024-09-21T00:00:00.000",
@@ -2281,6 +1986,11 @@
   },
   {
     "date": "2024-09-25T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "VIV & RILEY"
+  },
+  {
+    "date": "2024-09-25T00:00:00.000",
     "venue": "WONDER BALLROOM",
     "title": "ZIGGY ALBERTS"
   },
@@ -2303,6 +2013,11 @@
     "date": "2024-09-26T00:00:00.000",
     "venue": "MISSISSIPPI STUDIOS",
     "title": "TINA FRIML"
+  },
+  {
+    "date": "2024-09-26T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "HANNAH GLAVOR (ALBUM RELEASE)"
   },
   {
     "date": "2024-09-26T00:00:00.000",
@@ -2381,6 +2096,16 @@
   },
   {
     "date": "2024-09-27T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "DJ ANJALI AND THE INCREDIBLE KID"
+  },
+  {
+    "date": "2024-09-27T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "FREE : REGGAE ON THE PATIO (HAPPY HOUR)"
+  },
+  {
+    "date": "2024-09-27T00:00:00.000",
     "venue": "STAR THEATER",
     "title": "ANTISECT AND RESISTANT CULTURE, WITH DEATHCHARGE, AND KAZMER"
   },
@@ -2406,6 +2131,11 @@
   },
   {
     "date": "2024-09-28T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "NASALROD"
+  },
+  {
+    "date": "2024-09-28T00:00:00.000",
     "venue": "WONDER BALLROOM",
     "title": "SLENDERBODIES"
   },
@@ -2423,6 +2153,11 @@
     "date": "2024-09-29T00:00:00.000",
     "venue": "REVOLUTION HALL",
     "title": "PDX RECOVERY FILM FESTIVAL"
+  },
+  {
+    "date": "2024-09-29T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "THE DOUBT"
   },
   {
     "date": "2024-09-30T00:00:00.000",
@@ -2447,7 +2182,7 @@
   {
     "date": "2024-10-01T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "LOVELYTHEBAND / MOD SUN"
+    "title": "LOVELYTHEBAND & MOD SUN: HERE’S YOUR FLOWERS TOUR"
   },
   {
     "date": "2024-10-01T00:00:00.000",
@@ -2497,7 +2232,7 @@
   {
     "date": "2024-10-02T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "PREVIOUS INDUSTRIES"
+    "title": "PREVIOUS INDUSTRIES (OPEN MIKE EAGLE, VIDEO DAVE, AND STILL RIFT)"
   },
   {
     "date": "2024-10-02T00:00:00.000",
@@ -2528,6 +2263,11 @@
     "date": "2024-10-02T00:00:00.000",
     "venue": "SHOW BAR",
     "title": "PILLOW QUEENS"
+  },
+  {
+    "date": "2024-10-02T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "GABRIEL JOHN BAND"
   },
   {
     "date": "2024-10-02T00:00:00.000",
@@ -2571,6 +2311,11 @@
   },
   {
     "date": "2024-10-03T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "CORWIN BOLT AND THE WINGNUTS WITH VIOLET WOLF"
+  },
+  {
+    "date": "2024-10-03T00:00:00.000",
     "venue": "WONDER BALLROOM",
     "title": "EMPRESS OF"
   },
@@ -2606,6 +2351,11 @@
   },
   {
     "date": "2024-10-04T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "TERROR REID – MANIFESTO TOUR"
+  },
+  {
+    "date": "2024-10-04T00:00:00.000",
     "venue": "SHOW BAR",
     "title": "AN EVENING WITH KEVN KINNEY & BOBBY BARE JR. (NIGHT TWO)"
   },
@@ -2633,6 +2383,11 @@
     "date": "2024-10-05T00:00:00.000",
     "venue": "EDGEFIELD",
     "title": "GOTH BABE"
+  },
+  {
+    "date": "2024-10-05T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "MONSTER ENERGY OUTBREAK TOUR PRESENTS: SUNAMI, INGROWN & TORENA"
   },
   {
     "date": "2024-10-05T00:00:00.000",
@@ -2712,7 +2467,7 @@
   {
     "date": "2024-10-06T00:00:00.000",
     "venue": "SHOWDOWN",
-    "title": "BOY GOLDEN"
+    "title": "BOY GOLDEN WITH GENERIFUS"
   },
   {
     "date": "2024-10-06T00:00:00.000",
@@ -2727,12 +2482,17 @@
   {
     "date": "2024-10-07T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "THE ARMED"
+    "title": "THE ARMED + H09909"
   },
   {
     "date": "2024-10-07T00:00:00.000",
     "venue": "HOLOCENE",
     "title": "CHANEL BEADS W/ MARY JANE DUNPHE – 21+"
+  },
+  {
+    "date": "2024-10-07T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "BLU & EXILE"
   },
   {
     "date": "2024-10-07T00:00:00.000",
@@ -2743,6 +2503,11 @@
     "date": "2024-10-07T00:00:00.000",
     "venue": "ROSELAND THEATER",
     "title": "SET IT OFF: THE DEATHLESS TOUR PART 2"
+  },
+  {
+    "date": "2024-10-07T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "THE BAR CODE TOUR FT. JARREN BENTON, LOCKSMITH & DEMRICK"
   },
   {
     "date": "2024-10-07T00:00:00.000",
@@ -2787,7 +2552,7 @@
   {
     "date": "2024-10-08T00:00:00.000",
     "venue": "ROSELAND THEATER",
-    "title": "MONTELL FISH"
+    "title": "MONTELL FISH – CHARLOTTE NORTH AMERICAN TOUR"
   },
   {
     "date": "2024-10-08T00:00:00.000",
@@ -2812,7 +2577,7 @@
   {
     "date": "2024-10-09T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "PIANOS BECOME THE TEETH"
+    "title": "PIANOS BECOME THE TEETH: 10 YEARS OF KEEP YOU"
   },
   {
     "date": "2024-10-09T00:00:00.000",
@@ -2837,7 +2602,7 @@
   {
     "date": "2024-10-09T00:00:00.000",
     "venue": "ROSELAND THEATER",
-    "title": "IVY LAB"
+    "title": "IVY LAB: INFINITE FALLING GROUND PART II"
   },
   {
     "date": "2024-10-09T00:00:00.000",
@@ -2912,7 +2677,7 @@
   {
     "date": "2024-10-11T00:00:00.000",
     "venue": "POLARIS HALL",
-    "title": "TINDER LIVE WITH LANE MOORE"
+    "title": "TINDER LIVE WITH LANE MOORE - 10TH ANNIVERSARY SHOW"
   },
   {
     "date": "2024-10-11T00:00:00.000",
@@ -2923,6 +2688,11 @@
     "date": "2024-10-11T00:00:00.000",
     "venue": "ROSELAND THEATER",
     "title": "CITIZEN SOLDIER ‘THANK YOU FOR HATING ME’ TOUR WITH SPECIAL GUESTS ICON FOR HIRE, HALOCENE"
+  },
+  {
+    "date": "2024-10-11T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "WILLY TEA TAYLOR AND TOM VANDENAVOND"
   },
   {
     "date": "2024-10-11T00:00:00.000",
@@ -2952,7 +2722,7 @@
   {
     "date": "2024-10-12T00:00:00.000",
     "venue": "HAWTHORNE THEATRE",
-    "title": "MISS MAY I"
+    "title": "MISS MAY I: APOLOGIES TOUR"
   },
   {
     "date": "2024-10-12T00:00:00.000",
@@ -3023,7 +2793,7 @@
   {
     "date": "2024-10-13T00:00:00.000",
     "venue": "SHOWDOWN",
-    "title": "ANDY CROSBY"
+    "title": "RICHARD SHINDELL WITH ANDY CROSBY"
   },
   {
     "date": "2024-10-13T00:00:00.000",
@@ -3039,11 +2809,6 @@
     "date": "2024-10-14T00:00:00.000",
     "venue": "CRYSTAL BALLROOM",
     "title": "LORNA SHORE"
-  },
-  {
-    "date": "2024-10-14T00:00:00.000",
-    "venue": "HAWTHORNE THEATRE",
-    "title": "HAIL THE SUN"
   },
   {
     "date": "2024-10-14T00:00:00.000",
@@ -3066,10 +2831,16 @@
     "title": "LAWRENCE – THE FAMILY BUSINESS TOUR"
   },
   {
+    "date": "2024-10-14T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "HAWTHORNE HEIGHTS"
+  },
+  {
     "date": "2024-10-15T00:00:00.000",
     "venue": "ALADDIN THEATER",
     "title": "AL DI MEOLA"
   },
+  { "date": "2024-10-15T00:00:00.000", "venue": "HOLOCENE", "title": "WISP" },
   {
     "date": "2024-10-15T00:00:00.000",
     "venue": "MISSION THEATER",
@@ -3094,6 +2865,11 @@
     "date": "2024-10-15T00:00:00.000",
     "venue": "SHOW BAR",
     "title": "ESSENGER"
+  },
+  {
+    "date": "2024-10-15T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "DAVID RAMIREZ WITH GARRETT OWEN"
   },
   {
     "date": "2024-10-15T00:00:00.000",
@@ -3137,6 +2913,11 @@
   },
   {
     "date": "2024-10-17T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "MANATEE COMMUNE W/ NOSILA AND LEO ISLO (DJ SET) – 21+"
+  },
+  {
+    "date": "2024-10-17T00:00:00.000",
     "venue": "MISSISSIPPI STUDIOS",
     "title": "HINDS"
   },
@@ -3149,6 +2930,11 @@
     "date": "2024-10-17T00:00:00.000",
     "venue": "REVOLUTION HALL",
     "title": "UNDEROATH \"THEY'RE ONLY CHASING SAFETY 20TH ANNIVERSARY” TOUR (NIGHT 2)"
+  },
+  {
+    "date": "2024-10-17T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "FRUITION"
   },
   {
     "date": "2024-10-18T00:00:00.000",
@@ -3363,6 +3149,16 @@
   },
   {
     "date": "2024-10-24T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "EARTH: PERFORMING EARTH 2"
+  },
+  {
+    "date": "2024-10-24T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "PAUL CAUTHEN"
+  },
+  {
+    "date": "2024-10-24T00:00:00.000",
     "venue": "MISSISSIPPI STUDIOS",
     "title": "BILAL"
   },
@@ -3388,8 +3184,23 @@
   },
   {
     "date": "2024-10-25T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "’90S HALLOWEEN COSTUME GLOW BALL"
+  },
+  {
+    "date": "2024-10-25T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "DENGUE FEVER"
+  },
+  {
+    "date": "2024-10-25T00:00:00.000",
     "venue": "SHOW BAR",
     "title": "JW FRANCIS X JAGUAR SUN"
+  },
+  {
+    "date": "2024-10-25T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "AN EVENING WITH JANDEK FEAT. EMIL AMOS, SAM COOMBES, JAMES OSTRANDER, AND WILL TOLEDO"
   },
   {
     "date": "2024-10-25T00:00:00.000",
@@ -3400,6 +3211,11 @@
     "date": "2024-10-26T00:00:00.000",
     "venue": "CRYSTAL BALLROOM",
     "title": "EROTIC BALL 2024"
+  },
+  {
+    "date": "2024-10-26T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "80S VIDEO DANCE ATTACK HALLOWEEN PARTY"
   },
   {
     "date": "2024-10-26T00:00:00.000",
@@ -3544,6 +3360,11 @@
   { "date": "2024-11-01T00:00:00.000", "venue": "HOLOCENE", "title": "JORDY" },
   {
     "date": "2024-11-01T00:00:00.000",
+    "venue": "MISSION THEATER",
+    "title": "ZINADELPHIA"
+  },
+  {
+    "date": "2024-11-01T00:00:00.000",
     "venue": "MISSISSIPPI STUDIOS",
     "title": "MICHELLE"
   },
@@ -3567,6 +3388,11 @@
     "date": "2024-11-01T00:00:00.000",
     "venue": "WONDER BALLROOM",
     "title": "LA LUZ"
+  },
+  {
+    "date": "2024-11-02T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "FLOATER — ELECTRACOUSTICS: CELEBRATING THE 20TH ANNIVERSARY OF THE ‘ACOUSTICS’ ALBUM"
   },
   {
     "date": "2024-11-02T00:00:00.000",
@@ -3597,6 +3423,11 @@
     "date": "2024-11-03T00:00:00.000",
     "venue": "CRYSTAL BALLROOM",
     "title": "VINCE STAPLES"
+  },
+  {
+    "date": "2024-11-03T00:00:00.000",
+    "venue": "MISSION THEATER",
+    "title": "BOYSCOTT"
   },
   {
     "date": "2024-11-03T00:00:00.000",
@@ -3640,6 +3471,11 @@
   },
   {
     "date": "2024-11-05T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "FIJI BLUE: THE \"GLIDE\" TOUR"
+  },
+  {
+    "date": "2024-11-05T00:00:00.000",
     "venue": "ROSELAND THEATER",
     "title": "FIT FOR AN AUTOPSY"
   },
@@ -3669,6 +3505,11 @@
     "title": "THE PEOPLE'S JAM (FREE)"
   },
   {
+    "date": "2024-11-06T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "PAISLEY FIELDS"
+  },
+  {
     "date": "2024-11-07T00:00:00.000",
     "venue": "ALADDIN THEATER",
     "title": "AIMEE MANN"
@@ -3692,6 +3533,11 @@
     "date": "2024-11-07T00:00:00.000",
     "venue": "REVOLUTION HALL",
     "title": "WASHED OUT"
+  },
+  {
+    "date": "2024-11-07T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "MALINDA"
   },
   {
     "date": "2024-11-08T00:00:00.000",
@@ -3725,6 +3571,11 @@
   },
   {
     "date": "2024-11-08T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "WITCH MOUNTAIN WITH EARLY MOODS & CASTLE RAT"
+  },
+  {
+    "date": "2024-11-08T00:00:00.000",
     "venue": "WONDER BALLROOM",
     "title": "KASBO"
   },
@@ -3736,7 +3587,7 @@
   {
     "date": "2024-11-09T00:00:00.000",
     "venue": "CRYSTAL BALLROOM",
-    "title": "THRICE"
+    "title": "THRICE + MANCHESTER ORCHESTRA"
   },
   {
     "date": "2024-11-09T00:00:00.000",
@@ -3843,6 +3694,11 @@
     "venue": "ALADDIN THEATER",
     "title": "THE LEMON TWIGS"
   },
+  {
+    "date": "2024-11-14T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "ANISH KUMAR – 21+"
+  },
   { "date": "2024-11-14T00:00:00.000", "venue": "POLARIS HALL", "title": "@" },
   {
     "date": "2024-11-14T00:00:00.000",
@@ -3895,9 +3751,19 @@
     "title": "RISE AGAINST"
   },
   {
+    "date": "2024-11-15T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "EMO VS POP-PUNK: MYSPACE MUSIC VIDEO PARTY"
+  },
+  {
     "date": "2024-11-16T00:00:00.000",
     "venue": "MISSION THEATER",
     "title": "DRINKING BOYS AND GIRLS CHOIR"
+  },
+  {
+    "date": "2024-11-16T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "MASON JENNINGS"
   },
   {
     "date": "2024-11-16T00:00:00.000",
@@ -3925,6 +3791,11 @@
     "title": "ZZ WARD - THE DIRTY SUN TOUR"
   },
   {
+    "date": "2024-11-17T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "TR/ST"
+  },
+  {
     "date": "2024-11-18T00:00:00.000",
     "venue": "ALADDIN THEATER",
     "title": "DUFF MCKAGAN: LIGHTHOUSE TOUR ’24"
@@ -3946,6 +3817,11 @@
   },
   {
     "date": "2024-11-19T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "DAVID SHAW"
+  },
+  {
+    "date": "2024-11-19T00:00:00.000",
     "venue": "HOLOCENE",
     "title": "THE MOTH: LIVE STORYTELLING EVENT – PORTLAND: ON THE THEME OF YES, CHEF! – 21+"
   },
@@ -3956,8 +3832,8 @@
   },
   {
     "date": "2024-11-20T00:00:00.000",
-    "venue": "OLD CHURCH",
-    "title": "KATIE GAVIN"
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "KATHLEEN EDWARDS"
   },
   {
     "date": "2024-11-20T00:00:00.000",
@@ -3968,6 +3844,11 @@
     "date": "2024-11-20T00:00:00.000",
     "venue": "THEATER OF CLOUDS",
     "title": "RAINBOW KITTEN SURPRISE"
+  },
+  {
+    "date": "2024-11-20T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "KATIE GAVIN"
   },
   {
     "date": "2024-11-21T00:00:00.000",
@@ -4021,6 +3902,11 @@
   },
   {
     "date": "2024-11-22T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "TINASHE – MATCH MY FREAK TOUR"
+  },
+  {
+    "date": "2024-11-22T00:00:00.000",
     "venue": "WONDER BALLROOM",
     "title": "THE BROTHERS COMATOSE"
   },
@@ -4070,14 +3956,19 @@
     "title": "AMIGO THE DEVIL - YOURS UNTIL THE TOUR IS OVER"
   },
   {
-    "date": "2024-11-29T00:00:00.000",
-    "venue": "SHOW BAR",
-    "title": "HA HA HARVEST PRESENTS: LOVE’S A JOKE” (NIGHT 1)"
+    "date": "2024-11-27T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "BETTER LOVERS"
   },
   {
     "date": "2024-11-29T00:00:00.000",
-    "venue": "STAR THEATER",
-    "title": "MACHINE GIRL"
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "EMMA RUTH RUNDLE"
+  },
+  {
+    "date": "2024-11-29T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "HA HA HARVEST PRESENTS: LOVE’S A JOKE” (NIGHT 1)"
   },
   {
     "date": "2024-11-30T00:00:00.000",
@@ -4090,6 +3981,11 @@
     "title": "HA HA HARVEST PRESENTS: LOVE’S A JOKE” (NIGHT 2)"
   },
   {
+    "date": "2024-11-30T00:00:00.000",
+    "venue": "SHOWDOWN",
+    "title": "HALEY JOHNSEN"
+  },
+  {
     "date": "2024-12-01T00:00:00.000",
     "venue": "HOLOCENE",
     "title": "GAVN! – THE FOREVERGREEN TOUR – ALL AGES"
@@ -4098,6 +3994,11 @@
     "date": "2024-12-01T00:00:00.000",
     "venue": "POLARIS HALL",
     "title": "JELANI ARYEH"
+  },
+  {
+    "date": "2024-12-01T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "KUMAIL NANJIANI: DOING THIS AGAIN"
   },
   {
     "date": "2024-12-03T00:00:00.000",
@@ -4125,19 +4026,9 @@
     "title": "A JOHN WATERS CHRISTMAS (NIGHT 2)"
   },
   {
-    "date": "2024-12-06T00:00:00.000",
-    "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "PORTLAND HOLIDAY BREW FEST (FRIDAY)"
-  },
-  {
     "date": "2024-12-07T00:00:00.000",
     "venue": "ALADDIN THEATER",
     "title": "PHIL HANLEY"
-  },
-  {
-    "date": "2024-12-07T00:00:00.000",
-    "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "PORTLAND HOLIDAY BREW FEST (SATURDAY)"
   },
   {
     "date": "2024-12-07T00:00:00.000",
@@ -4161,8 +4052,8 @@
   },
   {
     "date": "2024-12-08T00:00:00.000",
-    "venue": "PIONEER COURTHOUSE SQUARE",
-    "title": "PORTLAND HOLIDAY BREW FEST (SUNDAY)"
+    "venue": "ALADDIN THEATER",
+    "title": "SOLD OUT: ROBIN PECKNOLD FROM FLEET FOXES"
   },
   {
     "date": "2024-12-09T00:00:00.000",
@@ -4290,6 +4181,16 @@
     "title": "SUPER DIAMOND – THE NEIL DIAMOND TRIBUTE"
   },
   {
+    "date": "2025-01-25T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "BRIGHT EYES"
+  },
+  {
+    "date": "2025-01-26T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "BRIGHT EYES"
+  },
+  {
     "date": "2025-01-30T00:00:00.000",
     "venue": "CRYSTAL BALLROOM",
     "title": "L’IMPÉRATRICE"
@@ -4340,6 +4241,16 @@
     "title": "IN MOTION, AN EVENING WITH VIOLINIST VIJAY GUPTA"
   },
   {
+    "date": "2025-03-02T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "SEXTILE"
+  },
+  {
+    "date": "2025-03-04T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "HALF WAIF"
+  },
+  {
     "date": "2025-03-26T00:00:00.000",
     "venue": "CRYSTAL BALLROOM",
     "title": "PALACE"
@@ -4363,15 +4274,5 @@
     "date": "2025-07-16T00:00:00.000",
     "venue": "MISSISSIPPI STUDIOS",
     "title": "GYEDU-BLAY AMBOLLEY"
-  },
-  {
-    "date": "2025-07-30T00:00:00.000",
-    "venue": "HOLOCENE",
-    "title": "ASADI + XYE W/ BADROOM – 21+"
-  },
-  {
-    "date": "2025-07-30T00:00:00.000",
-    "venue": "SHOWDOWN",
-    "title": "TWO-STEP TUESDAY WITH YOUR STRANGE COMPANIONS AND DANCE LESSONS"
   }
 ]
