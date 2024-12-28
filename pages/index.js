@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo, forwardRef } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import Select from 'react-select';
@@ -8,133 +8,166 @@ const Home = () => {
   const [events, setEvents] = useState([]);
   const [venues, setVenues] = useState([]);
   const [selectedVenues, setSelectedVenues] = useState([]);
-  const [startDate, setStartDate] = useState(null);
-  const [endDate, setEndDate] = useState(null);
+  const [minDate, setMinDate] = useState(null);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    axios.get('/events.json')
-      .then(response => {
-        const currentDate = new Date();
-        currentDate.setHours(0, 0, 0, 0);
-        const futureEvents = response.data.filter(event => new Date(event.date) >= currentDate);
+    if (typeof window !== 'undefined') {
+      const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      setIsDarkMode(darkModeMediaQuery.matches);
+
+      const handleDarkModeChange = (e) => setIsDarkMode(e.matches);
+      darkModeMediaQuery.addEventListener('change', handleDarkModeChange);
+
+      return () => {
+        darkModeMediaQuery.removeEventListener('change', handleDarkModeChange);
+      };
+    }
+  }, []);
+
+  useEffect(() => {
+    axios
+      .get('/events.json')
+      .then((response) => {
+        const currentDate = new Date().setHours(0, 0, 0, 0);
+        const futureEvents = response.data.filter(
+          (event) => new Date(event.date) >= currentDate
+        );
+
         setEvents(futureEvents);
-        const uniqueVenues = [...new Set(futureEvents.map(event => event.venue))];
-        uniqueVenues.sort(); // Sort venues alphabetically
-        setVenues(uniqueVenues.map(venue => ({ value: venue, label: venue })));
+
+        const uniqueVenues = [...new Set(futureEvents.map((event) => event.venue))]
+          .sort()
+          .map((venue) => ({ value: venue, label: venue }));
+        setVenues(uniqueVenues);
       })
-      .catch(error => {
-        console.error("Error fetching data: ", error);
+      .catch((error) => {
+        console.error('Error fetching events:', error);
       });
-
-    // Function to update the dark mode state
-    const updateDarkMode = () => {
-      setIsDarkMode(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    };
-
-    // Initial check
-    updateDarkMode();
-
-    // Listen for changes to the color scheme
-    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    darkModeMediaQuery.addEventListener('change', updateDarkMode);
-
-    // Cleanup event listener on component unmount
-    return () => {
-      darkModeMediaQuery.removeEventListener('change', updateDarkMode);
-    };
   }, []);
 
   const handleVenueChange = (selectedOptions) => {
     setSelectedVenues(selectedOptions || []);
   };
 
-  const filteredEvents = events.filter(event => {
-    const isVenueMatch = selectedVenues.length === 0 || selectedVenues.some(venue => venue.value === event.venue);
-    const eventDate = new Date(event.date);
-    const isDateMatch = (!startDate || eventDate >= startDate) && (!endDate || eventDate <= endDate);
-    return isVenueMatch && isDateMatch;
-  });
+  const filteredEvents = useMemo(() => {
+    return events.filter((event) => {
+      const isVenueMatch =
+        selectedVenues.length === 0 ||
+        selectedVenues.some((venue) => venue.value === event.venue);
+      const eventDate = new Date(event.date);
+      const isDateMatch = !minDate || eventDate >= minDate;
+      return isVenueMatch && isDateMatch;
+    });
+  }, [events, selectedVenues, minDate]);
 
-  const groupedEvents = filteredEvents.reduce((acc, event) => {
-    const date = new Date(event.date).toLocaleDateString('en-UK', { year: 'numeric', month: 'long', day: 'numeric' }).toUpperCase();
-    if (!acc[date]) {
-      acc[date] = [];
-    }
-    acc[date].push(event);
-    return acc;
-  }, {});
+  const groupedEvents = useMemo(() => {
+    return filteredEvents.reduce((acc, event) => {
+      const date = new Date(event.date).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
+      if (!acc[date]) acc[date] = [];
+      acc[date].push(event);
+      return acc;
+    }, {});
+  }, [filteredEvents]);
 
-  const customStyles = {
-    control: (provided, state) => ({
-      ...provided,
-      backgroundColor: isDarkMode ? '#2d3748' : '#fff',
-      borderColor: isDarkMode ? '#4a5568' : '#ccc',
-      color: isDarkMode ? '#e2e8f0' : '#000',
-    }),
-    menu: (provided) => ({
-      ...provided,
-      backgroundColor: isDarkMode ? '#2d3748' : '#fff',
-      color: isDarkMode ? '#e2e8f0' : '#000',
-    }),
-    option: (provided, state) => ({
-      ...provided,
-      backgroundColor: state.isFocused
-        ? isDarkMode
-          ? '#4a5568'
-          : '#e2e8f0'
-        : isDarkMode
-        ? '#2d3748'
-        : '#fff',
-      color: state.isFocused ? (isDarkMode ? '#e2e8f0' : '#000') : isDarkMode ? '#e2e8f0' : '#000',
-    }),
-    multiValue: (provided) => ({
-      ...provided,
-      backgroundColor: isDarkMode ? '#4a5568' : '#e2e8f0',
-      color: isDarkMode ? '#e2e8f0' : '#000',
-    }),
-    multiValueLabel: (provided) => ({
-      ...provided,
-      color: isDarkMode ? '#e2e8f0' : '#000',
-    }),
-    multiValueRemove: (provided) => ({
-      ...provided,
-      color: isDarkMode ? '#e2e8f0' : '#000',
-      ':hover': {
-        backgroundColor: isDarkMode ? '#e53e3e' : '#e2e8f0',
-        color: isDarkMode ? '#fff' : '#000',
-      },
-    }),
-    input: (provided) => ({
-      ...provided,
-      color: isDarkMode ? '#e2e8f0' : '#000',
-    }),
-    placeholder: (provided) => ({
-      ...provided,
-      color: isDarkMode ? '#a0aec0' : '#9cafa3', // Adjusted for light mode
-    }),
-    singleValue: (provided) => ({
-      ...provided,
-      color: isDarkMode ? '#e2e8f0' : '#000',
-    }),
-  };  
+  const customStyles = useMemo(() => {
+    const colorTheme = (light, dark) => (isDarkMode ? dark : light);
+
+    return {
+      control: (provided) => ({
+        ...provided,
+        backgroundColor: colorTheme('#fff', '#2d3748'),
+        borderColor: colorTheme('#ccc', '#4a5568'),
+        color: colorTheme('#000', '#e2e8f0'),
+      }),
+      menu: (provided) => ({
+        ...provided,
+        backgroundColor: colorTheme('#fff', '#2d3748'),
+        color: colorTheme('#000', '#e2e8f0'),
+      }),
+      option: (provided, state) => ({
+        ...provided,
+        backgroundColor: state.isFocused
+          ? colorTheme('#e2e8f0', '#4a5568')
+          : colorTheme('#fff', '#2d3748'),
+        color: colorTheme('#000', '#e2e8f0'),
+      }),
+      multiValue: (provided) => ({
+        ...provided,
+        backgroundColor: colorTheme('#e2e8f0', '#4a5568'),
+        color: colorTheme('#000', '#e2e8f0'),
+      }),
+      multiValueRemove: (provided) => ({
+        ...provided,
+        color: colorTheme('#000', '#e2e8f0'),
+        ':hover': {
+          backgroundColor: colorTheme('#e2e8f0', '#e53e3e'),
+          color: colorTheme('#000', '#fff'),
+        },
+      }),
+      placeholder: (provided) => ({
+        ...provided,
+        color: colorTheme('#9cafa3', '#a0aec0'),
+      }),
+      singleValue: (provided) => ({
+        ...provided,
+        color: colorTheme('#000', '#e2e8f0'),
+      }),
+    };
+  }, [isDarkMode]);
+
+  // Custom input component for the date picker
+  const CustomDateInput = forwardRef(({ value, onClick, onClear }, ref) => (
+    <div className="relative">
+      <input
+        ref={ref}
+        value={value}
+        onClick={onClick}
+        readOnly
+        className="p-2 w-full text-center bg-white text-gray-400 dark:bg-gray-700 dark:text-gray-400"
+        placeholder="Jump to Date..."
+      />
+      {value && (
+        <div
+          onClick={onClear}
+          aria-hidden="true"
+          className="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer react-select__indicator react-select__clear-indicator css-15lsz6c-indicatorContainer"
+        >
+          <svg
+            height="20"
+            width="20"
+            viewBox="0 0 20 20"
+            aria-hidden="true"
+            focusable="false"
+            className="css-tj5bde-Svg"
+          >
+            <path d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"></path>
+          </svg>
+        </div>
+      )}
+    </div>
+  ));
+  
 
   return (
     <div className="container mx-auto p-4 min-h-screen">
-      <h1 className="text-2xl font-bold text-center mb-4 text-gray-900 dark:text-gray-100">PDX Shows</h1>
+      <h1 className="text-2xl font-bold text-center mb-4 text-gray-900 dark:text-gray-100">
+        PDX Shows
+      </h1>
       <div className="flex flex-col items-center mb-4 space-y-4">
         <DatePicker
-          selected={startDate}
-          onChange={(dates) => {
-            const [start, end] = dates;
-            setStartDate(start);
-            setEndDate(end);
-          }}
-          startDate={startDate}
-          endDate={endDate}
-          selectsRange
-          className="p-2 text-center w-full max-w-xs md:max-w-sm lg:max-w-md bg-white text-gray-400 dark:bg-gray-700 dark:text-gray-400"
-          placeholderText="Select Dates"
+          selected={minDate}
+          onChange={(date) => setMinDate(date)}
+          customInput={
+            <CustomDateInput
+              onClear={() => setMinDate(null)}
+            />
+          }
+          dateFormat="d MMMM yyyy"
         />
         <Select
           isMulti
@@ -148,12 +181,19 @@ const Home = () => {
         />
       </div>
       <ul className="space-y-4">
-        {Object.keys(groupedEvents).map(date => (
+        {Object.entries(groupedEvents).map(([date, events]) => (
           <li key={date} className="p-4 bg-gray-50 dark:bg-gray-900 shadow-sm">
-            <h2 className="text-sm font-semibold text-center text-gray-900 dark:text-gray-100 mb-2">{date}</h2>
+            <h2 className="text-sm font-semibold text-center text-gray-900 dark:text-gray-100 mb-2">
+              {date}
+            </h2>
             <ul className="space-y-2">
-              {groupedEvents[date].map((event, index, array) => (
-                <li key={index} className={`p-2 ${index !== array.length - 1 ? 'border-b border-gray-200 dark:border-gray-700' : ''}`}>
+              {events.map((event, index) => (
+                <li
+                  key={index}
+                  className={`p-2 ${
+                    index !== events.length - 1 ? 'border-b border-gray-200 dark:border-gray-700' : ''
+                  }`}
+                >
                   <p className="text-sm text-gray-900 dark:text-gray-100">{event.title}</p>
                   <p className="text-xs font-light text-gray-700 dark:text-gray-400">{event.venue}</p>
                 </li>
