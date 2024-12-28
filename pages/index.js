@@ -167,7 +167,7 @@ const Home = () => {
               onClear={() => setMinDate(null)}
             />
           }
-          dateFormat="d MMMM yyyy"
+          dateFormat="MMMM d, yyyy"
         />
         <Select
           isMulti
