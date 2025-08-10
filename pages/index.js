@@ -2,7 +2,6 @@ import React, { useEffect, useState, useMemo, forwardRef } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import Select from 'react-select';
-import 'react-datepicker/dist/react-datepicker.css';
 
 const Home = () => {
   const [events, setEvents] = useState([]);
