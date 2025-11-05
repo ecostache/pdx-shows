@@ -1,3632 +1,2852 @@
 [
-    {
-        "date": "2025-08-19",
-        "venue": "ALADDIN THEATER",
-        "title": "HORSEGIRL"
-    },
-    {
-        "date": "2025-08-19",
-        "venue": "HOLOCENE",
-        "title": "ELLISE – THE PRETTY EVIL TOUR – W/ ELLA RED – ALL AGES"
-    },
-    {
-        "date": "2025-08-19",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "THE LOVETARIANS"
-    },
-    {
-        "date": "2025-08-19",
-        "venue": "POLARIS HALL",
-        "title": "SOLD OUT: 54 ULTRA"
-    },
-    {
-        "date": "2025-08-20",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "THE FRAY - THE STRIKE - CASSANDRA COLEMAN"
-    },
-    {
-        "date": "2025-08-20",
-        "venue": "HOLOCENE",
-        "title": "BEYOND THE BEATS: A SCREENING, PANEL DISCUSSION AND PARTY AS PART OF PORTLAND HIP-HOP WEEK – 21+"
-    },
-    {
-        "date": "2025-08-20",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "THE PELE RAVA WITH SALT SLUG + JOHN ST. JUST"
-    },
-    {
-        "date": "2025-08-20",
-        "venue": "MCMENAMINS GRAND LODGE CONCERTS",
-        "title": "KEB’ MO’ AND SHAWN COLVIN"
-    },
-    {
-        "date": "2025-08-20",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "JACK VAN CLEAF - NO ONE’S GONNA KNOW IF YOU LEAVE SAN DIEGO"
-    },
-    {
-        "date": "2025-08-20",
-        "venue": "ROSELAND THEATER",
-        "title": "OUR LAST NIGHT – THE FINAL TOUR"
-    },
-    {
-        "date": "2025-08-20",
-        "venue": "STAR THEATER",
-        "title": "HICKOIDS WITH THE SOMETHIN AIN'T RIGHTS"
-    },
-    {
-        "date": "2025-08-21",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "L7 - SUMMER CANNIBALS"
-    },
-    {
-        "date": "2025-08-21",
-        "venue": "HOLOCENE",
-        "title": "CITY POP!! JAPANESE BOOGIE, J-JAZZ, & NEW WAVE NIGHT – 21+"
-    },
-    {
-        "date": "2025-08-21",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "VIKA & THE VELVETS WITH NEW BODY ELECTRIC + GUESTS "
-    },
-    {
-        "date": "2025-08-21",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "MIHALI"
-    },
-    {
-        "date": "2025-08-21",
-        "venue": "STAR THEATER",
-        "title": "CLAN OF XYMOX WITH CURSE MACKEY AND SINE"
-    },
-    {
-        "date": "2025-08-22",
-        "venue": "ALADDIN THEATER",
-        "title": "BLACK BELT EAGLE SCOUT"
-    },
-    {
-        "date": "2025-08-22",
-        "venue": "HOLOCENE",
-        "title": "PARTY GIRL – A NIGHT OF PARTY GIRL ANTHEMS – 21+"
-    },
-    {
-        "date": "2025-08-22",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "OPERAOKE & MUSICAL THEATER SHOWCASE - A MENDELSSOHN'S BAR 3-YEAR ANNIVERSARY"
-    },
-    {
-        "date": "2025-08-22",
-        "venue": "POLARIS HALL",
-        "title": "80s NEW WAVE VIDEO DANCE ATTACK: THE CURE VS. DEPECHE MODE"
-    },
-    {
-        "date": "2025-08-22",
-        "venue": "REVOLUTION HALL",
-        "title": "BRATMOBILE"
-    },
-    {
-        "date": "2025-08-22",
-        "venue": "STAR THEATER",
-        "title": "DELILAH BON WITH TILLIE"
-    },
-    {
-        "date": "2025-08-23",
-        "venue": "ALADDIN THEATER",
-        "title": "SOLD OUT: WINDHAND"
-    },
-    {
-        "date": "2025-08-23",
-        "venue": "HOLOCENE",
-        "title": "SATISFACTION (2010-2017 EDM BANGERS ALL NIGHT LONG!) – 21+"
-    },
-    {
-        "date": "2025-08-23",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "DYKE NITE"
-    },
-    {
-        "date": "2025-08-23",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "JESSE DANIEL"
-    },
-    {
-        "date": "2025-08-23",
-        "venue": "POLARIS HALL",
-        "title": "MAL BLUM"
-    },
-    {
-        "date": "2025-08-23",
-        "venue": "STAR THEATER",
-        "title": "MORGAN SÖRNE WITH SORIAH AND MYRRH LARSEN"
-    },
-    {
-        "date": "2025-08-24",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "THE SWORD"
-    },
-    {
-        "date": "2025-08-24",
-        "venue": "HOLOCENE",
-        "title": "SHADOWLANDS, KALLAI, HAWKS DO NOT SHARE, W/ DJ WEDNESDAY- EARLY SHOW! – 21+"
-    },
-    {
-        "date": "2025-08-24",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "H-DAWG & THE SMAWG (ALBUM RELEASE) WITH ART GECKO + SHAWNA PAIR"
-    },
-    {
-        "date": "2025-08-24",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "YUNO"
-    },
-    {
-        "date": "2025-08-24",
-        "venue": "POLARIS HALL",
-        "title": "SOLD OUT: JOEL SUNNY"
-    },
-    {
-        "date": "2025-08-24",
-        "venue": "STAR THEATER",
-        "title": "YOUNG WIDOWS WITH HELMS ALEE"
-    },
-    {
-        "date": "2025-08-25",
-        "venue": "HOLOCENE",
-        "title": "MOTHÉ – TOTAL POPSTAR TOUR"
-    },
-    {
-        "date": "2025-08-25",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "HIBOU"
-    },
-    {
-        "date": "2025-08-26",
-        "venue": "HOLOCENE",
-        "title": "KING STINGRAY"
-    },
-    {
-        "date": "2025-08-26",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "ZZ TOP"
-    },
-    {
-        "date": "2025-08-26",
-        "venue": "MONQUI PRESENTS",
-        "title": "KING STINGRAY"
-    },
-    {
-        "date": "2025-08-27",
-        "venue": "HOLOCENE",
-        "title": "WHILE WE’RE YOUNG: A ONE DIRECTION DANCE NIGHT! – 21+"
-    },
-    {
-        "date": "2025-08-27",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "EARTHWARE WITH LITTLE DOG + ALL BOY ALL GIRL"
-    },
-    {
-        "date": "2025-08-27",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SOLD OUT: HUNX AND HIS PUNX"
-    },
-    {
-        "date": "2025-08-27",
-        "venue": "REVOLUTION HALL",
-        "title": "WHIRR/NOTHING"
-    },
-    {
-        "date": "2025-08-28",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "FRED COLE'S BIRTHDAY CELEBRATION"
-    },
-    {
-        "date": "2025-08-28",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "WESGHOST – CAN WE GO BACK TO SLEEP TOUR"
-    },
-    {
-        "date": "2025-08-28",
-        "venue": "HOLOCENE",
-        "title": "CRIMEWAVE: A DARKWAVE PARTY – 21+"
-    },
-    {
-        "date": "2025-08-28",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "MISTER HEAVY WITH GONDOS + KELEVRAS"
-    },
-    {
-        "date": "2025-08-28",
-        "venue": "MCMENAMINS GRAND LODGE CONCERTS",
-        "title": "BRIGHT EYES"
-    },
-    {
-        "date": "2025-08-28",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "LOCAL LOVE LETTER #15: DIOSITOPES (ALBUM RELEASE)"
-    },
-    {
-        "date": "2025-08-28",
-        "venue": "REVOLUTION HALL",
-        "title": "THE BUDOS BAND"
-    },
-    {
-        "date": "2025-08-28",
-        "venue": "STAR THEATER",
-        "title": "SWOLLEN MEMBERS – BURY THE HATCHET USA TOUR"
-    },
-    {
-        "date": "2025-08-29",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "KYLE DION"
-    },
-    {
-        "date": "2025-08-29",
-        "venue": "HOLOCENE",
-        "title": "SNAP! Y2K: TOTALLY CLUELESS PARTY – 21+"
-    },
-    {
-        "date": "2025-08-29",
-        "venue": "MCMENAMINS GRAND LODGE CONCERTS",
-        "title": "TENNIS"
-    },
-    {
-        "date": "2025-08-29",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "MIPSO"
-    },
-    {
-        "date": "2025-08-29",
-        "venue": "REVOLUTION HALL",
-        "title": "HAZEL"
-    },
-    {
-        "date": "2025-08-29",
-        "venue": "STAR THEATER",
-        "title": "DIZZY WRIGHT – THE GROWING PROCESS 10 YEAR ANNIVERSARY"
-    },
-    {
-        "date": "2025-08-29",
-        "venue": "WONDER BALLROOM",
-        "title": "SPELLLING"
-    },
-    {
-        "date": "2025-08-30",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "FEAR OF THE DARK (IRON MAIDEN TRIBUTE) - BATTERY, INC (METALLICA TRIBUTE)"
-    },
-    {
-        "date": "2025-08-30",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "OCEAN SLEEPER *MOVED TO HAWTHORNE LOUNGE*"
-    },
-    {
-        "date": "2025-08-30",
-        "venue": "HOLOCENE",
-        "title": "AMAPIANO IS HERE W/ NAYIRAM & FRIENDS – 21+"
-    },
-    {
-        "date": "2025-08-30",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "PIXIES – NORTH AMERICAN TOUR 2025 WITH SPECIAL GUESTS SPOON AND FAZERDAZE"
-    },
-    {
-        "date": "2025-08-30",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "THE PRIDS"
-    },
-    {
-        "date": "2025-08-30",
-        "venue": "POLARIS HALL",
-        "title": "WILL HOGE"
-    },
-    {
-        "date": "2025-08-30",
-        "venue": "ROSELAND THEATER",
-        "title": "CHRIS TRAVIS! – TURNT NOT BURNT TOUR"
-    },
-    {
-        "date": "2025-08-31",
-        "venue": "ALADDIN THEATER",
-        "title": "SOLD OUT: JORDAN KLEPPER – SUFFERING FOOLS (EARLY SHOW)"
-    },
-    {
-        "date": "2025-08-31",
-        "venue": "ALADDIN THEATER",
-        "title": "SOLD OUT: JORDAN KLEPPER – SUFFERING FOOLS (LATE SHOW)"
-    },
-    {
-        "date": "2025-08-31",
-        "venue": "ALADDIN THEATER",
-        "title": "JORDAN KLEPPER – SUFFERING FOOLS (LATE LATE SHOW)"
-    },
-    {
-        "date": "2025-08-31",
-        "venue": "HOLOCENE",
-        "title": "DIVA! A QTBIPOC DANCE & DRAG PARTY – 21+!"
-    },
-    {
-        "date": "2025-08-31",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "JAMES VILLA WITH MCKENNA ESTEB + SOPHIE BIRD"
-    },
-    {
-        "date": "2025-08-31",
-        "venue": "MCMENAMINS GRAND LODGE CONCERTS",
-        "title": "MICHAEL FRANTI & SPEARHEAD"
-    },
-    {
-        "date": "2025-09-02",
-        "venue": "ALADDIN THEATER",
-        "title": "THE ENGLISH BEAT"
-    },
-    {
-        "date": "2025-09-02",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "EARTH"
-    },
-    {
-        "date": "2025-09-02",
-        "venue": "POLARIS HALL",
-        "title": "MEHRO"
-    },
-    {
-        "date": "2025-09-02",
-        "venue": "STAR THEATER",
-        "title": "SELOFAN WITH BESTIAL MOUTHS AND CENTRIFUGAL FORCE MACHINE"
-    },
-    {
-        "date": "2025-09-03",
-        "venue": "ALADDIN THEATER",
-        "title": "MARCIN – ART OF GUITAR TOUR"
-    },
-    {
-        "date": "2025-09-03",
-        "venue": "HOLOCENE",
-        "title": "END OF SUMMER PARTY! FT: TENANTS, BENDRE THE GIANT, TRAUMA CLUB – 21+"
-    },
-    {
-        "date": "2025-09-03",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "VIOLETERA WITH MERWULF + VENETIAN VEIL"
-    },
-    {
-        "date": "2025-09-03",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "TEDDY SWIMS – I’VE TRIED EVERYTHING BUT THERAPY TOUR"
-    },
-    {
-        "date": "2025-09-03",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "LOCAL LOVE LETTER #16: NUG"
-    },
-    {
-        "date": "2025-09-03",
-        "venue": "REVOLUTION HALL",
-        "title": "BADBADNOTGOOD - THE MID SPIRAL TOUR"
-    },
-    {
-        "date": "2025-09-03",
-        "venue": "STAR THEATER",
-        "title": "SOLD OUT – OSEES AND DMBQ"
-    },
-    {
-        "date": "2025-09-04",
-        "venue": "ALADDIN THEATER",
-        "title": "SOLD OUT: PLEASE DON’T DESTROY: LIVE"
-    },
-    {
-        "date": "2025-09-04",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "TERROR REID – SAMSARA TOUR"
-    },
-    {
-        "date": "2025-09-04",
-        "venue": "HOLOCENE",
-        "title": "HOUSE OF BEY: A BEYONCÉ CELEBRATION – 21+"
-    },
-    {
-        "date": "2025-09-04",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "THE THESIS - SEPTEMBER 2025"
-    },
-    {
-        "date": "2025-09-04",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "CURSIVE (NIGHT 1)"
-    },
-    {
-        "date": "2025-09-04",
-        "venue": "POLARIS HALL",
-        "title": "HENRY MORRIS"
-    },
-    {
-        "date": "2025-09-04",
-        "venue": "STAR THEATER",
-        "title": "SOLD OUT – OSEES AND DMBQ"
-    },
-    {
-        "date": "2025-09-05",
-        "venue": "ALADDIN THEATER",
-        "title": "SOLD OUT: PLEASE DON’T DESTROY: LIVE"
-    },
-    {
-        "date": "2025-09-05",
-        "venue": "ALADDIN THEATER",
-        "title": "PLEASE DON’T DESTROY: LIVE (LATE SHOW)"
-    },
-    {
-        "date": "2025-09-05",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "MELVIN SEALS & JGB"
-    },
-    {
-        "date": "2025-09-05",
-        "venue": "HOLOCENE",
-        "title": "EMO NITE AT HOLOCENE PRESENTED BY EMO NITE LA – 21+ EVENT"
-    },
-    {
-        "date": "2025-09-05",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "CURSIVE (NIGHT 2)"
-    },
-    {
-        "date": "2025-09-05",
-        "venue": "POLARIS HALL",
-        "title": "NASALROD & HELP"
-    },
-    {
-        "date": "2025-09-05",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: WET LEG - NORTH AMERICAN MOISTOURIZER 2025 (NIGHT 1)"
-    },
-    {
-        "date": "2025-09-05",
-        "venue": "STAR THEATER",
-        "title": "AFROBEATS TO THE WORLD"
-    },
-    {
-        "date": "2025-09-05",
-        "venue": "WONDER BALLROOM",
-        "title": "TOPS – BURY THE KEY TOUR"
-    },
-    {
-        "date": "2025-09-06",
-        "venue": "ALADDIN THEATER",
-        "title": "SOLD OUT: PLEASE DON’T DESTROY: LIVE"
-    },
-    {
-        "date": "2025-09-06",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "WYATT FLORES"
-    },
-    {
-        "date": "2025-09-06",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "POISON RUÏN"
-    },
-    {
-        "date": "2025-09-06",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: WET LEG - NORTH AMERICAN MOISTOURIZER 2025 (NIGHT 2)"
-    },
-    {
-        "date": "2025-09-06",
-        "venue": "WONDER BALLROOM",
-        "title": "ANAMANAGUCHI – THE BUCKWILD TOUR"
-    },
-    {
-        "date": "2025-09-07",
-        "venue": "ALADDIN THEATER",
-        "title": "TONY ANN"
-    },
-    {
-        "date": "2025-09-07",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "SHAWN BROWN BAND WITH NATHAN EARLE + KARYN ANN"
-    },
-    {
-        "date": "2025-09-07",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "GREGORY ALAN ISAKOV"
-    },
-    {
-        "date": "2025-09-07",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "PILE (EARLY SHOW)"
-    },
-    {
-        "date": "2025-09-07",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "PILE (LATE SHOW)"
-    },
-    {
-        "date": "2025-09-08",
-        "venue": "ALADDIN THEATER",
-        "title": "SIERRA HULL"
-    },
-    {
-        "date": "2025-09-08",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "X AMBASSADORS"
-    },
-    {
-        "date": "2025-09-08",
-        "venue": "HOLOCENE",
-        "title": "THE MOTH: LIVE STORYTELLING EVENT – PORTLAND: THEMELESS – 21+"
-    },
-    {
-        "date": "2025-09-08",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "ONDARA PRESENTS... THE JET STONE CONSPIRACY"
-    },
-    {
-        "date": "2025-09-09",
-        "venue": "ALADDIN THEATER",
-        "title": "WITCH"
-    },
-    {
-        "date": "2025-09-09",
-        "venue": "POLARIS HALL",
-        "title": "TEETHE"
-    },
-    {
-        "date": "2025-09-10",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "NX WORRIES"
-    },
-    {
-        "date": "2025-09-10",
-        "venue": "HOLOCENE",
-        "title": "ARKHAM SUNSET (ALBUM RELEASE!), MNEMONIC PULSE, LIES WE WERE TOLD  – 21+"
-    },
-    {
-        "date": "2025-09-10",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "TILE BLUE WITH AURADEV + CRYSTAL CANOPY"
-    },
-    {
-        "date": "2025-09-10",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "MODEST MOUSE & THE FLAMING LIPS"
-    },
-    {
-        "date": "2025-09-10",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "EMILY LOVE AND THE HIGHLINERS (ALBUM RELEASE)"
-    },
-    {
-        "date": "2025-09-10",
-        "venue": "POLARIS HALL",
-        "title": "ENGLISH TEACHER"
-    },
-    {
-        "date": "2025-09-10",
-        "venue": "REVOLUTION HALL",
-        "title": "SLEATER-KINNEY (NIGHT 1)"
-    },
-    {
-        "date": "2025-09-10",
-        "venue": "SHOW BAR",
-        "title": "LADY KILLERS HOSTED BY ALLY J WARD & DEVAN DAILY"
-    },
-    {
-        "date": "2025-09-10",
-        "venue": "WONDER BALLROOM",
-        "title": "BLESSTHEFALL"
-    },
-    {
-        "date": "2025-09-11",
-        "venue": "ALADDIN THEATER",
-        "title": "WALTER TROUT"
-    },
-    {
-        "date": "2025-09-11",
-        "venue": "HOLOCENE",
-        "title": "MAN’S BEST PARTY: A SABRINA CARPENTER NIGHT   – 21+"
-    },
-    {
-        "date": "2025-09-11",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "MODEST MOUSE & THE FLAMING LIPS"
-    },
-    {
-        "date": "2025-09-11",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "ORCUTT, SHELLEY, MILLER"
-    },
-    {
-        "date": "2025-09-11",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: SLEATER-KINNEY (NIGHT 2)"
-    },
-    {
-        "date": "2025-09-11",
-        "venue": "ROSELAND THEATER",
-        "title": "THIEVERY CORPORATION"
-    },
-    {
-        "date": "2025-09-11",
-        "venue": "STAR THEATER",
-        "title": "NAHKO AND MEDICINE FOR THE PEOPLE – TAKE YOUR POWER BACK 2025"
-    },
-    {
-        "date": "2025-09-12",
-        "venue": "ALADDIN THEATER",
-        "title": "MAC SABBATH"
-    },
-    {
-        "date": "2025-09-12",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "AN EVENING WITH KRUDER & DORFMEISTER"
-    },
-    {
-        "date": "2025-09-12",
-        "venue": "HOLOCENE",
-        "title": "INDIE RAVE – A NIGHT OF INDIE REMIXES & BANGERS –  21+"
-    },
-    {
-        "date": "2025-09-12",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "THE PALMS: 10 YEARS - PAST, PRESENT, AND BEYOND"
-    },
-    {
-        "date": "2025-09-12",
-        "venue": "POLARIS HALL",
-        "title": "DLG."
-    },
-    {
-        "date": "2025-09-12",
-        "venue": "REVOLUTION HALL",
-        "title": "AN EVENING WITH DAN CARLIN - HOST OF HARDCORE HISTORY"
-    },
-    {
-        "date": "2025-09-12",
-        "venue": "SHOW BAR",
-        "title": "80s VIDEO DANCE ATTACK"
-    },
-    {
-        "date": "2025-09-12",
-        "venue": "STAR THEATER",
-        "title": "CHE: REST IN BASS TOUR"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "ALADDIN THEATER",
-        "title": "BRUCE MCCULLOCH: TALES OF BRAVERY AND STUPIDITY"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "EVERCLEAR - LOCAL H - SPONGE"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "BLEAKFEST VOL. 2"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "HOLOCENE",
-        "title": "SPEND THE NIGHT PRESENTS: LUCA LOZANO & MR HO – 21+"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "AMINÉ PRESENTS: THE BEST DAY EVER FESTIVAL"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "AMINÉ PRESENTS: THE BEST DAY EVER FESTIVAL DAY 1"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "ORACLE SISTERS"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "POLARIS HALL",
-        "title": "SOLD OUT: BARONESS - RED & BLUE PART II (NIGHT 1)"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "ROSELAND THEATER",
-        "title": "LIL TRACY – THE BLOOD MOON TOUR"
-    },
-    {
-        "date": "2025-09-13",
-        "venue": "WONDER BALLROOM",
-        "title": "SEXTILE"
-    },
-    {
-        "date": "2025-09-14",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "AMINÉ PRESENTS: THE BEST DAY EVER FESTIVAL DAY 2"
-    },
-    {
-        "date": "2025-09-14",
-        "venue": "MCMENAMINS GRAND LODGE CONCERTS",
-        "title": "VIAGRA BOYS – THE INFINITE ANXIETY TOUR OF 2025"
-    },
-    {
-        "date": "2025-09-14",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "THE MISTONS & THE WIND-UPS"
-    },
-    {
-        "date": "2025-09-14",
-        "venue": "POLARIS HALL",
-        "title": "SOLD OUT: BARONESS - RED & BLUE PART II (NIGHT 2)"
-    },
-    {
-        "date": "2025-09-14",
-        "venue": "REVOLUTION HALL",
-        "title": "BLACK AND LOUD MUSIC FEST FT. LIVING COLOUR"
-    },
-    {
-        "date": "2025-09-14",
-        "venue": "STAR THEATER",
-        "title": "FRONT LINE ASSEMBLY WITH LEAD INTO GOLD AND CLOCK DVA"
-    },
-    {
-        "date": "2025-09-15",
-        "venue": "ALADDIN THEATER",
-        "title": "BILLIE MARTEN"
-    },
-    {
-        "date": "2025-09-15",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "D4VD: WITHERED - YUNG KAI"
-    },
-    {
-        "date": "2025-09-15",
-        "venue": "POLARIS HALL",
-        "title": "OMNI"
-    },
-    {
-        "date": "2025-09-15",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: MJ LENDERMAN & THE WIND: 2025 TOUR (NIGHT 1)"
-    },
-    {
-        "date": "2025-09-15",
-        "venue": "WONDER BALLROOM",
-        "title": "ARC DE SOLEIL: LA MIRAGE TOUR"
-    },
-    {
-        "date": "2025-09-16",
-        "venue": "ALADDIN THEATER",
-        "title": "TWRP - THE LONGEST WEEKEND 2025 TOUR"
-    },
-    {
-        "date": "2025-09-16",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "THE PSYCHEDELIC FURS - GARY NUMAN"
-    },
-    {
-        "date": "2025-09-16",
-        "venue": "HOLOCENE",
-        "title": "SALVATORE MANALO’S FAREWELL SHOW W/LARYSSA BIRDSEYE, RACHEL WONG  – 21+"
-    },
-    {
-        "date": "2025-09-16",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "NATURE TV W/ SPECIAL GUEST DIVINE SWEATER"
-    },
-    {
-        "date": "2025-09-16",
-        "venue": "POLARIS HALL",
-        "title": "SONIDO GALLO NEGRO"
-    },
-    {
-        "date": "2025-09-16",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: MJ LENDERMAN & THE WIND: 2025 TOUR (NIGHT 2)"
-    },
-    {
-        "date": "2025-09-16",
-        "venue": "WONDER BALLROOM",
-        "title": "*CANCELED* DYSTINCT’S BABABA WORLD TOUR"
-    },
-    {
-        "date": "2025-09-17",
-        "venue": "HOLOCENE",
-        "title": "MIND’S EYE & HOT FLASH HEAT WAVE – W/ ROE KAPARA  – ALL AGES!"
-    },
-    {
-        "date": "2025-09-17",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "HAIM – I QUIT TOUR"
-    },
-    {
-        "date": "2025-09-17",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "HAIM – I QUIT TOUR – LAWN CHAIR RENTAL – WEDNESDAY, SEPTEMBER 17TH, 2025"
-    },
-    {
-        "date": "2025-09-17",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "THE ARMED: EVERYTHING NEEDS TO BE DESTROYED WITH SPECIAL GUESTS PROSTITUTE"
-    },
-    {
-        "date": "2025-09-17",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: THE HIVES"
-    },
-    {
-        "date": "2025-09-17",
-        "venue": "SHOW BAR",
-        "title": "WEDNESDAY NIGHT SPECIAL: KYLE KINANE"
-    },
-    {
-        "date": "2025-09-17",
-        "venue": "STAR THEATER",
-        "title": "CASTLE RAT WITH STAINLESS, HAUNT AND DJ NATE C"
-    },
-    {
-        "date": "2025-09-17",
-        "venue": "WONDER BALLROOM",
-        "title": "BEACH FOSSILS"
-    },
-    {
-        "date": "2025-09-18",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "TEE GRIZZLEY – FOREVER MY MOMENT TOUR"
-    },
-    {
-        "date": "2025-09-18",
-        "venue": "HOLOCENE",
-        "title": "KELLY MORAN  – EARLY SHOW! – 21+"
-    },
-    {
-        "date": "2025-09-18",
-        "venue": "HOLOCENE",
-        "title": "THE TUMBLR PARTY – 21+"
-    },
-    {
-        "date": "2025-09-18",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "CHIPPED NAIL POLISH (ALBUM RELEASE) MARY ELIZA + MISTER HEAVY"
-    },
-    {
-        "date": "2025-09-18",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "CONAN"
-    },
-    {
-        "date": "2025-09-18",
-        "venue": "POLARIS HALL",
-        "title": "LOST BAYOU RAMBLERS"
-    },
-    {
-        "date": "2025-09-18",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: NORMAL GOSSIP LIVE"
-    },
-    {
-        "date": "2025-09-18",
-        "venue": "WONDER BALLROOM",
-        "title": "CHAPARELLE"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "ALADDIN THEATER",
-        "title": "THE RAVEONETTES"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "THE SYMPOSIUM"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "HOLOCENE",
-        "title": "MARC E. BASSY – W/ DENDE – EARLY SHOW – ALL AGES!"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "HOLOCENE",
-        "title": "SORRY FOR PARTY ROCKING: 2010-2015 POP & EDM THROWBACKS – 21+"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "BIG THIEF – SOMERSAULT SLIDE 360 TOUR"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "MR. GNOME"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "POLARIS HALL",
-        "title": "HOTLINE TNT - PATH OF TOTALITY"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "REVOLUTION HALL",
-        "title": "WISP"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "ROSELAND THEATER",
-        "title": "CELEBRATING THE 10 YEAR ANNIVERSARY OF EVERYBODY WANTS – THE STRUTS"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "STAR THEATER",
-        "title": "GLOM FEST"
-    },
-    {
-        "date": "2025-09-19",
-        "venue": "WONDER BALLROOM",
-        "title": "INIKO – AWAKENING THE EMPIRE NORTH AMERICAN TOUR"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "ALADDIN THEATER",
-        "title": "THE LONE BELLOW"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "GATA GALÁCTICA - FLUID DRUID - SALO PANTO - RAREFACTION"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "BEAR GHOST X PLAYBOY MANBABY"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "COHEED AND CAMBRIA * TAKING BACK SUNDAY"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "MCMENAMINS GRAND LODGE CONCERTS",
-        "title": "BAND OF HORSES & IRON AND WINE"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "MCMENAMINS GRAND LODGE CONCERTS",
-        "title": "BAND OF HORSES & IRON AND WINE – LAWN CHAIR RENTAL – SATURDAY, SEPTEMBER 20TH, 2025"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "DAYS OF BOWIE PRESENTS: BLACK COUNTRY ROCK"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: GRANDADDY – 25TH ANNIVERSARY OF SOPHTWARE SLUMP (NIGHT 1)"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "ROSELAND THEATER",
-        "title": "ROBIN TROWER"
-    },
-    {
-        "date": "2025-09-20",
-        "venue": "WONDER BALLROOM",
-        "title": "ARCY DRIVE: THE PIT TOUR"
-    },
-    {
-        "date": "2025-09-21",
-        "venue": "ALADDIN THEATER",
-        "title": "PINO PALLADINO & BLAKE MILLS FEATURING SAM GENDEL & CHRIS DAVE"
-    },
-    {
-        "date": "2025-09-21",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "NOAH CYRUS - CARTER FAITH"
-    },
-    {
-        "date": "2025-09-21",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "VOLA"
-    },
-    {
-        "date": "2025-09-21",
-        "venue": "HOLOCENE",
-        "title": "DAISY THE GREAT – THE RUBBER TEETH TALK TOUR W/ THE OPHELIAS – ALL AGES"
-    },
-    {
-        "date": "2025-09-21",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "PIGEON MILK: LIVE FILM SCORE"
-    },
-    {
-        "date": "2025-09-21",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "BRASS AGAINST: WHAT BETTER TIME THAN NOW TOUR"
-    },
-    {
-        "date": "2025-09-21",
-        "venue": "POLARIS HALL",
-        "title": "THE KALEIDOSCOPE KID X N.U.B.S."
-    },
-    {
-        "date": "2025-09-21",
-        "venue": "REVOLUTION HALL",
-        "title": "GRANDADDY – 25TH ANNIVERSARY OF SOPHTWARE SLUMP (NIGHT 2)"
-    },
-    {
-        "date": "2025-09-21",
-        "venue": "WONDER BALLROOM",
-        "title": "SE SO NEON –  NOW NORTH AMERICAN TOUR 2025"
-    },
-    {
-        "date": "2025-09-22",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "DEAD BOYS ***MOVED TO HAWTHORNE LOUNGE***"
-    },
-    {
-        "date": "2025-09-22",
-        "venue": "HOLOCENE",
-        "title": "ANIKA – W/ LAUREN EARLY – 21+"
-    },
-    {
-        "date": "2025-09-22",
-        "venue": "MCMENAMINS GRAND LODGE CONCERTS",
-        "title": "MAC DEMARCO"
-    },
-    {
-        "date": "2025-09-22",
-        "venue": "POLARIS HALL",
-        "title": "STACEY RYAN"
-    },
-    {
-        "date": "2025-09-22",
-        "venue": "WONDER BALLROOM",
-        "title": "SAMIA"
-    },
-    {
-        "date": "2025-09-23",
-        "venue": "ALADDIN THEATER",
-        "title": "SOLD OUT: THE WATERBOYS"
-    },
-    {
-        "date": "2025-09-23",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "MYSTERY SKULLS – ULTRA RARE TOUR"
-    },
-    {
-        "date": "2025-09-23",
-        "venue": "HOLOCENE",
-        "title": "MEALWORM, LIKE ST. JOAN,  LADIFA – 21+"
-    },
-    {
-        "date": "2025-09-23",
-        "venue": "REVOLUTION HALL",
-        "title": "NOAH REID: LIVE AGAIN"
-    },
-    {
-        "date": "2025-09-23",
-        "venue": "SHOW BAR",
-        "title": "HEAR YOU LOUD & QUEER"
-    },
-    {
-        "date": "2025-09-23",
-        "venue": "STAR THEATER",
-        "title": "TOTAL CHAOS WITH DEFIANCE, THE HAVOC, SPUNK AND HIDEOUS MONSTER"
-    },
-    {
-        "date": "2025-09-23",
-        "venue": "WONDER BALLROOM",
-        "title": "SKINSHAPE"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "ALADDIN THEATER",
-        "title": "DAVID ARCHULETA"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "RICO NASTY SADBOI"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "SLOW CRUSH"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "HOLOCENE",
-        "title": "BABES IN CANYON (ALBUM RELEASE!), SILVERTONGUE, SHY HONEY  – 21+"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "YAYA BEY, BATHE, VEGA BLACK"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "POLARIS HALL",
-        "title": "DARREN KIELY"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "REVOLUTION HALL",
-        "title": "SWANS"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "ROSELAND THEATER",
-        "title": "JOEY VALENCE & BRAE – HYPERYOUTH WORLD TOUR"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "STAR THEATER",
-        "title": "BEHERIT WITH IMPURE + SPIRIT POSSESSION + DEATHCHARGE"
-    },
-    {
-        "date": "2025-09-24",
-        "venue": "WONDER BALLROOM",
-        "title": "THE BONES OF J.R. JONES"
-    },
-    {
-        "date": "2025-09-25",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "BLACK REBEL MOTORCYCLE CLUB"
-    },
-    {
-        "date": "2025-09-25",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SEAN HAYES W/ SWAY WILD"
-    },
-    {
-        "date": "2025-09-25",
-        "venue": "POLARIS HALL",
-        "title": "ALEX BORSTEIN IS THIRSTY"
-    },
-    {
-        "date": "2025-09-25",
-        "venue": "REVOLUTION HALL",
-        "title": "ARE YOU GARBAGE - BACK ON THE BLOCK TOUR"
-    },
-    {
-        "date": "2025-09-25",
-        "venue": "STAR THEATER",
-        "title": "SOLD OUT – SMOKEDOPE2016"
-    },
-    {
-        "date": "2025-09-25",
-        "venue": "WONDER BALLROOM",
-        "title": "HIGH VIS"
-    },
-    {
-        "date": "2025-09-26",
-        "venue": "ALADDIN THEATER",
-        "title": "CARLOS BALLARTA: TLATOANI"
-    },
-    {
-        "date": "2025-09-26",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "MADILYN MEI “THE ONE MAN CIRCUS TOUR”"
-    },
-    {
-        "date": "2025-09-26",
-        "venue": "MCMENAMINS GRAND LODGE CONCERTS",
-        "title": "THE TESKEY BROTHERS – USA TOUR 2025"
-    },
-    {
-        "date": "2025-09-26",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "GUERILLA TOSS"
-    },
-    {
-        "date": "2025-09-26",
-        "venue": "REVOLUTION HALL",
-        "title": "SPARKS – MAD! TOUR"
-    },
-    {
-        "date": "2025-09-26",
-        "venue": "ROSELAND THEATER",
-        "title": "THE SOUND OF ANIMALS FIGHTING"
-    },
-    {
-        "date": "2025-09-26",
-        "venue": "STAR THEATER",
-        "title": "SORIAH WITH ESSES, SOCIETY OF THE SILVER CROSS AND THE KEENING"
-    },
-    {
-        "date": "2025-09-26",
-        "venue": "WONDER BALLROOM",
-        "title": "CAMERON WHITCOMB – I’VE GOT OPTIONS TOUR"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "ALADDIN THEATER",
-        "title": "SOLD OUT: ATSUKO OKATSUKA: THE BIG BOWL TOUR (EARLY SHOW)"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "ALADDIN THEATER",
-        "title": "ATSUKO OKATSUKA: THE BIG BOWL TOUR (LATE SHOW)"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "A TRIBUTE TO THE BEE GEES"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "GIMME GIMME DISCO"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "HOLOCENE",
-        "title": "QUANNNIC W/ KMOE. – EARLY SHOW – ALL AGES!"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "HOLOCENE",
-        "title": "VROOM VROOM: A CHARLI XCX DANCE NIGHT FT: DJ SETS BY MR. HARRY & PLUS – 21+"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "JAZZ EMU 'THE PLEASURE IS ALL YOURS TOUR'"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "POLARIS HALL",
-        "title": "WICCA PHASE SPRINGS ETERNAL & THE MYSTERY MOUNTAIN BAND"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "REVOLUTION HALL",
-        "title": "DAN SODER: THE GOLDEN RETRIEVER OF COMEDY TOUR"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "ROSELAND THEATER",
-        "title": "2HOLLIS: THE STAR TOUR"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "STAR THEATER",
-        "title": "CRYPTA WITH CLAUSTROFOBIA & BACK FROM DEATH"
-    },
-    {
-        "date": "2025-09-27",
-        "venue": "WONDER BALLROOM",
-        "title": "SPACEY JANE – IF THAT MAKES SENSE TOUR"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "ALADDIN THEATER",
-        "title": "JUDY COLLINS"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "CITIZEN SOLDIER SECRET SONGS TOUR – AN ACOUSTIC EVENING WITH JAKE & WONITTA"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "HOLOCENE",
-        "title": "CHAI & ROSES PRIDE PARTY – A SUNDAY TEA DANCE FOR QTBIPOC & ALLIES  – 21+"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "BLACKWATER RAILROAD WITH SUPERNATURAL BEAVERS + EEL SALLAD"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "KELSEY WALDON"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "POLARIS HALL",
-        "title": "IVRI - THE THEORY OF YOU TOUR"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "REVOLUTION HALL",
-        "title": "THE CHAMELEONS: ARCTIC MOON TOUR 2025"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "SHOW BAR",
-        "title": "BEATS AND BELONGING"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "STAR THEATER",
-        "title": "MUTRIX WITH DRUMSPYDER"
-    },
-    {
-        "date": "2025-09-28",
-        "venue": "WONDER BALLROOM",
-        "title": "REDFERRIN"
-    },
-    {
-        "date": "2025-09-29",
-        "venue": "ROSELAND THEATER",
-        "title": "POLO & PAN – AMERICAS TOUR 2025"
-    },
-    {
-        "date": "2025-09-30",
-        "venue": "ALADDIN THEATER",
-        "title": "S.G. GOODMAN"
-    },
-    {
-        "date": "2025-09-30",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "FROM ASHES TO NEW"
-    },
-    {
-        "date": "2025-09-30",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "LANDMVRKS “NORTH AMERICA 2025” TOUR"
-    },
-    {
-        "date": "2025-09-30",
-        "venue": "HOLOCENE",
-        "title": "COOL COMPANY W/NIC HANSON  – 21+"
-    },
-    {
-        "date": "2025-09-30",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "RUNNNER - A WELCOME KIND OF WEAKNESS TOUR"
-    },
-    {
-        "date": "2025-09-30",
-        "venue": "POLARIS HALL",
-        "title": "MAE & THE SPILL CANVAS"
-    },
-    {
-        "date": "2025-09-30",
-        "venue": "REVOLUTION HALL",
-        "title": "TREVOR HALL - THE MONSOON NIGHTS TOUR"
-    },
-    {
-        "date": "2025-09-30",
-        "venue": "ROSELAND THEATER",
-        "title": "HOLLYWOOD UNDEAD"
-    },
-    {
-        "date": "2025-09-30",
-        "venue": "WONDER BALLROOM",
-        "title": "BETWEEN FRIENDS – WOW! TOUR"
-    },
-    {
-        "date": "2025-10-01",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "MAGDALENA BAY - OXIS"
-    },
-    {
-        "date": "2025-10-01",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SWERVEDRIVER"
-    },
-    {
-        "date": "2025-10-01",
-        "venue": "POLARIS HALL",
-        "title": "COWGIRL CLUE"
-    },
-    {
-        "date": "2025-10-01",
-        "venue": "REVOLUTION HALL",
-        "title": "HOKUS POKUS LIVE! STARRING GINGER MINJ, JUJUBEE, AND SAPPHIRA CRISTÁL"
-    },
-    {
-        "date": "2025-10-01",
-        "venue": "SHOW BAR",
-        "title": "SHILPA RAY - WEST COAST 2025 TOUR"
-    },
-    {
-        "date": "2025-10-01",
-        "venue": "WONDER BALLROOM",
-        "title": "NIGHT TAPES – PORTALS//POLARITIES TOUR"
-    },
-    {
-        "date": "2025-10-02",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "JAMES"
-    },
-    {
-        "date": "2025-10-02",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "AURORAWAVE"
-    },
-    {
-        "date": "2025-10-02",
-        "venue": "HOLOCENE",
-        "title": "AYA – ALL AGES!"
-    },
-    {
-        "date": "2025-10-02",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "ALEX FALCONE (EARLY SHOW)"
-    },
-    {
-        "date": "2025-10-02",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SOLD OUT: ALEX FALCONE (LATE SHOW)"
-    },
-    {
-        "date": "2025-10-02",
-        "venue": "POLARIS HALL",
-        "title": "CLEM SNIDE"
-    },
-    {
-        "date": "2025-10-02",
-        "venue": "REVOLUTION HALL",
-        "title": "MOUNTAINFILM ON TOUR"
-    },
-    {
-        "date": "2025-10-02",
-        "venue": "ROSELAND THEATER",
-        "title": "CIRCLE JERKS"
-    },
-    {
-        "date": "2025-10-03",
-        "venue": "ALADDIN THEATER",
-        "title": "QUADECA"
-    },
-    {
-        "date": "2025-10-03",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "80s HOMECOMING DANCEMY SIAMESE TWIN"
-    },
-    {
-        "date": "2025-10-03",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "CARBON LEAF - ‘I WANT TO BE LEAF’ TOUR 2025"
-    },
-    {
-        "date": "2025-10-03",
-        "venue": "POLARIS HALL",
-        "title": "STOLEN GIN"
-    },
-    {
-        "date": "2025-10-03",
-        "venue": "REVOLUTION HALL",
-        "title": "RY X - EDEN TOUR"
-    },
-    {
-        "date": "2025-10-03",
-        "venue": "ROSELAND THEATER",
-        "title": "SLEEP THEORY – THE AFTERGLOW TOUR *MOVED FROM HAWTHORNE THEATRE*"
-    },
-    {
-        "date": "2025-10-03",
-        "venue": "STAR THEATER",
-        "title": "COCHISE"
-    },
-    {
-        "date": "2025-10-03",
-        "venue": "WONDER BALLROOM",
-        "title": "MÚM"
-    },
-    {
-        "date": "2025-10-04",
-        "venue": "ALADDIN THEATER",
-        "title": "ESTHER POVITSKY: THE PRETTY LITTLE BABY TOUR"
-    },
-    {
-        "date": "2025-10-04",
-        "venue": "HOLOCENE",
-        "title": "MATES OF STATE: SOMEWHERE TOUR - 5 PM"
-    },
-    {
-        "date": "2025-10-04",
-        "venue": "HOLOCENE",
-        "title": "SIX SEX: X-SEX USA TOUR, BIANCA OBLIVION W/ LAPAUSHI B2B PATRONA  – 10 PM"
-    },
-    {
-        "date": "2025-10-04",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "GOAT GIRL"
-    },
-    {
-        "date": "2025-10-04",
-        "venue": "MONQUI PRESENTS",
-        "title": "MATES OF STATE"
-    },
-    {
-        "date": "2025-10-04",
-        "venue": "REVOLUTION HALL",
-        "title": "LAMBRINI GIRLS"
-    },
-    {
-        "date": "2025-10-04",
-        "venue": "ROSELAND THEATER",
-        "title": "MINUS THE BEAR – MENOS EL OSO 20TH ANNIVERSARY TOUR"
-    },
-    {
-        "date": "2025-10-04",
-        "venue": "SHOW BAR",
-        "title": "SUZZALLO"
-    },
-    {
-        "date": "2025-10-04",
-        "venue": "STAR THEATER",
-        "title": "GARCIA BIRTHDAY BAND"
-    },
-    {
-        "date": "2025-10-05",
-        "venue": "ALADDIN THEATER",
-        "title": "THE OKEE DOKEE BROTHERS"
-    },
-    {
-        "date": "2025-10-05",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "BØRNS"
-    },
-    {
-        "date": "2025-10-05",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "APES OF THE STATE"
-    },
-    {
-        "date": "2025-10-05",
-        "venue": "HOLOCENE",
-        "title": "81355 – W/ SLURGEON –  21+"
-    },
-    {
-        "date": "2025-10-05",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "CAFUNÉ"
-    },
-    {
-        "date": "2025-10-05",
-        "venue": "POLARIS HALL",
-        "title": "TYLER HILTON & KATE VOEGELE"
-    },
-    {
-        "date": "2025-10-05",
-        "venue": "REVOLUTION HALL",
-        "title": "DEMETRI MARTIN: THE QUICK DRAW TOUR (EARLY SHOW)"
-    },
-    {
-        "date": "2025-10-05",
-        "venue": "REVOLUTION HALL",
-        "title": "DEMETRI MARTIN: THE QUICK DRAW TOUR (LATE SHOW)"
-    },
-    {
-        "date": "2025-10-05",
-        "venue": "WONDER BALLROOM",
-        "title": "DUCKWRTH – ALL AMERICAN FREAK SHOW TOUR"
-    },
-    {
-        "date": "2025-10-06",
-        "venue": "ALADDIN THEATER",
-        "title": "ROBBY HOFFMAN"
-    },
-    {
-        "date": "2025-10-06",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "PUP & JEFF ROSENSTOCK"
-    },
-    {
-        "date": "2025-10-06",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "MODEL/ACTRIZ"
-    },
-    {
-        "date": "2025-10-06",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "BAMBARA"
-    },
-    {
-        "date": "2025-10-06",
-        "venue": "POLARIS HALL",
-        "title": "UPSTAIRS NEIGHBORS"
-    },
-    {
-        "date": "2025-10-06",
-        "venue": "ROSELAND THEATER",
-        "title": "QUINN XCII – LOOK! I’M ALIVE TOUR"
-    },
-    {
-        "date": "2025-10-06",
-        "venue": "WONDER BALLROOM",
-        "title": "MIRADOR"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "ALADDIN THEATER",
-        "title": "FLESHWATER"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "MATT MAESONA"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "CARTEL"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "THE DEN",
-        "title": "AUTECHRE – AT THE DEN – 21+"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "HOLOCENE",
-        "title": "SEGO, SOCIAL CINEMA – 21+"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "NOURISHED BY TIME - THE PASSIONATE ONES TOUR"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "POLARIS HALL",
-        "title": "JUNIOR VARSITY"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "ROSELAND THEATER",
-        "title": "LUCINDA WILLIAMS"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "STAR THEATER",
-        "title": "THXSOMCH: THE SOUND OF YOU LAUGHING W/ RE6CE"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "STAR THEATER",
-        "title": "THXSOMCH WITH THE SOUND OF YOU LAUGHING W/ RE6CE"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "THE OLD CHURCH",
-        "title": "JOSH RITTER"
-    },
-    {
-        "date": "2025-10-07",
-        "venue": "WONDER BALLROOM",
-        "title": "BAYKER BLANKENSHIP"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "ALADDIN THEATER",
-        "title": "CARSIE BLANTON"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "WOLF ALICE"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "HOLOCENE",
-        "title": "MAIAH MANSER – W/ FRANKIE SIMONE  – ALL AGES!"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "RODEO WILSON WITH LENA RICH + LYNNA CORINNE"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "TURNSTILE – THE NEVER ENOUGH TOUR"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "FLYTE"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "POLARIS HALL",
-        "title": "DICE"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "REVOLUTION HALL",
-        "title": "TV ON THE RADIO"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "STAR THEATER",
-        "title": "UPCHUCK"
-    },
-    {
-        "date": "2025-10-08",
-        "venue": "THE OLD CHURCH",
-        "title": "JOSH RITTER"
-    },
-    {
-        "date": "2025-10-09",
-        "venue": "ALADDIN THEATER",
-        "title": "THE MARTIN SEXTON ABBEY ROAD SHOW"
-    },
-    {
-        "date": "2025-10-09",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "SHORELINE MAFIA"
-    },
-    {
-        "date": "2025-10-09",
-        "venue": "HOLOCENE",
-        "title": "DANCE ROMANCE: A VERY GAGA DANCE NIGHT  – 21+"
-    },
-    {
-        "date": "2025-10-09",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "ACID MOTHERS TEMPLE"
-    },
-    {
-        "date": "2025-10-09",
-        "venue": "POLARIS HALL",
-        "title": "STEPHEN KELLOGG'S OLD FRIENDS TOUR FEATURING CHRIS TRAPPER"
-    },
-    {
-        "date": "2025-10-09",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: TV ON THE RADIO"
-    },
-    {
-        "date": "2025-10-09",
-        "venue": "ROSELAND THEATER",
-        "title": "LIL DARKIE: THE GREATEST SHOW IN HUMAN HISTORY"
-    },
-    {
-        "date": "2025-10-09",
-        "venue": "SHOW BAR",
-        "title": "PATRICK SHIROISHI: FORGETTING IS VIOLENT TOUR"
-    },
-    {
-        "date": "2025-10-09",
-        "venue": "WONDER BALLROOM",
-        "title": "COVET"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "ALADDIN THEATER",
-        "title": "JIAOYING SUMMERS: WHAT SPECIE ARE YOU? TOUR"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "RAVYN LENAE"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "ODDISEE – THE GOOD FIGHT 10 YEAR ANNIVERSARY TOUR"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "HOLOCENE",
-        "title": "BEACH VACATION  -W/ PORCH KISS –  EARLY SHOW! – 21+"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "MISSION THEATER",
-        "title": "WILL PAQUIN"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "WOMBO"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "POLARIS HALL",
-        "title": "FLY BY MIDNIGHT - THE FASTEST TIME OF OUR LIVES"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: I’M WITH HER - WILD AND CLEAR AND BLUE 2025"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "ROSELAND THEATER",
-        "title": "INVENT ANIMATE / SILENT PLANET – THE BLOOM IN HEAVEN TOUR PART II"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "STAR THEATER",
-        "title": "SKYDXDDY WITH DEMI THE DAREDEVIL"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "THE OLD CHURCH",
-        "title": "KINGFISHR"
-    },
-    {
-        "date": "2025-10-10",
-        "venue": "WONDER BALLROOM",
-        "title": "BAD SUNS: ACCELERATOUR 2025"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "ALADDIN THEATER",
-        "title": "18H ANNUAL OREGON MUSIC HALL OF FAME (OMHOF) INDUCTION AND CONCERT"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "POISON ARROW: AN ALTERNATIVE DANCE NIGHT"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "NATE WANTS TO BATTLE"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "HOLOCENE",
-        "title": "MARIELLE KRAFT W/LEW – EARLY SHOW – ALL AGES!"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "BIG WILD – WILD CHILD TOUR"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "MCMENAMINS EDGEFIELD",
-        "title": "BIG WILD – WILD CHILD TOUR – LAWN CHAIR RENTAL – SATURDAY, OCTOBER 11TH, 2025"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "JEFFREY MARTIN"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "REVOLUTION HALL",
-        "title": "NATION OF LANGUAGE"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "ROSELAND THEATER",
-        "title": "DARK ANGEL FALL 2025 TOUR"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "STAR THEATER",
-        "title": "ALEJANDRO ESCOVEDO"
-    },
-    {
-        "date": "2025-10-11",
-        "venue": "WONDER BALLROOM",
-        "title": "FRENCH POLICE"
-    },
-    {
-        "date": "2025-10-12",
-        "venue": "ALADDIN THEATER",
-        "title": "MO LOWDA & THE HUMBLE - TAILING THE GHOST TOUR"
-    },
-    {
-        "date": "2025-10-12",
-        "venue": "HOLOCENE",
-        "title": "SMERZ – 21+"
-    },
-    {
-        "date": "2025-10-12",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "WINTER"
-    },
-    {
-        "date": "2025-10-12",
-        "venue": "POLARIS HALL",
-        "title": "POOL KIDS"
-    },
-    {
-        "date": "2025-10-12",
-        "venue": "REVOLUTION HALL",
-        "title": "BETWEEN THE BURIED AND ME & HAIL THE SUN"
-    },
-    {
-        "date": "2025-10-12",
-        "venue": "ROSELAND THEATER",
-        "title": "CLAVE ESPECIAL – MIJA NO TE ASUSTES TOUR"
-    },
-    {
-        "date": "2025-10-12",
-        "venue": "STAR THEATER",
-        "title": "DEAD CONGREGATION WITH CAUSTIC WOUND, CORPUS OFFAL AND EXCARNATED ENTITY"
-    },
-    {
-        "date": "2025-10-12",
-        "venue": "WONDER BALLROOM",
-        "title": "BALU BRIGADA"
-    },
-    {
-        "date": "2025-10-13",
-        "venue": "ALADDIN THEATER",
-        "title": "NICOTINE DOLLS - AN ATTEMPT AT ROMANTIC"
-    },
-    {
-        "date": "2025-10-13",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "PONY BRADSHAW"
-    },
-    {
-        "date": "2025-10-13",
-        "venue": "POLARIS HALL",
-        "title": "THE TUBS"
-    },
-    {
-        "date": "2025-10-13",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: ELBOW"
-    },
-    {
-        "date": "2025-10-13",
-        "venue": "ROSELAND THEATER",
-        "title": "BABYTRON *RESCHEDULED DATE*"
-    },
-    {
-        "date": "2025-10-13",
-        "venue": "WONDER BALLROOM",
-        "title": "TY SEGALL"
-    },
-    {
-        "date": "2025-10-14",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "ODETARI – VARIA 0.5 – NORTH AMERICA TOUR"
-    },
-    {
-        "date": "2025-10-14",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "RIVAL SCHOOLS / NARROW HEAD"
-    },
-    {
-        "date": "2025-10-14",
-        "venue": "POLARIS HALL",
-        "title": "FAR CASPIAN"
-    },
-    {
-        "date": "2025-10-14",
-        "venue": "REVOLUTION HALL",
-        "title": "PENNY & SPARROW"
-    },
-    {
-        "date": "2025-10-14",
-        "venue": "STAR THEATER",
-        "title": "IAMX – FAULT LINES 2 NORTH AMERICAN TOUR"
-    },
-    {
-        "date": "2025-10-15",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "THE BETA BAND"
-    },
-    {
-        "date": "2025-10-15",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "ALLAN RAYMAN – LIVE IN CONCERT 2025"
-    },
-    {
-        "date": "2025-10-15",
-        "venue": "HOLOCENE",
-        "title": "MICHAEL MINELLI – 21+"
-    },
-    {
-        "date": "2025-10-15",
-        "venue": "REVOLUTION HALL",
-        "title": "CG5 PRESENTS: THE TOO MANY SONGS TOUR"
-    },
-    {
-        "date": "2025-10-15",
-        "venue": "STAR THEATER",
-        "title": "DAVID LIEBE HART"
-    },
-    {
-        "date": "2025-10-15",
-        "venue": "WONDER BALLROOM",
-        "title": "DURRY – YOUR FRIEND FROM THE REAL WORLD TOUR"
-    },
-    {
-        "date": "2025-10-16",
-        "venue": "ALADDIN THEATER",
-        "title": "OLIVER HAZARD & THE LAST REVEL: HEAD WEST"
-    },
-    {
-        "date": "2025-10-16",
-        "venue": "HOLOCENE",
-        "title": "KUMO 99 – FALL TOUR 2025 – ALL AGES"
-    },
-    {
-        "date": "2025-10-16",
-        "venue": "MCMENAMINS MISSION THEATER",
-        "title": "LAYTO"
-    },
-    {
-        "date": "2025-10-16",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "KASSI VALAZZA"
-    },
-    {
-        "date": "2025-10-16",
-        "venue": "POLARIS HALL",
-        "title": "LAMP FT RUSS LAWTON, SCOTT METZGER, RAY PACZKOWSKI"
-    },
-    {
-        "date": "2025-10-16",
-        "venue": "REVOLUTION HALL",
-        "title": "COLIN HAY"
-    },
-    {
-        "date": "2025-10-16",
-        "venue": "STAR THEATER",
-        "title": "ASPHYX WITH WITCH VOMIT AND PETRIFICATION"
-    },
-    {
-        "date": "2025-10-17",
-        "venue": "ALADDIN THEATER",
-        "title": "PETE CORREALE: AS I WAS SAYING"
-    },
-    {
-        "date": "2025-10-17",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "THE WOMBATS"
-    },
-    {
-        "date": "2025-10-17",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "HAND HABITS"
-    },
-    {
-        "date": "2025-10-17",
-        "venue": "REVOLUTION HALL",
-        "title": "PURITY RING - PLACE OF MY OWN TOUR"
-    },
-    {
-        "date": "2025-10-17",
-        "venue": "ROSELAND THEATER",
-        "title": "MOLLY TUTTLE"
-    },
-    {
-        "date": "2025-10-17",
-        "venue": "WONDER BALLROOM",
-        "title": "JEREMY ZUCKER – WELCOME TO THE GARDEN STATE TOUR"
-    },
-    {
-        "date": "2025-10-18",
-        "venue": "ALADDIN THEATER",
-        "title": "HILLSTOMP - FINAL SHOW"
-    },
-    {
-        "date": "2025-10-18",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "STRUNG OUT AND AGNOSTIC FRONT: EAST MEETS WEST TOUR 2025"
-    },
-    {
-        "date": "2025-10-18",
-        "venue": "HOLOCENE",
-        "title": "AIDAN BISSETT – SHUT UP AND LOVE ME TOUR"
-    },
-    {
-        "date": "2025-10-18",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SUPERCHUNK (NIGHT 1)"
-    },
-    {
-        "date": "2025-10-18",
-        "venue": "MONQUI PRESENTS",
-        "title": "AIDAN BISSETT"
-    },
-    {
-        "date": "2025-10-18",
-        "venue": "REVOLUTION HALL",
-        "title": "NOEL MILLER: LIVE!"
-    },
-    {
-        "date": "2025-10-18",
-        "venue": "STAR THEATER",
-        "title": "THE THIRD ANNUAL: WITCHES BALL OF THE WEST MMXXV"
-    },
-    {
-        "date": "2025-10-18",
-        "venue": "WONDER BALLROOM",
-        "title": "EARTHLESS"
-    },
-    {
-        "date": "2025-10-19",
-        "venue": "ALADDIN THEATER",
-        "title": "SAM BUSH"
-    },
-    {
-        "date": "2025-10-19",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "STEREOLAB"
-    },
-    {
-        "date": "2025-10-19",
-        "venue": "HOLOCENE",
-        "title": "NOAH FLOERSCH: SOMETHIN’ BOUT A TOUR – W/ KENZIE CAIT – ALL AGES"
-    },
-    {
-        "date": "2025-10-19",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SUPERCHUNK (NIGHT 2)"
-    },
-    {
-        "date": "2025-10-19",
-        "venue": "POLARIS HALL",
-        "title": "BOYISH - THE GUN SHOW"
-    },
-    {
-        "date": "2025-10-19",
-        "venue": "REVOLUTION HALL",
-        "title": "HAZLETT"
-    },
-    {
-        "date": "2025-10-19",
-        "venue": "ROSELAND THEATER",
-        "title": "CAUTIOUS CLAY *CANCELED*"
-    },
-    {
-        "date": "2025-10-19",
-        "venue": "WONDER BALLROOM",
-        "title": "FRANKIE COSMOS"
-    },
-    {
-        "date": "2025-10-20",
-        "venue": "ALADDIN THEATER",
-        "title": "ALI SETHI NORTH AMERICAN TOUR"
-    },
-    {
-        "date": "2025-10-20",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "MAX McNOWN - JACK WHARFF BAND"
-    },
-    {
-        "date": "2025-10-20",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "GBH"
-    },
-    {
-        "date": "2025-10-20",
-        "venue": "HOLOCENE",
-        "title": "DISINIBLUD – W/ PATRICIA WOLF –  21+"
-    },
-    {
-        "date": "2025-10-20",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "ANGELA AUTUMN"
-    },
-    {
-        "date": "2025-10-20",
-        "venue": "POLARIS HALL",
-        "title": "SLATER"
-    },
-    {
-        "date": "2025-10-20",
-        "venue": "REVOLUTION HALL",
-        "title": "PINBACK"
-    },
-    {
-        "date": "2025-10-20",
-        "venue": "ROSELAND THEATER",
-        "title": "YUNG GRAVY: VOLUPTUOUS VOYAGE TOUR"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "ALADDIN THEATER",
-        "title": "THE PORTLAND GRANDSLAM"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "GARBAGE - STARCRAWLER"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "PETE & BAS"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "HOLOCENE",
-        "title": "BO STALOCH – THE GARDEN TOUR"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SOLD OUT: ROB ANDERSON: ARE YOU AFRAID OF THE '90s (EARLY SHOW)"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SOLD OUT: ROB ANDERSON: ARE YOU AFRAID OF THE '90s (LATE SHOW)"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "MONQUI PRESENTS",
-        "title": "BO STALOCH"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "REVOLUTION HALL",
-        "title": "M. WARD WITH THE OREGON SYMPHONY"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "ROSELAND THEATER",
-        "title": "XAVIER WULF"
-    },
-    {
-        "date": "2025-10-21",
-        "venue": "SHOW BAR",
-        "title": "GOON - DREAM 3 TOUR"
-    },
-    {
-        "date": "2025-10-22",
-        "venue": "HOLOCENE",
-        "title": "VOILÀ PRESENTS “THE MAGIC WORD TOUR”  – ALL AGES!"
-    },
-    {
-        "date": "2025-10-22",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "NOLAN TAYLOR"
-    },
-    {
-        "date": "2025-10-22",
-        "venue": "POLARIS HALL",
-        "title": "THE STEEL WHEELS"
-    },
-    {
-        "date": "2025-10-22",
-        "venue": "REVOLUTION HALL",
-        "title": "RACHAEL & VILRAY"
-    },
-    {
-        "date": "2025-10-22",
-        "venue": "SHOW BAR",
-        "title": "WEDNESDAY NIGHT SPECIAL: SAM MILLER"
-    },
-    {
-        "date": "2025-10-22",
-        "venue": "STAR THEATER",
-        "title": "THE METEORS WITH HIDEOUS MONSTER"
-    },
-    {
-        "date": "2025-10-23",
-        "venue": "ALADDIN THEATER",
-        "title": "RORY SCOVEL: KNOW YOUR ENEMY TOUR"
-    },
-    {
-        "date": "2025-10-23",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "GRANDSON"
-    },
-    {
-        "date": "2025-10-23",
-        "venue": "HOLOCENE",
-        "title": "ARI ABDUL – CHANGE TOUR"
-    },
-    {
-        "date": "2025-10-23",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "GUY BRANUM: BE FRUITFUL"
-    },
-    {
-        "date": "2025-10-23",
-        "venue": "MONQUI PRESENTS",
-        "title": "ARI ABDUL"
-    },
-    {
-        "date": "2025-10-23",
-        "venue": "POLARIS HALL",
-        "title": "MICHAEL YO: ISSA TRUUUE TOUR!"
-    },
-    {
-        "date": "2025-10-23",
-        "venue": "REVOLUTION HALL",
-        "title": "THE TALLEST MAN ON EARTH"
-    },
-    {
-        "date": "2025-10-23",
-        "venue": "ROSELAND THEATER",
-        "title": "CHOIR! CHOIR! CHOIR! PRESENTS: WE WILL CHOIR! YOU"
-    },
-    {
-        "date": "2025-10-24",
-        "venue": "ALADDIN THEATER",
-        "title": "DESTROYER: DAN’S BOOGIE TOUR"
-    },
-    {
-        "date": "2025-10-24",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "90s HALLOWEEN COSTUME GLOW BALL"
-    },
-    {
-        "date": "2025-10-24",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "SATURDAYS AT YOUR PLACE – THESE THINGS HAPPEN TOUR"
-    },
-    {
-        "date": "2025-10-24",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "WILL BURKART"
-    },
-    {
-        "date": "2025-10-24",
-        "venue": "POLARIS HALL",
-        "title": "VIA MARDOT"
-    },
-    {
-        "date": "2025-10-24",
-        "venue": "ROSELAND THEATER",
-        "title": "IT’S MURPH: THROUGH MY SYSTEM TOUR"
-    },
-    {
-        "date": "2025-10-24",
-        "venue": "STAR THEATER",
-        "title": "SHONEN KNIFE"
-    },
-    {
-        "date": "2025-10-25",
-        "venue": "HAWTHORNE THEATRE",
-        "title": "THE HAUNTED HOUSE TOUR"
-    },
-    {
-        "date": "2025-10-25",
-        "venue": "HOLOCENE",
-        "title": "HALLOWEEN AT THE BRONZE!: BUFFY THE VAMPIRE SLAYER TRIBUTE EVENT W/ LIVE COVER BANDS + DJ COLIN JONES – 21+"
-    },
-    {
-        "date": "2025-10-25",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "MIKI BERENYI TRIO NORTH AMERICAN TOUR 2025"
-    },
-    {
-        "date": "2025-10-25",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: MURDER BY DEATH - FAREWELL TOUR (NIGHT 1)"
-    },
-    {
-        "date": "2025-10-25",
-        "venue": "ROSELAND THEATER",
-        "title": "SOMBR"
-    },
-    {
-        "date": "2025-10-25",
-        "venue": "STAR THEATER",
-        "title": "PANOPTICON WITH FALLS OF RAUROS, EXULANSIS AND ALDA"
-    },
-    {
-        "date": "2025-10-25",
-        "venue": "WONDER BALLROOM",
-        "title": "KNEECAP"
-    },
-    {
-        "date": "2025-10-26",
-        "venue": "ALADDIN THEATER",
-        "title": "NOGA EREZ – THE VANDALIST TOUR (EARLY SHOW)"
-    },
-    {
-        "date": "2025-10-26",
-        "venue": "ALADDIN THEATER",
-        "title": "SOLD OUT: NOGA EREZ – THE VANDALIST TOUR"
-    },
-    {
-        "date": "2025-10-26",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "STEPHEN WILSON JR."
-    },
-    {
-        "date": "2025-10-26",
-        "venue": "HOLOCENE",
-        "title": "THE CLOTHESHORSE PODCAST – 21+"
-    },
-    {
-        "date": "2025-10-26",
-        "venue": "POLARIS HALL",
-        "title": "RIO ROMEO - GOOD GRIEF! TOUR"
-    },
-    {
-        "date": "2025-10-26",
-        "venue": "REVOLUTION HALL",
-        "title": "MURDER BY DEATH - FAREWELL TOUR (NIGHT 2)"
-    },
-    {
-        "date": "2025-10-26",
-        "venue": "ROSELAND THEATER",
-        "title": "EVIL DEAD IN CONCERT"
-    },
-    {
-        "date": "2025-10-26",
-        "venue": "WONDER BALLROOM",
-        "title": "GEESE – THE GETTING KILLED TOUR"
-    },
-    {
-        "date": "2025-10-27",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "DURAND JONES & THE INDICATIONS"
-    },
-    {
-        "date": "2025-10-27",
-        "venue": "HOLOCENE",
-        "title": "FROST CHILDREN"
-    },
-    {
-        "date": "2025-10-27",
-        "venue": "MONQUI PRESENTS",
-        "title": "FROST CHILDREN"
-    },
-    {
-        "date": "2025-10-27",
-        "venue": "POLARIS HALL",
-        "title": "PINKSHIFT"
-    },
-    {
-        "date": "2025-10-27",
-        "venue": "WONDER BALLROOM",
-        "title": "6ARELYHUMAN"
-    },
-    {
-        "date": "2025-10-28",
-        "venue": "ALADDIN THEATER",
-        "title": "WILLI CARLISLE - WINGED VICTORY TOUR"
-    },
-    {
-        "date": "2025-10-28",
-        "venue": "HOLOCENE",
-        "title": "MADI GAINES (ALBUM RELEASE SHOW!), MYRIADS, FOUND SPACE – 21+"
-    },
-    {
-        "date": "2025-10-28",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "ACTION/ADVENTURE - THE EVER AFTER TOUR"
-    },
-    {
-        "date": "2025-10-28",
-        "venue": "POLARIS HALL",
-        "title": "QUINNIE - THE PAPER DOLL TOUR"
-    },
-    {
-        "date": "2025-10-28",
-        "venue": "ROSELAND THEATER",
-        "title": "THE LIVING TOMBSTONE"
-    },
-    {
-        "date": "2025-10-29",
-        "venue": "HOLOCENE",
-        "title": "MIDWXST: ARCHANGEL TOUR – ALL AGES!"
-    },
-    {
-        "date": "2025-10-29",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "NIIS WITH SPECIAL GUESTS, TBA"
-    },
-    {
-        "date": "2025-10-29",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "HAYDEN PEDIGO"
-    },
-    {
-        "date": "2025-10-29",
-        "venue": "POLARIS HALL",
-        "title": "SOUTH ARCADE"
-    },
-    {
-        "date": "2025-10-29",
-        "venue": "REVOLUTION HALL",
-        "title": "DESTIN CONRAD - LOVE ON DIGITAL TOUR"
-    },
-    {
-        "date": "2025-10-29",
-        "venue": "WONDER BALLROOM",
-        "title": "NIGHT MOVES"
-    },
-    {
-        "date": "2025-10-30",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "LEISURE"
-    },
-    {
-        "date": "2025-10-30",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "OGRE WITH ZOOKRAUGHT + KEROSEL "
-    },
-    {
-        "date": "2025-10-30",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "THE REGULAR SKETCH SHOW"
-    },
-    {
-        "date": "2025-10-30",
-        "venue": "POLARIS HALL",
-        "title": "TORS"
-    },
-    {
-        "date": "2025-10-31",
-        "venue": "ALADDIN THEATER",
-        "title": "GLITTERFOX W/ AC SAPPHIRE & THE SHOULDER PADS"
-    },
-    {
-        "date": "2025-10-31",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "FLOATER"
-    },
-    {
-        "date": "2025-10-31",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "WATER FROM YOUR EYES"
-    },
-    {
-        "date": "2025-10-31",
-        "venue": "REVOLUTION HALL",
-        "title": "80s + 90s VIDEO DANCE ATTACK HALLOWEEN PARTY"
-    },
-    {
-        "date": "2025-10-31",
-        "venue": "STAR THEATER",
-        "title": "BUTTTOOTKING – LYDIA KOLLINS, SUZIE TOOT + KORI KING FROM RUPAUL'S DRAG RACE"
-    },
-    {
-        "date": "2025-11-01",
-        "venue": "ALADDIN THEATER",
-        "title": "SHINTARO SAKAMOTO"
-    },
-    {
-        "date": "2025-11-01",
-        "venue": "HOLOCENE",
-        "title": "HAUTE & FREDDY"
-    },
-    {
-        "date": "2025-11-01",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "MOTHERFOLK"
-    },
-    {
-        "date": "2025-11-01",
-        "venue": "MONQUI PRESENTS",
-        "title": "HAUTE & FREDDY"
-    },
-    {
-        "date": "2025-11-01",
-        "venue": "REVOLUTION HALL",
-        "title": "OFF BOOK – THE IMPROVISED MUSICAL"
-    },
-    {
-        "date": "2025-11-01",
-        "venue": "ROSELAND THEATER",
-        "title": "DIJON"
-    },
-    {
-        "date": "2025-11-01",
-        "venue": "WONDER BALLROOM",
-        "title": "EDEN – DARK TOUR"
-    },
-    {
-        "date": "2025-11-02",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "SIR CHLOE - VENUS & THE FLYTRAPS"
-    },
-    {
-        "date": "2025-11-02",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "MOON PANDA AND GUESTS "
-    },
-    {
-        "date": "2025-11-02",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "FLORRY W/ SPECIAL GUEST DARI BAY"
-    },
-    {
-        "date": "2025-11-02",
-        "venue": "ROSELAND THEATER",
-        "title": "JOEY BADA$$ – DARK AURA TOUR"
-    },
-    {
-        "date": "2025-11-02",
-        "venue": "WONDER BALLROOM",
-        "title": "THE NEW MASTERSOUNDS – TA-TA FOR NOW TOUR"
-    },
-    {
-        "date": "2025-11-03",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "LOVEJOY"
-    },
-    {
-        "date": "2025-11-03",
-        "venue": "POLARIS HALL",
-        "title": "BARDO"
-    },
-    {
-        "date": "2025-11-03",
-        "venue": "ROSELAND THEATER",
-        "title": "PETEY USA"
-    },
-    {
-        "date": "2025-11-04",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "THE OH HELLOS"
-    },
-    {
-        "date": "2025-11-04",
-        "venue": "HOLOCENE",
-        "title": "FELLY"
-    },
-    {
-        "date": "2025-11-04",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "THE DREAM SYNDICATE: PERFORMING MEDICINE SHOW IN ITS ENTIRETY...AND MORE."
-    },
-    {
-        "date": "2025-11-04",
-        "venue": "MONQUI PRESENTS",
-        "title": "FELLY"
-    },
-    {
-        "date": "2025-11-04",
-        "venue": "REVOLUTION HALL",
-        "title": "PIXEL GRIP"
-    },
-    {
-        "date": "2025-11-04",
-        "venue": "ROSELAND THEATER",
-        "title": "PSYCHEDELIC PORN CRUMPETS"
-    },
-    {
-        "date": "2025-11-05",
-        "venue": "ALADDIN THEATER",
-        "title": "CLAUDIO SIMONETTI'S GOBLIN - THE 50TH ANNIVERSARY TOUR"
-    },
-    {
-        "date": "2025-11-05",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "BLADEE"
-    },
-    {
-        "date": "2025-11-05",
-        "venue": "POLARIS HALL",
-        "title": "BORN RUFFIANS"
-    },
-    {
-        "date": "2025-11-05",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: THE HOME TEAM THE CRUCIBLE OF LIFE TOUR"
-    },
-    {
-        "date": "2025-11-05",
-        "venue": "ROSELAND THEATER",
-        "title": "THE FAINT"
-    },
-    {
-        "date": "2025-11-05",
-        "venue": "SHOW BAR",
-        "title": "DILES QUE NO ME MATEN"
-    },
-    {
-        "date": "2025-11-05",
-        "venue": "STAR THEATER",
-        "title": "SUBHUMANS WITH 1876 & GUEST"
-    },
-    {
-        "date": "2025-11-05",
-        "venue": "WONDER BALLROOM",
-        "title": "BLONDSHELL"
-    },
-    {
-        "date": "2025-11-06",
-        "venue": "ALADDIN THEATER",
-        "title": "ZACHARIAH PORTER: THE BIG BACK BEHAVIOR TOUR"
-    },
-    {
-        "date": "2025-11-06",
-        "venue": "HOLOCENE",
-        "title": "CLAIRE ROUSAY PRESENTS A LITTLE DEATH –  21+"
-    },
-    {
-        "date": "2025-11-06",
-        "venue": "POLARIS HALL",
-        "title": "TRIATHALON"
-    },
-    {
-        "date": "2025-11-06",
-        "venue": "REVOLUTION HALL",
-        "title": "PORTUGAL. THE MAN – THE DENALI TOUR (NIGHT 1)"
-    },
-    {
-        "date": "2025-11-06",
-        "venue": "ROSELAND THEATER",
-        "title": "FREDDIE GIBBS – ALFREDO II TOUR"
-    },
-    {
-        "date": "2025-11-07",
-        "venue": "ALADDIN THEATER",
-        "title": "PATTERSON HOOD + CRAIG FINN"
-    },
-    {
-        "date": "2025-11-07",
-        "venue": "POLARIS HALL",
-        "title": "WHITMER THOMAS"
-    },
-    {
-        "date": "2025-11-07",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: PORTUGAL. THE MAN – THE DENALI TOUR (NIGHT 2)"
-    },
-    {
-        "date": "2025-11-07",
-        "venue": "ROSELAND THEATER",
-        "title": "THE KNOCKOUT TOUR: VIOLET VS GOTTMIK"
-    },
-    {
-        "date": "2025-11-07",
-        "venue": "STAR THEATER",
-        "title": "SHUDDER TO THINK"
-    },
-    {
-        "date": "2025-11-07",
-        "venue": "WONDER BALLROOM",
-        "title": "MARGO PRICE – WILD AT HEART TOUR"
-    },
-    {
-        "date": "2025-11-08",
-        "venue": "ALADDIN THEATER",
-        "title": "CHRIS DISTEFANO"
-    },
-    {
-        "date": "2025-11-08",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "NOSO"
-    },
-    {
-        "date": "2025-11-08",
-        "venue": "POLARIS HALL",
-        "title": "INFINITY SONG WORLD TOUR II"
-    },
-    {
-        "date": "2025-11-08",
-        "venue": "REVOLUTION HALL",
-        "title": "THE SAINTS ’73-’78"
-    },
-    {
-        "date": "2025-11-08",
-        "venue": "STAR THEATER",
-        "title": "GOBLIN (MAURIZIO GUARINI AND WALTER MARTINO) WITH NEST"
-    },
-    {
-        "date": "2025-11-08",
-        "venue": "WONDER BALLROOM",
-        "title": "MARLON FUNAKI"
-    },
-    {
-        "date": "2025-11-09",
-        "venue": "LOLLIPOP SHOPPE",
-        "title": "NO JOY WITH SHAKI TAVI + GUESTS"
-    },
-    {
-        "date": "2025-11-09",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SURF HAT"
-    },
-    {
-        "date": "2025-11-09",
-        "venue": "REVOLUTION HALL",
-        "title": "MARIAM (OF AMADOU & MARIAM) - L’AMOUR À LA FOLIE"
-    },
-    {
-        "date": "2025-11-09",
-        "venue": "WONDER BALLROOM",
-        "title": "MIDNIGHT TIL MORNING"
-    },
-    {
-        "date": "2025-11-10",
-        "venue": "ALADDIN THEATER",
-        "title": "BAR ITALIA"
-    },
-    {
-        "date": "2025-11-10",
-        "venue": "REVOLUTION HALL",
-        "title": "TEACHER SHOW: COMEDY FROM THE CLASSROOM"
-    },
-    {
-        "date": "2025-11-11",
-        "venue": "ALADDIN THEATER",
-        "title": "LADY WRAY"
-    },
-    {
-        "date": "2025-11-11",
-        "venue": "HOLOCENE",
-        "title": "ELENI DRAKE – ALL AGES!"
-    },
-    {
-        "date": "2025-11-11",
-        "venue": "POLARIS HALL",
-        "title": "SMALLPOOLS – LOVETAP! 10TH ANNIVERSARY TOUR"
-    },
-    {
-        "date": "2025-11-11",
-        "venue": "REVOLUTION HALL",
-        "title": "TODD SNIDER BAND"
-    },
-    {
-        "date": "2025-11-11",
-        "venue": "ROSELAND THEATER",
-        "title": "AVATAR – IN THE AIRWAVES – USA 2025"
-    },
-    {
-        "date": "2025-11-11",
-        "venue": "WONDER BALLROOM",
-        "title": "CUT COPY"
-    },
-    {
-        "date": "2025-11-12",
-        "venue": "HOLOCENE",
-        "title": "BRÌGHDE CHAIMBEUL W/ MARISA ANDERSON – 21+"
-    },
-    {
-        "date": "2025-11-12",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "AN EVENING WITH CAROLINE ROSE"
-    },
-    {
-        "date": "2025-11-12",
-        "venue": "POLARIS HALL",
-        "title": "TRSH"
-    },
-    {
-        "date": "2025-11-12",
-        "venue": "REVOLUTION HALL",
-        "title": "KNOWER"
-    },
-    {
-        "date": "2025-11-12",
-        "venue": "SHOW BAR",
-        "title": "NUCLEAR DAISIES"
-    },
-    {
-        "date": "2025-11-12",
-        "venue": "WONDER BALLROOM",
-        "title": "SOFIA ISELLA"
-    },
-    {
-        "date": "2025-11-13",
-        "venue": "ALADDIN THEATER",
-        "title": "JIM NORTON: NOW YOU KNOW"
-    },
-    {
-        "date": "2025-11-13",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "RAEKWON & MOBB DEEP"
-    },
-    {
-        "date": "2025-11-13",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "AMYTHYST KIAH"
-    },
-    {
-        "date": "2025-11-13",
-        "venue": "POLARIS HALL",
-        "title": "GRANT-LEE PHILLIPS"
-    },
-    {
-        "date": "2025-11-13",
-        "venue": "REVOLUTION HALL",
-        "title": "NURSE BLAKE: BUT DID YOU DIE? COMEDY TOUR"
-    },
-    {
-        "date": "2025-11-14",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "THE BETHS"
-    },
-    {
-        "date": "2025-11-14",
-        "venue": "HOLOCENE",
-        "title": "YAELOKRE – EARLY SHOW – ALL AGES!"
-    },
-    {
-        "date": "2025-11-14",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "MADI DIAZ - THE FATAL OPTIMIST TOUR"
-    },
-    {
-        "date": "2025-11-14",
-        "venue": "POLARIS HALL",
-        "title": "TOLEDO"
-    },
-    {
-        "date": "2025-11-14",
-        "venue": "REVOLUTION HALL",
-        "title": "LUCAS ZELNICK"
-    },
-    {
-        "date": "2025-11-15",
-        "venue": "ALADDIN THEATER",
-        "title": "J-FELL PRESENTS RAMBLE ON (LED ZEPPELIN TRIBUTE) & WHO'S NEXT (THE WHO)"
-    },
-    {
-        "date": "2025-11-15",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "RICHY MITCH & THE COAL MINERS"
-    },
-    {
-        "date": "2025-11-15",
-        "venue": "HOLOCENE",
-        "title": "SEAN NICHOLAS SAVAGE – EARLY SHOW! – 21+"
-    },
-    {
-        "date": "2025-11-15",
-        "venue": "POLARIS HALL",
-        "title": "THE STEWS"
-    },
-    {
-        "date": "2025-11-15",
-        "venue": "REVOLUTION HALL",
-        "title": "THE CALIFORNIA HONEYDROPS - REDWOOD HIGHWAY TOUR"
-    },
-    {
-        "date": "2025-11-15",
-        "venue": "ROSELAND THEATER",
-        "title": "NEKO CASE FALL TOUR 2025"
-    },
-    {
-        "date": "2025-11-15",
-        "venue": "STAR THEATER",
-        "title": "YUNG BAE"
-    },
-    {
-        "date": "2025-11-15",
-        "venue": "WONDER BALLROOM",
-        "title": "HANNAH BAHNG: THE MISUNDERSTOOD WORLD TOUR"
-    },
-    {
-        "date": "2025-11-16",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "THE 502s EASY STREET TOUR"
-    },
-    {
-        "date": "2025-11-16",
-        "venue": "HOLOCENE",
-        "title": "CLARISSA CONNELLY, DUSTIN WONG, JULIUS SMACK – 21+"
-    },
-    {
-        "date": "2025-11-16",
-        "venue": "REVOLUTION HALL",
-        "title": "BORIS - PINK 20TH ANNIVERSARY TOUR 2025"
-    },
-    {
-        "date": "2025-11-16",
-        "venue": "ROSELAND THEATER",
-        "title": "NEKO CASE FALL TOUR 2025"
-    },
-    {
-        "date": "2025-11-17",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "YOUR SMITH - THE RUB TOUR '25"
-    },
-    {
-        "date": "2025-11-17",
-        "venue": "REVOLUTION HALL",
-        "title": "THE DARKNESS: DREAMS ON TOAST"
-    },
-    {
-        "date": "2025-11-17",
-        "venue": "ROSELAND THEATER",
-        "title": "KING PRINCESS"
-    },
-    {
-        "date": "2025-11-18",
-        "venue": "HOLOCENE",
-        "title": "MELTT – ALL AGES!"
-    },
-    {
-        "date": "2025-11-18",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "KERALA DUST"
-    },
-    {
-        "date": "2025-11-18",
-        "venue": "POLARIS HALL",
-        "title": "THUNDERPUSSY WITH SPECIAL GUEST HIPPIE DEATH CULT"
-    },
-    {
-        "date": "2025-11-18",
-        "venue": "REVOLUTION HALL",
-        "title": "THE BRIAN JONESTOWN MASSACRE"
-    },
-    {
-        "date": "2025-11-18",
-        "venue": "WONDER BALLROOM",
-        "title": "LUCIUS"
-    },
-    {
-        "date": "2025-11-19",
-        "venue": "ALADDIN THEATER",
-        "title": "GOGO PENGUIN"
-    },
-    {
-        "date": "2025-11-19",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "LENNY PEARCE’S USA TODDLER TECHNO TOUR – PART 2"
-    },
-    {
-        "date": "2025-11-19",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "AGRICULTURE - SPIRITUAL SOUND TOUR"
-    },
-    {
-        "date": "2025-11-19",
-        "venue": "POLARIS HALL",
-        "title": "ROCKET"
-    },
-    {
-        "date": "2025-11-19",
-        "venue": "REVOLUTION HALL",
-        "title": "THE HAPPY FITS"
-    },
-    {
-        "date": "2025-11-19",
-        "venue": "ROSELAND THEATER",
-        "title": "THRICE"
-    },
-    {
-        "date": "2025-11-19",
-        "venue": "SHOW BAR",
-        "title": "FOLK BITCH TRIO"
-    },
-    {
-        "date": "2025-11-19",
-        "venue": "THE OLD CHURCH",
-        "title": "OVER THE RHINE"
-    },
-    {
-        "date": "2025-11-20",
-        "venue": "ALADDIN THEATER",
-        "title": "BRENT COBB & THE FIXIN’S - THE AIN'T ROCKED IN A WHILE TOUR"
-    },
-    {
-        "date": "2025-11-20",
-        "venue": "HOLOCENE",
-        "title": "MOLLY GRACE"
-    },
-    {
-        "date": "2025-11-20",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "GANAVYA"
-    },
-    {
-        "date": "2025-11-20",
-        "venue": "MONQUI PRESENTS",
-        "title": "MOLLY GRACE"
-    },
-    {
-        "date": "2025-11-20",
-        "venue": "ROSELAND THEATER",
-        "title": "LOATHE: NORTH AMERICAN TOUR 2025"
-    },
-    {
-        "date": "2025-11-21",
-        "venue": "ALADDIN THEATER",
-        "title": "JOSHUA RADIN"
-    },
-    {
-        "date": "2025-11-21",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "PERRITOS"
-    },
-    {
-        "date": "2025-11-21",
-        "venue": "POLARIS HALL",
-        "title": "ROBBIE FULKS"
-    },
-    {
-        "date": "2025-11-21",
-        "venue": "REVOLUTION HALL",
-        "title": "SOLD OUT: THE MARS VOLTA"
-    },
-    {
-        "date": "2025-11-21",
-        "venue": "ROSELAND THEATER",
-        "title": "ANDREW CALLAGHAN – ALL GAS NO BRAKES X CHANNEL 5 “CARNIVAL”"
-    },
-    {
-        "date": "2025-11-21",
-        "venue": "STAR THEATER",
-        "title": "KOTTONMOUTH KINGS"
-    },
-    {
-        "date": "2025-11-21",
-        "venue": "WONDER BALLROOM",
-        "title": "THE BROTHERS COMATOSE"
-    },
-    {
-        "date": "2025-11-22",
-        "venue": "ALADDIN THEATER",
-        "title": "NICK MULVEY: DARK HARVEST WORLD TOUR"
-    },
-    {
-        "date": "2025-11-22",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "HOT MULLIGAN"
-    },
-    {
-        "date": "2025-11-22",
-        "venue": "HOLOCENE",
-        "title": "RACHEL GRAE – TURNED INTO ME TOUR – EARLY SHOW – ALL AGES!"
-    },
-    {
-        "date": "2025-11-22",
-        "venue": "HOLOCENE",
-        "title": "FLEETMAC WOOD PRESENT CHIFFON DREAMS – 21+"
-    },
-    {
-        "date": "2025-11-22",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "JMSN"
-    },
-    {
-        "date": "2025-11-22",
-        "venue": "REVOLUTION HALL",
-        "title": "STEVE HACKETT: GENESIS GREATS, LAMB HIGHLIGHTS & SOLO"
-    },
-    {
-        "date": "2025-11-22",
-        "venue": "WONDER BALLROOM",
-        "title": "LEITH ROSS"
-    },
-    {
-        "date": "2025-11-23",
-        "venue": "ALADDIN THEATER",
-        "title": "SAMANTHA FISH - PAPER DOLL WORLD TOUR"
-    },
-    {
-        "date": "2025-11-23",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "TEI SHI"
-    },
-    {
-        "date": "2025-11-23",
-        "venue": "POLARIS HALL",
-        "title": "LAURA STEVENSON"
-    },
-    {
-        "date": "2025-11-23",
-        "venue": "REVOLUTION HALL",
-        "title": "THOMAS DOLBY: THE ICONIC 80’S MY PERSONAL RECOLLECTIONS"
-    },
-    {
-        "date": "2025-11-24",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "THE DESLONDES"
-    },
-    {
-        "date": "2025-11-25",
-        "venue": "POLARIS HALL",
-        "title": "MARK WILLIAM LEWIS"
-    },
-    {
-        "date": "2025-11-26",
-        "venue": "ALADDIN THEATER",
-        "title": "TAYLOR ACORN"
-    },
-    {
-        "date": "2025-11-28",
-        "venue": "REVOLUTION HALL",
-        "title": "BUILT TO SPILL (NIGHT 1)"
-    },
-    {
-        "date": "2025-11-28",
-        "venue": "ROSELAND THEATER",
-        "title": "HOW THE GROUCH STOLE CHRISTMAS TOUR: LIVING LEGENDS"
-    },
-    {
-        "date": "2025-11-28",
-        "venue": "WONDER BALLROOM",
-        "title": "CUMBIATRON"
-    },
-    {
-        "date": "2025-11-29",
-        "venue": "HOLOCENE",
-        "title": "ANNA OF THE NORTH – EARLY SHOW – ALL AGES!"
-    },
-    {
-        "date": "2025-11-29",
-        "venue": "REVOLUTION HALL",
-        "title": "BUILT TO SPILL (NIGHT 2)"
-    },
-    {
-        "date": "2025-11-29",
-        "venue": "ROSELAND THEATER",
-        "title": "SILVERSTEIN: 25 YEARS OF NOISE"
-    },
-    {
-        "date": "2025-11-29",
-        "venue": "WONDER BALLROOM",
-        "title": "J-FELL AND NITE WAVE PRESENT: THE CURE, DEPECHE MODE & NEW ORDER TRIBUTE NIGHT"
-    },
-    {
-        "date": "2025-11-30",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "YVETTE SEGAN AND HER GUY FRIENDS"
-    },
-    {
-        "date": "2025-12-01",
-        "venue": "ALADDIN THEATER",
-        "title": "A JOHN WATERS CHRISTMAS"
-    },
-    {
-        "date": "2025-12-01",
-        "venue": "STAR THEATER",
-        "title": "STICK MEN FT. TONY LEVIN, PAT MASTELOTTO AND MARKUS REUTER"
-    },
-    {
-        "date": "2025-12-02",
-        "venue": "ALADDIN THEATER",
-        "title": "JENS LEKMAN - SONGS FOR OTHER PEOPLE’S WEDDINGS TOUR"
-    },
-    {
-        "date": "2025-12-02",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "FLOCK OF DIMES"
-    },
-    {
-        "date": "2025-12-02",
-        "venue": "REVOLUTION HALL",
-        "title": "LOVE DAWN 2025 SF9 LIVE FANTASY #5 IN PORTLAND"
-    },
-    {
-        "date": "2025-12-02",
-        "venue": "ROSELAND THEATER",
-        "title": "FLOW WORLD TOUR 2025 – NARUTO THE ROCK"
-    },
-    {
-        "date": "2025-12-03",
-        "venue": "HOLOCENE",
-        "title": "SAFE MIND  – 21+"
-    },
-    {
-        "date": "2025-12-03",
-        "venue": "REVOLUTION HALL",
-        "title": "HOME FREE: LET ME COME HOME TOUR"
-    },
-    {
-        "date": "2025-12-03",
-        "venue": "ROSELAND THEATER",
-        "title": "SAY ANYTHING & MOTION CITY SOUNDTRACK"
-    },
-    {
-        "date": "2025-12-04",
-        "venue": "ALADDIN THEATER",
-        "title": "MOHANAD ELSHIEKY"
-    },
-    {
-        "date": "2025-12-04",
-        "venue": "REVOLUTION HALL",
-        "title": "SYML"
-    },
-    {
-        "date": "2025-12-04",
-        "venue": "WONDER BALLROOM",
-        "title": "VIOLENT VIRA"
-    },
-    {
-        "date": "2025-12-05",
-        "venue": "ALADDIN THEATER",
-        "title": "ALI SIDDIQ: IN THE SHADOWS"
-    },
-    {
-        "date": "2025-12-05",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "VINCENT LIMA - TO LOVE A THING THAT FADES 2025 TOUR"
-    },
-    {
-        "date": "2025-12-05",
-        "venue": "POLARIS HALL",
-        "title": "CHRIS SMITHER AND THE MOTIVATORS"
-    },
-    {
-        "date": "2025-12-05",
-        "venue": "REVOLUTION HALL",
-        "title": "JOHN CRAIGIE - KEEP IT WARM TOUR 2025 (NIGHT 1)"
-    },
-    {
-        "date": "2025-12-05",
-        "venue": "REVOLUTION HALL",
-        "title": "JOHN CRAIGIE"
-    },
-    {
-        "date": "2025-12-06",
-        "venue": "HOLOCENE",
-        "title": "SYDNEY ROSE: I KNOW WHAT I WANT TOUR"
-    },
-    {
-        "date": "2025-12-06",
-        "venue": "MONQUI PRESENTS",
-        "title": "SYDNEY ROSE"
-    },
-    {
-        "date": "2025-12-06",
-        "venue": "REVOLUTION HALL",
-        "title": "JOHN CRAIGIE - KEEP IT WARM TOUR 2025 (NIGHT 2)"
-    },
-    {
-        "date": "2025-12-06",
-        "venue": "REVOLUTION HALL",
-        "title": "JOHN CRAIGIE"
-    },
-    {
-        "date": "2025-12-06",
-        "venue": "ROSELAND THEATER",
-        "title": "ATREYU THE CURSE TOUR"
-    },
-    {
-        "date": "2025-12-06",
-        "venue": "STAR THEATER",
-        "title": "GAVN!"
-    },
-    {
-        "date": "2025-12-06",
-        "venue": "WONDER BALLROOM",
-        "title": "FOXWARREN"
-    },
-    {
-        "date": "2025-12-08",
-        "venue": "REVOLUTION HALL",
-        "title": "THE MOUNTAIN GOATS (NIGHT 1)"
-    },
-    {
-        "date": "2025-12-09",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "GREG FREEMAN"
-    },
-    {
-        "date": "2025-12-09",
-        "venue": "REVOLUTION HALL",
-        "title": "THE MOUNTAIN GOATS (NIGHT 2)"
-    },
-    {
-        "date": "2025-12-09",
-        "venue": "ROSELAND THEATER",
-        "title": "WATERPARKS: THE PROWLER TOUR"
-    },
-    {
-        "date": "2025-12-10",
-        "venue": "REVOLUTION HALL",
-        "title": "STORY OF THE YEAR & SENSES FAIL: THE SCREAM TEAM TOUR"
-    },
-    {
-        "date": "2025-12-10",
-        "venue": "ROSELAND THEATER",
-        "title": "BLIND GUARDIAN SOMEWHERE FAR BEYOND TOUR"
-    },
-    {
-        "date": "2025-12-11",
-        "venue": "ALADDIN THEATER",
-        "title": "ZEPPARELLA"
-    },
-    {
-        "date": "2025-12-11",
-        "venue": "HOLOCENE",
-        "title": "BIRTH-TAY: A TAYLOR SWIFT BIRTHDAY CELEBRATION DANCE PARTY – 21+"
-    },
-    {
-        "date": "2025-12-11",
-        "venue": "REVOLUTION HALL",
-        "title": "LIVE WIRE WITH LUKE BURBANK"
-    },
-    {
-        "date": "2025-12-12",
-        "venue": "ALADDIN THEATER",
-        "title": "BECKY ROBINSON:  MEMBERS ONLY TOUR"
-    },
-    {
-        "date": "2025-12-12",
-        "venue": "POLARIS HALL",
-        "title": "SOLD OUT: POST ANIMAL"
-    },
-    {
-        "date": "2025-12-12",
-        "venue": "REVOLUTION HALL",
-        "title": "LAST PODCAST ON THE LEFT - JK ULTRA TOUR (NIGHT 1)"
-    },
-    {
-        "date": "2025-12-12",
-        "venue": "ROSELAND THEATER",
-        "title": "DYING WISHMAS"
-    },
-    {
-        "date": "2025-12-13",
-        "venue": "HOLOCENE",
-        "title": "MODERN NATURE W/ BRIGID DAWSON & THE MOTHERS NETWORK- EARLY SHOW – 21+"
-    },
-    {
-        "date": "2025-12-13",
-        "venue": "POLARIS HALL",
-        "title": "SOLD OUT: RACHEL SCANLON (EARLY SHOW)"
-    },
-    {
-        "date": "2025-12-13",
-        "venue": "POLARIS HALL",
-        "title": "RACHEL SCANLON (LATE SHOW)"
-    },
-    {
-        "date": "2025-12-13",
-        "venue": "REVOLUTION HALL",
-        "title": "LAST PODCAST ON THE LEFT - JK ULTRA TOUR (NIGHT 2)"
-    },
-    {
-        "date": "2025-12-13",
-        "venue": "WONDER BALLROOM",
-        "title": "EARLYBIRDS CLUB"
-    },
-    {
-        "date": "2025-12-14",
-        "venue": "ALADDIN THEATER",
-        "title": "DAKHABRAKHA"
-    },
-    {
-        "date": "2025-12-14",
-        "venue": "HOLOCENE",
-        "title": "GLARE – W/ GLIXEN, MSPAINT – ALL AGES"
-    },
-    {
-        "date": "2025-12-15",
-        "venue": "REVOLUTION HALL",
-        "title": "SCOTT BRADLEE’S POSTMODERN JUKEBOX –   MAGIC, MOONLIGHT AND MISTLETOE TOUR"
-    },
-    {
-        "date": "2025-12-15",
-        "venue": "ROSELAND THEATER",
-        "title": "CATTLE DECAPITATION NO FEAR FOR TOMORROW NORTH AMERICAN TOUR 2025"
-    },
-    {
-        "date": "2025-12-17",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "SORRY"
-    },
-    {
-        "date": "2025-12-17",
-        "venue": "ROSELAND THEATER",
-        "title": "LEON THOMAS – MUTTS DON’T HEEL TOUR"
-    },
-    {
-        "date": "2025-12-19",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "STEELY DEAD - A SONIC FUSION OF THE GRATEFUL DEAD AND STEELY DAN"
-    },
-    {
-        "date": "2025-12-19",
-        "venue": "HOLOCENE",
-        "title": "THE HAUNT: NEW ADDICTION TOUR  – W/ HIMALAYAS, CHEZ – EARLY SHOW! – 21+"
-    },
-    {
-        "date": "2025-12-19",
-        "venue": "REVOLUTION HALL",
-        "title": "YOB"
-    },
-    {
-        "date": "2025-12-30",
-        "venue": "REVOLUTION HALL",
-        "title": "KITCHEN DWELLERS"
-    },
-    {
-        "date": "2025-12-31",
-        "venue": "REVOLUTION HALL",
-        "title": "KITCHEN DWELLERS NYE"
-    },
-    {
-        "date": "2026-01-17",
-        "venue": "REVOLUTION HALL",
-        "title": "WELCOME TO NIGHT VALE: MURDER NIGHT IN BLOOD FOREST"
-    },
-    {
-        "date": "2026-01-17",
-        "venue": "ROSELAND THEATER",
-        "title": "DEAN LEWIS: THE EPILOGUE WORLD TOUR ***RESCHEDULED DATE***"
-    },
-    {
-        "date": "2026-01-28",
-        "venue": "REVOLUTION HALL",
-        "title": "CATE LE BON"
-    },
-    {
-        "date": "2026-01-30",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "HOT BUTTERED RUM - MARTY O’REILLY"
-    },
-    {
-        "date": "2026-01-31",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "PORTLAND FOLK FEST"
-    },
-    {
-        "date": "2026-01-31",
-        "venue": "WONDER BALLROOM",
-        "title": "RUSTON KELLY – PALE, THROUGH THE WINDOW TOUR"
-    },
-    {
-        "date": "2026-02-02",
-        "venue": "WONDER BALLROOM",
-        "title": "DON BROCO"
-    },
-    {
-        "date": "2026-02-06",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "SUPER DIAMOND - THE NEIL DIAMOND TRIBUTE"
-    },
-    {
-        "date": "2026-02-12",
-        "venue": "WONDER BALLROOM",
-        "title": "SHAME"
-    },
-    {
-        "date": "2026-02-20",
-        "venue": "MISSISSIPPI STUDIOS",
-        "title": "LERA LYNN"
-    },
-    {
-        "date": "2026-03-05",
-        "venue": "ALADDIN THEATER",
-        "title": "LADYSMITH BLACK MAMBAZO"
-    },
-    {
-        "date": "2026-03-09",
-        "venue": "ALADDIN THEATER",
-        "title": "THE STRUMBELLAS -  INTO DUST TOUR"
-    },
-    {
-        "date": "2026-03-11",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "NOTHING MORE"
-    },
-    {
-        "date": "2026-03-13",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "DODIE"
-    },
-    {
-        "date": "2026-03-16",
-        "venue": "POLARIS HALL",
-        "title": "SPIRITUAL CRAMP"
-    },
-    {
-        "date": "2026-03-20",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "JESSE WELLES"
-    },
-    {
-        "date": "2026-03-21",
-        "venue": "ROSELAND THEATER",
-        "title": "LAUREN SPENCER SMITH – THE ART OF BEING A MESS TOUR"
-    },
-    {
-        "date": "2026-03-25",
-        "venue": "SHOW BAR",
-        "title": "MARISSA NADLER"
-    },
-    {
-        "date": "2026-03-27",
-        "venue": "ALADDIN THEATER",
-        "title": "HELL'S BELLES"
-    },
-    {
-        "date": "2026-04-01",
-        "venue": "ALADDIN THEATER",
-        "title": "ELIZA MCLAMB - GOOD STORY TOUR"
-    },
-    {
-        "date": "2026-04-18",
-        "venue": "ALADDIN THEATER",
-        "title": "MARGARET CHO: CHOLIGARCHY"
-    },
-    {
-        "date": "2026-04-22",
-        "venue": "CRYSTAL BALLROOM",
-        "title": "LEBANON HANOVER"
-    },
-    {
-        "date": "2026-04-26",
-        "venue": "REVOLUTION HALL",
-        "title": "DREW AND ELLIE HOLCOMB - NEVER GONNA LET YOU GO TOUR"
-    }
+  {
+    "date": "2025-11-04T00:00:00.000",
+    "venue": "LOLLIPOP SHOPPE",
+    "title": "JAKKI AND THE PINK SMUDGE WITH SOCIAL CIG + GROLIXES"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "CLAUDIO SIMONETTI'S GOBLIN - THE 50TH ANNIVERSARY TOUR"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "BLADEE + RIPSQUADD"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "DANCE ROMANCE: A VERY GAGA DANCE NIGHT  – 21+"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "LADY KILLERS HOSTED BY ALLY J WARD & DEVAN DAILY"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "BORN RUFFIANS"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SOLD OUT: THE HOME TEAM THE CRUCIBLE OF LIFE TOUR"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "THE FAINT"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "DILES QUE NO ME MATEN"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "SUBHUMANS WITH 1876 & DISTORTED TIMES"
+  },
+  {
+    "date": "2025-11-05T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "BLONDSHELL"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "ZACHARIAH PORTER: THE BIG BACK BEHAVIOR TOUR"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "FIRST THURSDAY CRAFTS & COCKTAILS"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "ALGERNON CADWALLADER"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "CLAIRE ROUSAY PRESENTS A LITTLE DEATH W/ GRETCHEN KORSMO –  21+"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "LOLLIPOP SHOPPE",
+    "title": "THE THESIS - NOVEMBER 2025"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "EDNA VAZQUEZ WITH LOS LOVERS"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "MOVED TO SHOW BAR: TRIATHALON"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SOLD OUT: PORTUGAL. THE MAN – THE DENALI TOUR (NIGHT 1)"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "FREDDIE GIBBS – ALFREDO II TOUR"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "TRIATHALON"
+  },
+  {
+    "date": "2025-11-06T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "ARIEL PINK WITH DONNIE EMERSON AND NANCY SOPHIA, & CANDY CIGARETTES"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "PATTERSON HOOD + CRAIG FINN"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "THEY ARE GUTTING A BODY OF WATER"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "EMO NITE AT HOLOCENE PRESENTED BY EMO NITE LA – 21+ EVENT"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "MISSION THEATER",
+    "title": "HOME IS WHERE"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "MELT-BANANA"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "WHITMER THOMAS"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SOLD OUT: PORTUGAL. THE MAN – THE DENALI TOUR (NIGHT 2)"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "THE KNOCKOUT TOUR: VIOLET VS GOTTMIK"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "SOLD OUT: AN EVENING WITH HANIF ABDURRAQIB, KASEY ANDERSON, MELISSA FEBOS, ANIS MOJGANI AND LIZZIE NO"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "SHUDDER TO THINK WITH ZWEI NULL ZWEI"
+  },
+  {
+    "date": "2025-11-07T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "MARGO PRICE – WILD AT HEART TOUR"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "TAYLOR RAVE - A TAYLOR SWIFT RAVE"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "FEEBLE LITTLE HORSE"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "DANCE LIKE A MOTHER: A FUNDRAISER FOR FAMILY FORWARD OREGON"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "KLUB NOCTURNO: ROCKERO NIGHT – SPANISH ROCK, POP, AND 80’S PARTY – 21+"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "NOSO"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SOLD OUT: INFINITY SONG WORLD TOUR II"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "THE SAINTS ’73-’78"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "SOLD OUT: GINGER ROOT"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "CANCELED: GOBLIN (MAURIZIO GUARINI AND WALTER MARTINO) WITH NEST"
+  },
+  {
+    "date": "2025-11-08T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "MARLON FUNAKI"
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "GINGER ROOT"
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "SHAI HULUD WITH DENIAL OF LIFE"
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "CHALK – W/ HOUSE OF WARMTH –  21+"
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "LOLLIPOP SHOPPE",
+    "title": "(EARLY SHOW) NO JOY WITH SHAKI TAVI + DEATH DOULA "
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "SURF HAT"
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "RIDDY ARMAN"
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "MARIAM (OF AMADOU & MARIAM) - L’AMOUR À LA FOLIE"
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "ROCK THE CASBAH EASTERN DANCE & ROCK MUSIC"
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "CHURCH OF HIVE"
+  },
+  {
+    "date": "2025-11-09T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "MIDNIGHT TIL MORNING"
+  },
+  {
+    "date": "2025-11-10T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "BAR ITALIA"
+  },
+  {
+    "date": "2025-11-10T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "THE MOTH: LIVE STORYTELLING EVENT – PORTLAND: CHEAT – 21+"
+  },
+  {
+    "date": "2025-11-10T00:00:00.000",
+    "venue": "LOLLIPOP SHOPPE",
+    "title": "MONDAY NIGHT LIVE: EL KHAT AND GUESTS"
+  },
+  {
+    "date": "2025-11-10T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "LOCAL LOVE LETTER #18: JEWELRY EXCHANGE"
+  },
+  {
+    "date": "2025-11-10T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "TEACHER SHOW: COMEDY FROM THE CLASSROOM"
+  },
+  {
+    "date": "2025-11-10T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "MUSICAL THEATER KARAOKE"
+  },
+  {
+    "date": "2025-11-10T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "PETER MCPOLAND: BIG LUCKY TOUR"
+  },
+  {
+    "date": "2025-11-11T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "LADY WRAY"
+  },
+  {
+    "date": "2025-11-11T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "CANCELED: ELENI DRAKE – ALL AGES!"
+  },
+  {
+    "date": "2025-11-11T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "AJ LEIDIG"
+  },
+  {
+    "date": "2025-11-11T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SMALLPOOLS – LOVETAP! 10TH ANNIVERSARY TOUR"
+  },
+  {
+    "date": "2025-11-11T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "CANCELED: TODD SNIDER BAND"
+  },
+  {
+    "date": "2025-11-11T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "AVATAR – IN THE AIRWAVES – USA 2025"
+  },
+  {
+    "date": "2025-11-11T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "CUT COPY"
+  },
+  {
+    "date": "2025-11-12T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "BRÌGHDE CHAIMBEUL W/ MARISA ANDERSON – 21+"
+  },
+  {
+    "date": "2025-11-12T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "SOLD OUT: AN EVENING WITH CAROLINE ROSE"
+  },
+  {
+    "date": "2025-11-12T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "TRSH"
+  },
+  {
+    "date": "2025-11-12T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "KNOWER"
+  },
+  {
+    "date": "2025-11-12T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "NUCLEAR DAISIES"
+  },
+  {
+    "date": "2025-11-12T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "SOFIA ISELLA"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "JIM NORTON: NOW YOU KNOW"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "RAEKWON & MOBB DEEP 30TH ANNIVERSARY TOUR"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "JENEVIEVE – THE CRYSALIS TOUR"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "VIDEO GAME RAVE – 21+"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "LOLLIPOP SHOPPE",
+    "title": "SHADOWGRAPHS (ALBUM RELEASE) WITH PACKAGING + MINI BLINDS"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "AMYTHYST KIAH"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "AN EVENING WITH GRANT-LEE PHILLIPS"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "NURSE BLAKE: BUT DID YOU DIE? COMEDY TOUR"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "THE DICKIES WITH RAD MAX"
+  },
+  {
+    "date": "2025-11-13T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "LILY ROSE – I KNOW WHAT I WANT TOUR 2025"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "THE BETHS"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "*CANCELED* MADDIE ZAHM – THE SAD & SEXY TOUR"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "YAELOKRE – (MOVED TO WONDER BALLROOM) – ALL AGES!"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "DANCE YOURSELF CLEAN – AN INDIE ELECTRONIC DANCE PARTY – FAREWELL SHOW! – 21+ EVENT"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "MADI DIAZ - THE FATAL OPTIMIST TOUR"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "TOLEDO"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "LUCAS ZELNICK"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "80S VIDEO DANCE ATTACK"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "COZY WORLDWIDE: THROWBACK AND CURRENT R&B / HIP HOP"
+  },
+  {
+    "date": "2025-11-14T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "YAELOKRE"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "J-FELL PRESENTS RAMBLE ON (LED ZEPPELIN TRIBUTE) & WHO'S NEXT (THE WHO)"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "RICHY MITCH & THE COAL MINERS"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "AUTOHEART: THE HEARTLANDS TOUR"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "SEAN NICHOLAS SAVAGE W/ CRYSTAL QUARTEZ – EARLY SHOW! – 21+"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "LAFFY TAFFY [RATCHET IN ALL A$$-SORTED FLAVORS] RAP – TRAP – NOLA BOUNCE – BMORE – JERSEY CLUB  – 21+"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "URAL THOMAS AND THE PAIN - 12TH ANNIVERSARY SHOW"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "THE STEWS"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SOLD OUT: THE CALIFORNIA HONEYDROPS - REDWOOD HIGHWAY TOUR"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "NEKO CASE FALL TOUR 2025"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "YUNG BAE WITH ENGELWOOD"
+  },
+  {
+    "date": "2025-11-15T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "HANNAH BAHNG: THE MISUNDERSTOOD WORLD TOUR"
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "THE 502S - EASY STREET TOUR"
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "CRYSTAL BALLROOM HISTORY & ART TOUR"
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "THE 502S EASY STREET TOUR**MOVED TO ALADDIN THEATER**"
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "LOLLIPOP SHOPPE",
+    "title": "(EARLY SHOW) FRAIL TALK WITH TRINITY JANE + GUESTS "
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "JULIANNA RIOLINO"
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "BORIS - PINK 20TH ANNIVERSARY TOUR 2025"
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "NEKO CASE FALL TOUR 2025"
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "PEACHY SPRINGS BINGO"
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "TINSEL & TERROR BURLESQUE"
+  },
+  {
+    "date": "2025-11-16T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "CHURCH OF HIVE"
+  },
+  {
+    "date": "2025-11-17T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "YOUR SMITH - THE RUB TOUR '25"
+  },
+  {
+    "date": "2025-11-17T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "THE DARKNESS: DREAMS ON TOAST"
+  },
+  {
+    "date": "2025-11-17T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "KING PRINCESS – THE GIRL VIOLENCE TOUR"
+  },
+  {
+    "date": "2025-11-18T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "GEOFF TATE’S OPERATION: MINDCRIME – THE FINAL CHAPTER"
+  },
+  {
+    "date": "2025-11-18T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "MELTT W/ JUNACO – ALL AGES!"
+  },
+  {
+    "date": "2025-11-18T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "KERALA DUST"
+  },
+  {
+    "date": "2025-11-18T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "THUNDERPUSSY WITH SPECIAL GUEST HIPPIE DEATH CULT"
+  },
+  {
+    "date": "2025-11-18T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "THE BRIAN JONESTOWN MASSACRE"
+  },
+  {
+    "date": "2025-11-18T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "LUCIUS"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "GOGO PENGUIN"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "LENNY PEARCE’S USA TODDLER TECHNO TOUR – PART 2"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "REXX LIFE RAJ – THE HELLA SLEPT ON TOUR"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "NUOVO TESTAMENTO W/ NUXX – 21+"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "AGRICULTURE - SPIRITUAL SOUND TOUR"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "OLD CHURCH",
+    "title": "OVER THE RHINE"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "ROCKET"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "THE HAPPY FITS"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "THRICE"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "FOLK BITCH TRIO"
+  },
+  {
+    "date": "2025-11-19T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "SOLD OUT: XAVIERSOBASED – THE RIVERSIDE TOUR"
+  },
+  {
+    "date": "2025-11-20T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "BRENT COBB & THE FIXIN’S - THE AIN'T ROCKED IN A WHILE TOUR"
+  },
+  {
+    "date": "2025-11-20T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "KHRUANGBIN"
+  },
+  {
+    "date": "2025-11-20T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "CORBIN – CLOWN ON STAGE TOUR"
+  },
+  {
+    "date": "2025-11-20T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "MOLLY GRACE"
+  },
+  {
+    "date": "2025-11-20T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "GANAVYA"
+  },
+  {
+    "date": "2025-11-20T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "PERSONA 749"
+  },
+  {
+    "date": "2025-11-20T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "DEAN JOHNSON W/ THEO LAWRENCE"
+  },
+  {
+    "date": "2025-11-20T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "LOATHE: NORTH AMERICAN TOUR 2025"
+  },
+  {
+    "date": "2025-11-21T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "JOSHUA RADIN"
+  },
+  {
+    "date": "2025-11-21T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "PERRITOS WORLD NATIONAL TOURDOKNOWJERRY GARCIACONCRETE"
+  },
+  {
+    "date": "2025-11-21T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "DB.BOUTABAG"
+  },
+  {
+    "date": "2025-11-21T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "SORRY FOR PARTY ROCKING (2010-2015 POP & EDM ALL NIGHT LONG!) – 21+"
+  },
+  {
+    "date": "2025-11-21T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "THE MACKS"
+  },
+  {
+    "date": "2025-11-21T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "ROBBIE FULKS"
+  },
+  {
+    "date": "2025-11-21T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SOLD OUT: THE MARS VOLTA"
+  },
+  {
+    "date": "2025-11-21T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "KOTTONMOUTH KINGS WITH AUNTIE BOY"
+  },
+  {
+    "date": "2025-11-21T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "THE BROTHERS COMATOSE"
+  },
+  {
+    "date": "2025-11-22T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "NICK MULVEY: DARK HARVEST WORLD TOUR"
+  },
+  {
+    "date": "2025-11-22T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "HOT MULLIGAN"
+  },
+  {
+    "date": "2025-11-22T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "FLEETMAC WOOD PRESENT CHIFFON DREAMS – 21+"
+  },
+  {
+    "date": "2025-11-22T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "JMSN"
+  },
+  {
+    "date": "2025-11-22T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "STEVE HACKETT: GENESIS GREATS, LAMB HIGHLIGHTS & SOLO"
+  },
+  {
+    "date": "2025-11-22T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "LEITH ROSS"
+  },
+  {
+    "date": "2025-11-23T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "SOLD OUT: SAMANTHA FISH - PAPER DOLL WORLD TOUR"
+  },
+  {
+    "date": "2025-11-23T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "CRYSTAL BALLROOM HISTORY & ART TOUR"
+  },
+  {
+    "date": "2025-11-23T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "OLIVIA BLOCK + PETE SWANSON + SETH NEHIL: CONFIGURATIONS & REWORKINGS  – 21+"
+  },
+  {
+    "date": "2025-11-23T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "TEI SHI"
+  },
+  {
+    "date": "2025-11-23T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "LAURA STEVENSON"
+  },
+  {
+    "date": "2025-11-23T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "THOMAS DOLBY: THE ICONIC 80’S MY PERSONAL RECOLLECTIONS"
+  },
+  {
+    "date": "2025-11-23T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "PEACHY SPRINGS BINGO"
+  },
+  {
+    "date": "2025-11-24T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "ASTN: WHAT IF THIS TOUR…"
+  },
+  {
+    "date": "2025-11-24T00:00:00.000",
+    "venue": "METROPOLITAN YOUTH SYMPHONY",
+    "title": "MYS MEET THE NEW DIGS WITH 45TH PARALLEL AND WONDERLY"
+  },
+  {
+    "date": "2025-11-24T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "THE DESLONDES"
+  },
+  {
+    "date": "2025-11-25T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "CHORALE FOR A CAUSE"
+  },
+  {
+    "date": "2025-11-25T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "MARK WILLIAM LEWIS"
+  },
+  {
+    "date": "2025-11-25T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "HEAR YOU LOUD & QUEER: THE BIG TRANS SHOW"
+  },
+  {
+    "date": "2025-11-26T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "TAYLOR ACORN"
+  },
+  {
+    "date": "2025-11-26T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "DEBÍ TIRAR MÁS FIESTAS 🔥 – 21+"
+  },
+  {
+    "date": "2025-11-26T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "THE PYNNACLES + BLACK SHELTON AND THE AMERICAN DREAM"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "THE STORM LARGE HOLIDAY ORDEAL (NIGHT 1)"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "OF MONSTERS AND MEN"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "KHAMARI – TO DRY A TEAR TOUR"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "SNAP! Y2K ’90S VS ’00S DANCE PARTY! – 21+"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "HALEY JOHNSEN'S PAJAMARAMA"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "KING MALA: THE DEVOTION TOUR"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "BUILT TO SPILL (NIGHT 1)"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "HOW THE GROUCH STOLE CHRISTMAS TOUR: LIVING LEGENDS"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "PRIMITIVE MAN WITH OTAY:ONII AND GUILTLESS"
+  },
+  {
+    "date": "2025-11-28T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "CUMBIATRON"
+  },
+  {
+    "date": "2025-11-29T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "THE STORM LARGE HOLIDAY ORDEAL (NIGHT 2)"
+  },
+  {
+    "date": "2025-11-29T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "BROADWAY RAVE"
+  },
+  {
+    "date": "2025-11-29T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "ANNA OF THE NORTH – EARLY SHOW – ALL AGES!"
+  },
+  {
+    "date": "2025-11-29T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "PARTY GIRL – A NIGHT OF PARTY GIRL ANTHEMS – 21+"
+  },
+  {
+    "date": "2025-11-29T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "TONY FURTADO BAND 14TH ANNUAL POST-THANKSGIVING BASH"
+  },
+  {
+    "date": "2025-11-29T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "BUILT TO SPILL (NIGHT 2)"
+  },
+  {
+    "date": "2025-11-29T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "SILVERSTEIN: 25 YEARS OF NOISE"
+  },
+  {
+    "date": "2025-11-29T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "PENNY DREADFUL: A NIGHT CARNIVAL OF VICTORIAN HORROR"
+  },
+  {
+    "date": "2025-11-29T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "J-FELL AND NITE WAVE PRESENT: THE CURE, DEPECHE MODE & NEW ORDER TRIBUTE NIGHT"
+  },
+  {
+    "date": "2025-11-30T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "CRYSTAL BALLROOM HISTORY & ART TOUR"
+  },
+  {
+    "date": "2025-11-30T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "OMNIUM GATHERUM"
+  },
+  {
+    "date": "2025-11-30T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "CITY POP! JAPANESE BOOGIE, J-JAZZ, & NEW WAVE NIGHT – W/ SEASIDE.FM + JOE BALL  – 21+"
+  },
+  {
+    "date": "2025-11-30T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "YVETTE AND GUY FRIENDS"
+  },
+  {
+    "date": "2025-11-30T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "PEACHY SPRINGS BINGO"
+  },
+  {
+    "date": "2025-12-01T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "A JOHN WATERS CHRISTMAS"
+  },
+  {
+    "date": "2025-12-01T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "!MINDPARADE"
+  },
+  {
+    "date": "2025-12-01T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "ALISON ROMAN LIVE"
+  },
+  {
+    "date": "2025-12-01T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "THE ART OF ADVOCACY - HONORING REP ROB NOSSE"
+  },
+  {
+    "date": "2025-12-01T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "STICK MEN FT. TONY LEVIN, PAT MASTELOTTO AND MARKUS REUTER"
+  },
+  {
+    "date": "2025-12-02T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "JENS LEKMAN - SONGS FOR OTHER PEOPLE’S WEDDINGS TOUR"
+  },
+  {
+    "date": "2025-12-02T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "🎉 BRITNEY PARTY 🎉 – 21+"
+  },
+  {
+    "date": "2025-12-02T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "FLOCK OF DIMES"
+  },
+  {
+    "date": "2025-12-02T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "LOVE DAWN 2025 SF9 LIVE FANTASY #5 IN PORTLAND"
+  },
+  {
+    "date": "2025-12-02T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "FLOW WORLD TOUR 2025 – NARUTO THE ROCK"
+  },
+  {
+    "date": "2025-12-03T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "SAFE MIND  W/TOUCHING ICE – 21+"
+  },
+  {
+    "date": "2025-12-03T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SKATING POLLY"
+  },
+  {
+    "date": "2025-12-03T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "HOME FREE: LET ME COME HOME TOUR"
+  },
+  {
+    "date": "2025-12-03T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "SAY ANYTHING & MOTION CITY SOUNDTRACK"
+  },
+  {
+    "date": "2025-12-03T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "THE PEOPLE'S JAM (FREE)"
+  },
+  {
+    "date": "2025-12-03T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "IMMORTAL TECHNIQUE WITH ENDR WON AND RANDAL WYATT"
+  },
+  {
+    "date": "2025-12-04T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "MOHANAD ELSHIEKY"
+  },
+  {
+    "date": "2025-12-04T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "NE OBLIVISCARIS"
+  },
+  {
+    "date": "2025-12-04T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "UNA NOCHE DE BIENESTAR FT. A CARA O CRUZ – 21+"
+  },
+  {
+    "date": "2025-12-04T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "DAIRY FEST 2025 FEAT. MILC & FRIENDS"
+  },
+  {
+    "date": "2025-12-04T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "DAFFO"
+  },
+  {
+    "date": "2025-12-04T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SYML"
+  },
+  {
+    "date": "2025-12-04T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "JONAH KAGEN WITH EDGEHILL & SPECIAL GUESTS"
+  },
+  {
+    "date": "2025-12-04T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "VIOLENT VIRA"
+  },
+  {
+    "date": "2025-12-05T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "ALI SIDDIQ: IN THE SHADOWS"
+  },
+  {
+    "date": "2025-12-05T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "GIMME GIMME DISCO"
+  },
+  {
+    "date": "2025-12-05T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "VINCENT LIMA - TO LOVE A THING THAT FADES 2025 TOUR"
+  },
+  {
+    "date": "2025-12-05T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "CHRIS SMITHER AND THE MOTIVATORS"
+  },
+  {
+    "date": "2025-12-05T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "JOHN CRAIGIE - KEEP IT WARM TOUR 2025 (NIGHT 1)"
+  },
+  {
+    "date": "2025-12-05T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "JOHN CRAIGIE"
+  },
+  {
+    "date": "2025-12-05T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "BLACK LODGE BURLESQUE"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "ALASKA PRESENTS A VERY ALASKA CHRISTMAS SHOW"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "HOBO JOHNSON & THE LOVEMAKERS"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "SYDNEY ROSE: I KNOW WHAT I WANT TOUR"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "SYDNEY ROSE"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "TEZETA BAND FEATURING GENET ABATE"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SOL"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "JOHN CRAIGIE - KEEP IT WARM TOUR 2025 (NIGHT 2)"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "JOHN CRAIGIE"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "ATREYU THE CURSE TOUR"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "GAVN! WITH CHRISTIAN HAYES"
+  },
+  {
+    "date": "2025-12-06T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "FOXWARREN"
+  },
+  {
+    "date": "2025-12-07T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "MATT ROGERS: CHRISTMAS IN DECEMBER"
+  },
+  {
+    "date": "2025-12-07T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "THE PIANO REIMAGINED: KINZIE STEELE OCTET, SAMA DAMS, LUKE WYLAND"
+  },
+  {
+    "date": "2025-12-07T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "DAN BERN"
+  },
+  {
+    "date": "2025-12-07T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "CATBITE"
+  },
+  {
+    "date": "2025-12-07T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "KRISTIN KEY: A CHOSEN FAMILY CHRISTMAS - FEATURING THE CARLILE FAMILY BAND"
+  },
+  {
+    "date": "2025-12-07T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "PIANO QUEEN EXTRA-FESTIVE HOLIDAY EDITION"
+  },
+  {
+    "date": "2025-12-07T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "REDFERRIN"
+  },
+  {
+    "date": "2025-12-08T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "LOCAL LOVE LETTER #19: BEGGARS CANYON"
+  },
+  {
+    "date": "2025-12-08T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SOLD OUT: AN EVENING WITH THE MOUNTAIN GOATS (NIGHT 1)"
+  },
+  {
+    "date": "2025-12-09T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "GREG FREEMAN"
+  },
+  {
+    "date": "2025-12-09T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "MDOU MOCTAR (SOLO)"
+  },
+  {
+    "date": "2025-12-09T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "AN EVENING WITH THE MOUNTAIN GOATS (NIGHT 2)"
+  },
+  {
+    "date": "2025-12-09T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "WATERPARKS: THE PROWLER TOUR"
+  },
+  {
+    "date": "2025-12-10T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "THE FRIGHTS"
+  },
+  {
+    "date": "2025-12-10T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "POP AND PUPPETRY #10!: NEW HERE, CREATURE PARTY, DRECKIG WITH LIVE PUPPET SHOW ACCOMPANIMENT! – 21+"
+  },
+  {
+    "date": "2025-12-10T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "HOLIDAY HITS VOL. 4"
+  },
+  {
+    "date": "2025-12-10T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "STORY OF THE YEAR & SENSES FAIL: THE SCREAM TEAM TOUR"
+  },
+  {
+    "date": "2025-12-10T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "BLIND GUARDIAN SOMEWHERE FAR BEYOND TOUR"
+  },
+  {
+    "date": "2025-12-10T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "STYGIAN BOUGH (A BELL WITCH / AERIAL RUIN COLLABORATION)"
+  },
+  {
+    "date": "2025-12-10T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "ELECTRIC GUEST"
+  },
+  {
+    "date": "2025-12-11T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "ZEPPARELLA"
+  },
+  {
+    "date": "2025-12-11T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "WET LEG + THE STUPID GIRLS"
+  },
+  {
+    "date": "2025-12-11T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "BIG SAD 1900"
+  },
+  {
+    "date": "2025-12-11T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "BIRTH-TAY: A TAYLOR SWIFT BIRTHDAY CELEBRATION DANCE PARTY – 21+"
+  },
+  {
+    "date": "2025-12-11T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "MASON JENNINGS"
+  },
+  {
+    "date": "2025-12-11T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SOFT BLUE SHIMMER"
+  },
+  {
+    "date": "2025-12-11T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "LIVE WIRE WITH LUKE BURBANK"
+  },
+  {
+    "date": "2025-12-11T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "VEDO: AFTER DARK THE EPITOME TOUR"
+  },
+  {
+    "date": "2025-12-12T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "BECKY ROBINSON:  MEMBERS ONLY TOUR (NIGHT 1)"
+  },
+  {
+    "date": "2025-12-12T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "ALMOST MONDAY + THE STRONKS (THE STROKES TRIBUTE)"
+  },
+  {
+    "date": "2025-12-12T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "ALL YOUR FRIENDS: THE INDIE PARTY"
+  },
+  {
+    "date": "2025-12-12T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "CANDI POP – A BUBBLEGUM POP DANCE PARTY – 21+ EVENT"
+  },
+  {
+    "date": "2025-12-12T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "MITCH & THE MERRY MELODY MAKERS PRESENT: A HOLIDAY SPECTACULAR!"
+  },
+  {
+    "date": "2025-12-12T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SOLD OUT: POST ANIMAL"
+  },
+  {
+    "date": "2025-12-12T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "LAST PODCAST ON THE LEFT - JK ULTRA TOUR (NIGHT 1)"
+  },
+  {
+    "date": "2025-12-12T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "DYING WISHMAS"
+  },
+  {
+    "date": "2025-12-12T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "ACID KING WITH YEAR OF THE COBRA AND GLACIAL FALL"
+  },
+  {
+    "date": "2025-12-13T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "BECKY ROBINSON:  MEMBERS ONLY TOUR (NIGHT 2)"
+  },
+  {
+    "date": "2025-12-13T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "TAYLOR FEST"
+  },
+  {
+    "date": "2025-12-13T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "MODERN NATURE W/ BRIGID DAWSON & THE MOTHERS NETWORK- EARLY SHOW – 21+"
+  },
+  {
+    "date": "2025-12-13T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "CASA TULUM – A TULUM INSPIRED HOUSE MUSIC PARTY – 21+"
+  },
+  {
+    "date": "2025-12-13T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "LEFT ON TENTH"
+  },
+  {
+    "date": "2025-12-13T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SOLD OUT: RACHEL SCANLON (EARLY SHOW)"
+  },
+  {
+    "date": "2025-12-13T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SOLD OUT: RACHEL SCANLON (LATE SHOW)"
+  },
+  {
+    "date": "2025-12-13T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "LAST PODCAST ON THE LEFT - JK ULTRA TOUR (NIGHT 2)"
+  },
+  {
+    "date": "2025-12-13T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "EARLYBIRDS CLUB"
+  },
+  {
+    "date": "2025-12-14T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "DAKHABRAKHA"
+  },
+  {
+    "date": "2025-12-14T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "GLARE – W/ GLIXEN, MSPAINT – ALL AGES"
+  },
+  {
+    "date": "2025-12-14T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "ELECTRIC CITIZEN & KADABRA"
+  },
+  {
+    "date": "2025-12-14T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "A CELLO CHRISTMAS (NIGHT 1)"
+  },
+  {
+    "date": "2025-12-14T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "DEAD OF WINTER 2025 WITH MATTRESS, HARD NEUTRAL, NEON PRAIRIE DOGS AND LU"
+  },
+  {
+    "date": "2025-12-15T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "EARL SWEATSHIRT LIV.E ZELOOPERZ CLETUS STRAP"
+  },
+  {
+    "date": "2025-12-15T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "ROSE CITY BAND"
+  },
+  {
+    "date": "2025-12-15T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "A CELLO CHRISTMAS (NIGHT 2)"
+  },
+  {
+    "date": "2025-12-15T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SCOTT BRADLEE’S POSTMODERN JUKEBOX – MAGIC, MOONLIGHT AND MISTLETOE TOUR"
+  },
+  {
+    "date": "2025-12-15T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "CATTLE DECAPITATION"
+  },
+  {
+    "date": "2025-12-16T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "MISSISSIPPI CHAMBER MUSIC HOLIDAY PUB CRAWL"
+  },
+  {
+    "date": "2025-12-16T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "LAERZ"
+  },
+  {
+    "date": "2025-12-16T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "OSAMASON – PSYKOTIC TOUR"
+  },
+  {
+    "date": "2025-12-17T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "WHILE WE’RE YOUNG: A ONE DIRECTION DANCE NIGHT! – 21+"
+  },
+  {
+    "date": "2025-12-17T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "SORRY"
+  },
+  {
+    "date": "2025-12-17T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "LEON THOMAS – MUTTS DON’T HEEL TOUR"
+  },
+  {
+    "date": "2025-12-18T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "KNOWLEDGE FIGHT"
+  },
+  {
+    "date": "2025-12-18T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "HOLOCENE & SPEND THE NIGHT PRESENT: O’FLYNN W/ NATHAN DETROIT, ALOSO – 21+"
+  },
+  {
+    "date": "2025-12-18T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "SNOW BAR CHORALE (NIGHT 1)"
+  },
+  {
+    "date": "2025-12-19T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "SOLD OUT: KNOWLEDGE FIGHT"
+  },
+  {
+    "date": "2025-12-19T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "STEELY DEAD - A SONIC FUSION OF THE GRATEFUL DEAD AND STEELY DAN"
+  },
+  {
+    "date": "2025-12-19T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "THE HAUNT: NEW ADDICTION TOUR  – W/ HIMALAYAS, CHEZ – EARLY SHOW! – 21+"
+  },
+  {
+    "date": "2025-12-19T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "CLUB BLUSH: AN ETHEREAL & EUPHORIC DANCE NIGHT – 21+"
+  },
+  {
+    "date": "2025-12-19T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "SNOW BAR CHORALE (NIGHT 2)"
+  },
+  {
+    "date": "2025-12-19T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "MATT DORRIEN AND FRIENDS' WINTERTIDE WASSAIL"
+  },
+  {
+    "date": "2025-12-19T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SOLD OUT: YOB"
+  },
+  {
+    "date": "2025-12-19T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "THE MINUS 5 WITH CASEY NEILL AND THE NORWAY RATS"
+  },
+  {
+    "date": "2025-12-20T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "JAY SOM"
+  },
+  {
+    "date": "2025-12-20T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "DEXTER AND THE MOONROCKS + THE PRIXIES"
+  },
+  {
+    "date": "2025-12-20T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "OK NOT OK PRESENT IN RAINBOWS W/ WILCLONE"
+  },
+  {
+    "date": "2025-12-20T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SNOW BAR CHORALE (NIGHT 3)"
+  },
+  {
+    "date": "2025-12-20T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "RED NOT CHILI PEPPERS & GRAND ROYALE [BEASTIE BOYS TRIBUTE]"
+  },
+  {
+    "date": "2025-12-21T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "GARY GULMAN: ALL NEW LIVE"
+  },
+  {
+    "date": "2025-12-21T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "MAE.SUN"
+  },
+  {
+    "date": "2025-12-22T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "EJ MARCUS"
+  },
+  {
+    "date": "2025-12-26T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "DECADENT 80S DANCE PARTY WITH DJ NON"
+  },
+  {
+    "date": "2025-12-26T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "HOLIDAY REHAB COMEDY SHOW"
+  },
+  {
+    "date": "2025-12-27T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "KRAMPUS’ HOUSE PARTY: AN EDM + HOUSE NIGHT  – 21+"
+  },
+  {
+    "date": "2025-12-27T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "OH DARLING"
+  },
+  {
+    "date": "2025-12-27T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "STONE IN LOVE W/ TAKEN BY THE SKY"
+  },
+  {
+    "date": "2025-12-27T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "JERRY JOSEPH & THE JACKMORMONS"
+  },
+  {
+    "date": "2025-12-28T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "BRIDGE CITY SINNERS"
+  },
+  {
+    "date": "2025-12-28T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "JERRY JOSEPH & THE JACKMORMONS"
+  },
+  {
+    "date": "2025-12-30T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "KITCHEN DWELLERS"
+  },
+  {
+    "date": "2025-12-31T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "LIFE AFTER MIDNIGHT FEAT. LIFE DURING WARTIME [TALKING HEADS] AND BAND AFTER MIDNIGHT [ABBA] TRIBUTES"
+  },
+  {
+    "date": "2025-12-31T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "EAGLES OF DEATH METAL"
+  },
+  {
+    "date": "2025-12-31T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "BATTLE OF THE DECADES! REBEL SONGS"
+  },
+  {
+    "date": "2025-12-31T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "NEW YEAR'S EVE COWBOY PROM WITH JENNY DON'T AND THE SPURS / SATAN'S PILGRIMS"
+  },
+  {
+    "date": "2025-12-31T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "KITCHEN DWELLERS NYE"
+  },
+  {
+    "date": "2026-01-02T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "HIGH ON FIRE"
+  },
+  {
+    "date": "2026-01-03T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "WELCOME TO THE BLACK PARADE"
+  },
+  {
+    "date": "2026-01-05T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "TOMMY OEFFLING W/ SIT PRETTY-  21+"
+  },
+  {
+    "date": "2026-01-08T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "MADISON CUNNINGHAM - THE ACE TOUR"
+  },
+  {
+    "date": "2026-01-09T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "NEFESH MOUNTAIN"
+  },
+  {
+    "date": "2026-01-10T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "CYTRUS AND ELDRIDGE GRAVY & THE COURT SUPREME (\"LIGHT THE NIGHT\" TOUR)"
+  },
+  {
+    "date": "2026-01-10T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "ADAM RAY: WHO IS ME TOUR"
+  },
+  {
+    "date": "2026-01-11T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "THE RESIDENTS"
+  },
+  {
+    "date": "2026-01-15T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "NINAJIRACHI ‘I LOVE MY COMPUTER TOUR’ – 21+"
+  },
+  {
+    "date": "2026-01-15T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "CITY OF THE SUN"
+  },
+  {
+    "date": "2026-01-16T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "NOAH GUNDERSEN"
+  },
+  {
+    "date": "2026-01-16T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "RAINBOW GIRLS"
+  },
+  {
+    "date": "2026-01-16T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "PIGS ON THE WING: ANIMALS"
+  },
+  {
+    "date": "2026-01-16T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "MUSTARD PLUG & THE TOASTERS WITH THE IRON ROSES"
+  },
+  {
+    "date": "2026-01-16T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "AN EVENING WITH KELLER WILLIAMS"
+  },
+  {
+    "date": "2026-01-17T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "WILLIAM ELLIOTT WHITMORE"
+  },
+  {
+    "date": "2026-01-17T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "STEVE GUNN"
+  },
+  {
+    "date": "2026-01-17T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "WELCOME TO NIGHT VALE: MURDER NIGHT IN BLOOD FOREST"
+  },
+  {
+    "date": "2026-01-17T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "DEAN LEWIS: THE EPILOGUE WORLD TOUR **RESCHEDULED DATE**"
+  },
+  {
+    "date": "2026-01-17T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "ALLY J WARD: IMPOSTER SYNDROME"
+  },
+  {
+    "date": "2026-01-18T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "MONSTER RALLY"
+  },
+  {
+    "date": "2026-01-20T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "THE PORTLAND SCHOOL II: PYXIS QUARTET"
+  },
+  {
+    "date": "2026-01-22T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "KAYO DOT"
+  },
+  {
+    "date": "2026-01-23T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "KARL DENSON’S TINY UNIVERSE"
+  },
+  {
+    "date": "2026-01-23T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "RATTLESNAKE MILK"
+  },
+  {
+    "date": "2026-01-23T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "THE ANTLERS"
+  },
+  {
+    "date": "2026-01-23T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "TYPHOON TURNS TWENTY (NIGHT 1)"
+  },
+  {
+    "date": "2026-01-23T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "ALLEYCVT – 9 LIVES TOUR"
+  },
+  {
+    "date": "2026-01-24T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "MCMENAMINS HISTORY BALLFIRESIDE SOCIAL ORCHESTRATRIPLUMMUSICA UNIVERSALIS"
+  },
+  {
+    "date": "2026-01-24T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "TYPHOON TURNS TWENTY (NIGHT 2)"
+  },
+  {
+    "date": "2026-01-24T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "DOGS IN A PILE"
+  },
+  {
+    "date": "2026-01-26T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "THE RUNAROUNDS **MOVED FROM WONDER BALLROOM**"
+  },
+  {
+    "date": "2026-01-26T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "AUSTRA"
+  },
+  {
+    "date": "2026-01-27T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "ELEVATION RHYTHM"
+  },
+  {
+    "date": "2026-01-27T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "CAITLIN CANTY (ALBUM RELEASE)"
+  },
+  {
+    "date": "2026-01-28T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "WHITNEY HANSON – WORDS NEVER DIE TOUR 2026"
+  },
+  {
+    "date": "2026-01-28T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "ANALOG DOG"
+  },
+  {
+    "date": "2026-01-28T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "CATE LE BON"
+  },
+  {
+    "date": "2026-01-29T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "SAY SHE SHE: CUT & REWIND TOUR"
+  },
+  {
+    "date": "2026-01-29T00:00:00.000",
+    "venue": "MISSION THEATER",
+    "title": "STEVE POLTZ"
+  },
+  {
+    "date": "2026-01-29T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "WEAKENED FRIENDS “FEELS LIKE HELL TOUR”"
+  },
+  {
+    "date": "2026-01-30T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "LEGENDS: KEOLA BEAMER & HENRY KAPONO"
+  },
+  {
+    "date": "2026-01-30T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "PORTLAND FOLK FEST"
+  },
+  {
+    "date": "2026-01-30T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "THE TAYLOR PARTY: TAYLOR SWIFT NIGHT (21+)"
+  },
+  {
+    "date": "2026-01-31T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "DRINK THE SEA"
+  },
+  {
+    "date": "2026-01-31T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "PORTLAND FOLK FEST"
+  },
+  {
+    "date": "2026-01-31T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "DAN MANGAN & ISRAEL NEBEKER"
+  },
+  {
+    "date": "2026-01-31T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "AKAASH SINGH: GENERATIONAL TRIUMPH TOUR"
+  },
+  {
+    "date": "2026-01-31T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "RUSTON KELLY – PALE, THROUGH THE WINDOW TOUR"
+  },
+  {
+    "date": "2026-02-02T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "DON BROCO"
+  },
+  {
+    "date": "2026-02-03T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "TODD BARRY"
+  },
+  {
+    "date": "2026-02-05T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "JADE"
+  },
+  {
+    "date": "2026-02-06T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "SUPER DIAMOND - THE NEIL DIAMOND TRIBUTE"
+  },
+  {
+    "date": "2026-02-06T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "DEV LEMONS – SURFACE TENSION TOUR"
+  },
+  {
+    "date": "2026-02-06T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "DEV LEMONS"
+  },
+  {
+    "date": "2026-02-06T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "MR. VALE'S MATH CLASS"
+  },
+  {
+    "date": "2026-02-07T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "2026 FLY FISHING FILM TOUR"
+  },
+  {
+    "date": "2026-02-07T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "ANNUAL CELEBRATION OF THE GRATEFUL DEAD'S 1968 CONCERTS, FEATURING GARCIA BIRTHDAY BAND"
+  },
+  {
+    "date": "2026-02-07T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SAPPHIC FACTORY: QUEER JOY PARTY - 21+"
+  },
+  {
+    "date": "2026-02-07T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "GRATEFUL SHRED"
+  },
+  {
+    "date": "2026-02-07T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "NAIMA BOCK"
+  },
+  {
+    "date": "2026-02-07T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "ROBYN HITCHCOCK “LIVE AND ELECTRIC – FULL BAND SHOWS”"
+  },
+  {
+    "date": "2026-02-10T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "HAYES CARLL - WE'RE ONLY HUMAN TOUR"
+  },
+  {
+    "date": "2026-02-11T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "DEL WATER GAP"
+  },
+  {
+    "date": "2026-02-11T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "OLIVIA BARTON: FOR MYSELF AND FOR YOU TOUR"
+  },
+  {
+    "date": "2026-02-12T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "SHAME"
+  },
+  {
+    "date": "2026-02-13T00:00:00.000",
+    "venue": "MISSION THEATER",
+    "title": "SPRINTS"
+  },
+  {
+    "date": "2026-02-13T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SUDAN ARCHIVES: THE BPM NORTH AMERICA TOUR 2026"
+  },
+  {
+    "date": "2026-02-13T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "THE SADIES"
+  },
+  {
+    "date": "2026-02-14T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "MICHAEL SHANNON & JASON NARDUCY AND FRIENDS PLAY R.E.M.’S LIFES RICH PAGEANT"
+  },
+  {
+    "date": "2026-02-15T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "JAMIE LISSOW: BETTER OFF DAD"
+  },
+  {
+    "date": "2026-02-15T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "STEVE FORBERT"
+  },
+  {
+    "date": "2026-02-16T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "THE SERPENTS TOUR STARRING NYMPHIA WIND AND PLASTIQUE TIARA"
+  },
+  {
+    "date": "2026-02-16T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "ATMOSPHERE – WINTER CARNIVAL TOUR 2026"
+  },
+  {
+    "date": "2026-02-18T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "JULIANNA BARWICK AND MARY LATTIMORE"
+  },
+  {
+    "date": "2026-02-19T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "WEVAL: CHOROPHOBIA – ALBUM RELEASE TOUR – 21+"
+  },
+  {
+    "date": "2026-02-19T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "LOLA KIRKE"
+  },
+  {
+    "date": "2026-02-19T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "BERTHA: GRATEFUL DRAG"
+  },
+  {
+    "date": "2026-02-20T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "LERA LYNN"
+  },
+  {
+    "date": "2026-02-21T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "SUZANNE VEGA - FLYING WITH ANGELS"
+  },
+  {
+    "date": "2026-02-21T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "WONKYWILLA - GALACTIC CIRCUS TOUR"
+  },
+  {
+    "date": "2026-02-21T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "SUMMER SALT: RESIDE NORTH AMERICA"
+  },
+  {
+    "date": "2026-02-21T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "JOAN SHELLEY"
+  },
+  {
+    "date": "2026-02-21T00:00:00.000",
+    "venue": "OLD CHURCH",
+    "title": "THE JOY FORMIDABLE"
+  },
+  {
+    "date": "2026-02-21T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "BITCHIN BAJAS"
+  },
+  {
+    "date": "2026-02-21T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "CAT POWER: THE GREATEST TOUR - 20TH ANNIVERSARY PERFORMANCE (NIGHT 1)"
+  },
+  {
+    "date": "2026-02-21T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "MAGIC CITY HIPPIES – WINTER TOUR 2026"
+  },
+  {
+    "date": "2026-02-22T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "CAT POWER: THE GREATEST TOUR - 20TH ANNIVERSARY PERFORMANCE (NIGHT 2)"
+  },
+  {
+    "date": "2026-02-22T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "ARTEMAS"
+  },
+  {
+    "date": "2026-02-22T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "DRY CLEANING"
+  },
+  {
+    "date": "2026-02-23T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "PUMA BLUE"
+  },
+  {
+    "date": "2026-02-24T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "ALL THEM WITCHES"
+  },
+  {
+    "date": "2026-02-24T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "FOX STEVENSON"
+  },
+  {
+    "date": "2026-02-24T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "GLITTERER"
+  },
+  {
+    "date": "2026-02-24T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "IAN MUNSICK"
+  },
+  {
+    "date": "2026-02-24T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "AN EVENING WITH KATHLEEN EDWARDS"
+  },
+  {
+    "date": "2026-02-26T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "SOLD OUT: CARSIE BLANTON"
+  },
+  {
+    "date": "2026-02-26T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "HOLOCENE & SPEND THE NIGHT PRESENT: ROMARE DJ SET – 21+"
+  },
+  {
+    "date": "2026-02-26T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "JUSTIN FURSTENFELD"
+  },
+  {
+    "date": "2026-02-26T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "CLIPPING."
+  },
+  {
+    "date": "2026-02-27T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "RODNEY CROWELL: AIRLINE HIGHWAY TOUR"
+  },
+  {
+    "date": "2026-02-27T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "THE MOTHER HIPS"
+  },
+  {
+    "date": "2026-02-28T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "ZARA LARSSON"
+  },
+  {
+    "date": "2026-02-28T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "NATALIE JANE: THE WORLD I DIDN’T WANT TOUR"
+  },
+  {
+    "date": "2026-02-28T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SCHUR"
+  },
+  {
+    "date": "2026-02-28T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "COLD CAVE"
+  },
+  {
+    "date": "2026-02-28T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "EARLYBIRDS CLUB"
+  },
+  {
+    "date": "2026-03-01T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "ALEXANDER STEWART - WHAT IF? TOUR"
+  },
+  {
+    "date": "2026-03-02T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "SONS OF LEGION — SOUL TO SØL TOUR"
+  },
+  {
+    "date": "2026-03-02T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "TRAILBLAZING WOMEN: MOUSAI REMIX"
+  },
+  {
+    "date": "2026-03-03T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "WINSTON SURFSHIRT"
+  },
+  {
+    "date": "2026-03-04T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "JOSEPH - CLOSER TO HAPPY TOUR"
+  },
+  {
+    "date": "2026-03-04T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "DRAMA: PLATONIC ROMANCE TOUR"
+  },
+  {
+    "date": "2026-03-04T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "MONOLINK"
+  },
+  {
+    "date": "2026-03-05T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "LADYSMITH BLACK MAMBAZO"
+  },
+  {
+    "date": "2026-03-06T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "ROSEBUD BAKER (NIGHT 1)"
+  },
+  {
+    "date": "2026-03-06T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "MADELEINE PEYROUX W/ SHELLY RUDOLPH"
+  },
+  {
+    "date": "2026-03-06T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "MATT PRYOR"
+  },
+  {
+    "date": "2026-03-07T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "EMERY — 20TH ANNIVERSARY OF THE QUESTION"
+  },
+  {
+    "date": "2026-03-07T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "ROSEBUD BAKER (NIGHT 2)"
+  },
+  {
+    "date": "2026-03-07T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "MONONEON + MOHINI DEY"
+  },
+  {
+    "date": "2026-03-07T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "WITCHZ PRESENTS ENTER AFTERLIFE WORLD TOUR 2026"
+  },
+  {
+    "date": "2026-03-08T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "SAM GREENFIELD WITH FOAMBOY PRESENTED BY PDX JAZZ"
+  },
+  {
+    "date": "2026-03-08T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "WHITNEY"
+  },
+  {
+    "date": "2026-03-09T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "THE STRUMBELLAS -  INTO DUST TOUR"
+  },
+  {
+    "date": "2026-03-09T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "GURRIERS"
+  },
+  {
+    "date": "2026-03-09T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "INDIGO DE SOUZA"
+  },
+  {
+    "date": "2026-03-10T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "LAST DINOSAURS WELLNESS 10YR ANNIVERSARY TOUR"
+  },
+  {
+    "date": "2026-03-10T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "BIAMP PORTLAND JAZZ FESTIVAL: COCHEMEA W/ DRECKIG"
+  },
+  {
+    "date": "2026-03-10T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "BAD BAD HATS"
+  },
+  {
+    "date": "2026-03-11T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "NOTHING MORE CARNAL NATURE WORLD TOUR"
+  },
+  {
+    "date": "2026-03-11T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "JEFF PARKER IVTET + SML"
+  },
+  {
+    "date": "2026-03-12T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "BILL FRISELL WITH TIM ANGULO AND LUKE BERGMAN"
+  },
+  {
+    "date": "2026-03-12T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "BRYANT BARNES PRESENTS: SOLACE TOUR"
+  },
+  {
+    "date": "2026-03-12T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "BRYANT BARNES"
+  },
+  {
+    "date": "2026-03-13T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "DODIE - SPECIAL GUEST ANDY LOUIS"
+  },
+  {
+    "date": "2026-03-14T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "MAVIS STAPLES W/ SHIRLEY NANETTE"
+  },
+  {
+    "date": "2026-03-14T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "YUNG KAI: STAY WITH THE OCEAN, I’LL FIND YOU TOUR"
+  },
+  {
+    "date": "2026-03-15T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "PEACHES"
+  },
+  {
+    "date": "2026-03-16T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SPIRITUAL CRAMP"
+  },
+  {
+    "date": "2026-03-17T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "HIGHSCHOOL"
+  },
+  {
+    "date": "2026-03-18T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "COLONY HOUSE - THE 77 TOUR"
+  },
+  {
+    "date": "2026-03-18T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "MAGGIE LINDEMANN"
+  },
+  {
+    "date": "2026-03-18T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "HAWTHORNE HEIGHTS – 20TH ANNIVERSARY OF IF ONLY YOU WERE LONELY"
+  },
+  {
+    "date": "2026-03-19T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "THE RECORD COMPANY - GIVE IT BACK TO YOU 10TH ANNIVERSARY TOUR"
+  },
+  {
+    "date": "2026-03-20T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "DIRTY THREE"
+  },
+  {
+    "date": "2026-03-20T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "JESSE WELLES UNDER THE POWERLINES 2026 TOUR"
+  },
+  {
+    "date": "2026-03-20T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "AJ LEE & BLUE SUMMIT"
+  },
+  {
+    "date": "2026-03-20T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "PIRI & TOMMY"
+  },
+  {
+    "date": "2026-03-20T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "DONNY BENET"
+  },
+  {
+    "date": "2026-03-21T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "LAUREN SPENCER SMITH – THE ART OF BEING A MESS TOUR"
+  },
+  {
+    "date": "2026-03-22T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "MARIAH THE SCIENTIST HEARTS SOLD SEPARATELY TOUR"
+  },
+  {
+    "date": "2026-03-22T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "RUNO PLUM - PATCHING TOUR"
+  },
+  {
+    "date": "2026-03-23T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "MACHINE GIRL"
+  },
+  {
+    "date": "2026-03-23T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "49TH & MAIN – 21+"
+  },
+  {
+    "date": "2026-03-24T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "THE NUDE PARTY"
+  },
+  {
+    "date": "2026-03-24T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "THE BARR BROTHERS - LET IT HISS TOUR (NIGHT 1)"
+  },
+  {
+    "date": "2026-03-24T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "LANDON CONRATH"
+  },
+  {
+    "date": "2026-03-25T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "I SEE STARS SPIN THE WHEEL TOUR"
+  },
+  {
+    "date": "2026-03-25T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "DREAM IVORY W/REW – ALL AGES"
+  },
+  {
+    "date": "2026-03-25T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "THE BARR BROTHERS - LET IT HISS TOUR (NIGHT 2)"
+  },
+  {
+    "date": "2026-03-25T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "PEARLY DROPS"
+  },
+  {
+    "date": "2026-03-25T00:00:00.000",
+    "venue": "SHOW BAR",
+    "title": "MARISSA NADLER"
+  },
+  {
+    "date": "2026-03-26T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "ACOPIA –  21+"
+  },
+  {
+    "date": "2026-03-26T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "THE BELAIR LIP BOMBS X DUST"
+  },
+  {
+    "date": "2026-03-27T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "HELL'S BELLES"
+  },
+  {
+    "date": "2026-03-27T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "THE THING"
+  },
+  {
+    "date": "2026-03-27T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "TOPHOUSE"
+  },
+  {
+    "date": "2026-03-28T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "MCLUSKY"
+  },
+  {
+    "date": "2026-03-28T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "HARLAND WILLIAMS: COMZILLA COMEDY TOUR"
+  },
+  {
+    "date": "2026-03-28T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "ANDREW CALLAGHAN – ALL GAS NO BRAKES X CHANNEL 5 “CARNIVAL” ***RESCHEDULED DATE***"
+  },
+  {
+    "date": "2026-03-29T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "ST. PAUL & THE BROKEN BONES"
+  },
+  {
+    "date": "2026-03-29T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "SKULLCRUSHER"
+  },
+  {
+    "date": "2026-04-01T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "ELIZA MCLAMB - GOOD STORY TOUR"
+  },
+  {
+    "date": "2026-04-01T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "EVAN HONER"
+  },
+  {
+    "date": "2026-04-01T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "TOKYO TEA ROOM"
+  },
+  {
+    "date": "2026-04-02T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "HOLOCENE & SPEND THE NIGHT PRESENT: ADRIAN SHERWOOD – 21+"
+  },
+  {
+    "date": "2026-04-02T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "MIND ENTERPRISES"
+  },
+  {
+    "date": "2026-04-03T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "THE MOSS"
+  },
+  {
+    "date": "2026-04-03T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "HEALTH X CARPENTER BRUT"
+  },
+  {
+    "date": "2026-04-04T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "DAR WILLIAMS"
+  },
+  {
+    "date": "2026-04-04T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "STICKY FINGERS"
+  },
+  {
+    "date": "2026-04-04T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "GLOBAL BASED & HOLOCENE PRESENT: SIX SEX – USA TOUR 2026 – 21+"
+  },
+  {
+    "date": "2026-04-04T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "ULTRA SUNN WITH SPECIAL GUESTS"
+  },
+  {
+    "date": "2026-04-04T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "VANDELUX"
+  },
+  {
+    "date": "2026-04-05T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "CASS MCCOMBS + BAND"
+  },
+  {
+    "date": "2026-04-05T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "GOLDFORD"
+  },
+  {
+    "date": "2026-04-06T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "WESTERMAN"
+  },
+  {
+    "date": "2026-04-08T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "RATBOYS - WHEN THE SUN EXPLODES TOUR 2026"
+  },
+  {
+    "date": "2026-04-08T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "THE SUMMER SET"
+  },
+  {
+    "date": "2026-04-09T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "COURTNEY MARIE ANDREWS - THE VALENTINE TOUR"
+  },
+  {
+    "date": "2026-04-10T00:00:00.000",
+    "venue": "HOLOCENE",
+    "title": "CLARICE JENSEN AND CHUCK JOHNSON – EARLY SHOW! – 21+"
+  },
+  {
+    "date": "2026-04-10T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "JIM JEFFERIES: SON OF A CARPENTER"
+  },
+  {
+    "date": "2026-04-10T00:00:00.000",
+    "venue": "STAR THEATER",
+    "title": "QUAL"
+  },
+  {
+    "date": "2026-04-12T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "ON CINEMA - THE CERTIFIED “FIVE BAGS OF POPCORN” TOUR"
+  },
+  {
+    "date": "2026-04-15T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "OKLOU"
+  },
+  {
+    "date": "2026-04-18T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "MARGARET CHO: CHOLIGARCHY"
+  },
+  {
+    "date": "2026-04-20T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "VIOLIN SQUARED"
+  },
+  {
+    "date": "2026-04-21T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "CMAT"
+  },
+  {
+    "date": "2026-04-21T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "WEDNESDAY BLEEDS TOUR 2026 (NIGHT 1)"
+  },
+  {
+    "date": "2026-04-21T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "DIE SPITZ"
+  },
+  {
+    "date": "2026-04-22T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "LEBANON HANOVER"
+  },
+  {
+    "date": "2026-04-22T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "TWEN"
+  },
+  {
+    "date": "2026-04-22T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "WEDNESDAY BLEEDS TOUR 2026 (NIGHT 2)"
+  },
+  {
+    "date": "2026-04-24T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "IRIS DEMENT"
+  },
+  {
+    "date": "2026-04-26T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "MARO: SO MUCH HAS CHANGED"
+  },
+  {
+    "date": "2026-04-26T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "DREW AND ELLIE HOLCOMB - NEVER GONNA LET YOU GO TOUR"
+  },
+  {
+    "date": "2026-04-27T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "SOLD OUT: ALICE PHOEBE LOU - OBLIVION TOUR"
+  },
+  {
+    "date": "2026-04-27T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "THE WEDDING PRESENT - SEAMONSTERS 35TH ANNIVERSARY TOUR"
+  },
+  {
+    "date": "2026-04-27T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "THE BROOK & THE BLUFF: THE WEREWOLF TOUR"
+  },
+  {
+    "date": "2026-04-28T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "VNV NATION - AN EVENING WITH"
+  },
+  {
+    "date": "2026-04-28T00:00:00.000",
+    "venue": "WONDER BALLROOM",
+    "title": "PATRICK WATSON – UH OH TOUR"
+  },
+  {
+    "date": "2026-04-29T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "DEMENTIA RESEARCH: A LONG AND WINDING ROAD"
+  },
+  {
+    "date": "2026-05-02T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "MO GILLIGAN – THE MO YOU KNOW"
+  },
+  {
+    "date": "2026-05-02T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "LA DISPUTE"
+  },
+  {
+    "date": "2026-05-07T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "BOYS LIKE GIRLS – THE SOUNDTRACK OF YOUR LIFE TOUR"
+  },
+  {
+    "date": "2026-05-08T00:00:00.000",
+    "venue": "THEATER OF CLOUDS",
+    "title": "PUSCIFER"
+  },
+  {
+    "date": "2026-05-09T00:00:00.000",
+    "venue": "HAWTHORNE THEATRE",
+    "title": "MELROSE AVENUE"
+  },
+  {
+    "date": "2026-05-09T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "CHET FAKER"
+  },
+  {
+    "date": "2026-05-10T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "JUST MUSTARD"
+  },
+  {
+    "date": "2026-05-12T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "THE MIDNIGHT"
+  },
+  {
+    "date": "2026-05-13T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "SPORTS"
+  },
+  {
+    "date": "2026-05-13T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "SOLD OUT: ECHO & THE BUNNYMEN: MORE SONGS TO LEARN & SING – THE VERY BEST OF ECHO & THE BUNNYMEN"
+  },
+  {
+    "date": "2026-05-13T00:00:00.000",
+    "venue": "ROSELAND THEATER",
+    "title": "JOYCE MANOR"
+  },
+  {
+    "date": "2026-05-16T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "ALAN DOYLE"
+  },
+  {
+    "date": "2026-05-17T00:00:00.000",
+    "venue": "POLARIS HALL",
+    "title": "NEWDAD"
+  },
+  {
+    "date": "2026-05-19T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "THE PAPER KITES"
+  },
+  {
+    "date": "2026-05-22T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "MELODY’S ECHO CHAMBER – UNCLOUDED TOUR"
+  },
+  {
+    "date": "2026-05-23T00:00:00.000",
+    "venue": "MISSISSIPPI STUDIOS",
+    "title": "THE SCRATCH"
+  },
+  {
+    "date": "2026-06-25T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "WHOSE LIVE ANYWAY? (NIGHT 1)"
+  },
+  {
+    "date": "2026-06-26T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "WHOSE LIVE ANYWAY? (NIGHT 2)"
+  },
+  {
+    "date": "2026-07-03T00:00:00.000",
+    "venue": "REVOLUTION HALL",
+    "title": "WOLFMOTHER – 20TH ANNIVERSARY TOUR"
+  },
+  {
+    "date": "2026-07-12T00:00:00.000",
+    "venue": "EDGEFIELD",
+    "title": "RAINBOW KITTEN SURPRISE: BONES NORTH AMERICAN TOUR"
+  },
+  {
+    "date": "2026-07-15T00:00:00.000",
+    "venue": "EDGEFIELD",
+    "title": "BOB MOSES & CANNONS: AFTERGLOW TOUR"
+  },
+  {
+    "date": "2026-07-25T00:00:00.000",
+    "venue": "ALADDIN THEATER",
+    "title": "STEAM POWERED GIRAFFE"
+  },
+  {
+    "date": "2026-09-26T00:00:00.000",
+    "venue": "CRYSTAL BALLROOM",
+    "title": "PETER HOOK & THE LIGHT"
+  },
 ]
