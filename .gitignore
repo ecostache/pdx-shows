@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+/.pnpm-store/
 
 # testing
 /coverage
@@ -10,16 +11,23 @@
 
 # misc
 .DS_Store
+Thumbs.db
 *.pem
+*.key
+.eslintcache
 
 # debug
 npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
 
 # env files
 .env*
 
 # vercel
-.vercel
+/.vercel/
 
 # typescript
 *.tsbuildinfo
@@ -30,5 +38,3 @@ TODO.md
 
 /scripts
 /tests
-
-.nvmrc
