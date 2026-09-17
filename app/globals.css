@@ -356,6 +356,7 @@ main {
 }
 
 .clear-button,
+.date-picker-done,
 .empty-state button {
   min-height: 2.75rem;
   padding: 0.65rem 1.4rem;
@@ -372,8 +373,9 @@ main {
   background: transparent;
 }
 
+.date-picker-done,
 .empty-state button {
-  color: var(--accent-contrast);
+  color: var(--background);
   background: var(--text);
 }
 

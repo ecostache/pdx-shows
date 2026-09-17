@@ -22,6 +22,41 @@ afterEach(() => {
 });
 
 describe("EventExplorer", () => {
+  it("orders date groups and hides venues with no upcoming events", () => {
+    render(<EventExplorer events={[...events].reverse()} today="2026-08-06" />);
+    expect(screen.getAllByRole("heading", { level: 2 }).map((heading) => heading.textContent)).toEqual([
+      "Thursday, August 6, 2026", "Friday, August 7, 2026", "Saturday, August 8, 2026",
+    ]);
+    expect(screen.queryByLabelText("Past Venue")).toBeNull();
+  });
+
+  it("finishes a single date using Done and restores focus", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const trigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
+    fireEvent.click(trigger);
+    fireEvent.click(screen.getByRole("button", { name: /Friday, August 7/ }));
+    fireEvent.click(screen.getByRole("button", { name: "Done" }));
+    expect(screen.queryByRole("dialog")).toBeNull();
+    expect(document.activeElement).toBe(trigger);
+    expect(screen.getByText("Tomorrow")).toBeTruthy();
+    expect(screen.queryByText("Later")).toBeNull();
+    fireEvent.click(trigger);
+    fireEvent.keyDown(trigger, { key: "Escape" });
+    expect(screen.queryByRole("dialog")).toBeNull();
+  });
+
+  it("expires past date selections when Portland crosses midnight", () => {
+    vi.setSystemTime(new Date("2026-08-07T06:59:30Z"));
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    fireEvent.click(screen.getByRole("button", { name: /Dates, All upcoming/ }));
+    fireEvent.click(screen.getByRole("button", { name: /Thursday, August 6/ }));
+    fireEvent.click(screen.getByRole("button", { name: "Done" }));
+    act(() => vi.advanceTimersByTime(60_000));
+    expect(screen.queryByText("Today")).toBeNull();
+    expect(screen.getByText("Tomorrow")).toBeTruthy();
+    expect(screen.getByRole("button", { name: /Dates, All upcoming/ })).toBeTruthy();
+  });
+
   it("refreshes a statically rendered date in the browser", () => {
     vi.setSystemTime(new Date("2026-08-07T18:00:00Z"));
     render(<EventExplorer events={events} today="2026-08-06" />);

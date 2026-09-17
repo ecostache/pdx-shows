@@ -10,7 +10,7 @@ PDX Shows brings Portland's live-music calendar into one simple, searchable plac
 
 ## Run locally
 
-Requires Node.js 24 LTS and pnpm 11.23.0.
+Requires Node.js 24 LTS and pnpm 12.
 
 ```sh
 nvm use
@@ -20,3 +20,5 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+Run `pnpm check` to lint, typecheck, test, and build.

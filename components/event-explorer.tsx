@@ -28,17 +28,6 @@ function calendarDate(date: string): Date {
   return new TZDate(year, month - 1, day, PORTLAND_TIME_ZONE);
 }
 
-function dateOnly(date: Date): string {
-  const parts = new Intl.DateTimeFormat("en-US", {
-    timeZone: PORTLAND_TIME_ZONE,
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).formatToParts(date);
-  const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
-  return `${values.year}-${values.month}-${values.day}`;
-}
-
 function formatCompactDate(date: string): string {
   const [year, month, day] = date.split("-").map(Number);
   return new Intl.DateTimeFormat("en-US", {
@@ -104,8 +93,12 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
   }, []);
 
   const venues = useMemo(
-    () => [...new Set(events.map((event) => event.venue))].sort((a, b) => a.localeCompare(b)),
-    [events],
+    () => [...new Set(
+      events
+        .filter((event) => event.date >= currentDate || selectedVenues.has(event.venue))
+        .map((event) => event.venue),
+    )].sort((a, b) => a.localeCompare(b)),
+    [currentDate, events, selectedVenues],
   );
   const visibleEvents = useMemo(
     () => filterEvents(events, selectedVenues, currentDate, selectedDates),
@@ -118,7 +111,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
           (result[event.date] ??= []).push(event);
           return result;
         }, {}),
-      ),
+      ).sort(([a], [b]) => a.localeCompare(b)),
     [visibleEvents],
   );
 
@@ -153,7 +146,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
   }
 
   function selectDate(_: DateRange | undefined, triggerDate: Date) {
-    const clickedDate = dateOnly(triggerDate);
+    const clickedDate = portlandDate(triggerDate);
     if (clickedDate < currentDate) return;
 
     if (!rangeAnchor) {
@@ -199,7 +192,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
   return (
     <section className="event-explorer" aria-label="Upcoming shows">
       <div className="filters">
-        <div ref={dateFilterRef} className={`date-filter${datePickerOpen ? " is-open" : ""}`}>
+        <div ref={dateFilterRef} onKeyDown={closeFilterOnEscape} className={`date-filter${datePickerOpen ? " is-open" : ""}`}>
           <button
             ref={dateTriggerRef}
             type="button"
@@ -214,7 +207,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
           </button>
 
           {datePickerOpen ? (
-            <div className="date-picker-popover" onKeyDown={closeFilterOnEscape}>
+            <div className="date-picker-popover">
               <DayPicker
                 id="date-picker"
                 mode="range"
@@ -231,9 +224,12 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
                 selected={calendarSelection}
                 onSelect={selectDate}
               />
+              <button type="button" className="date-picker-done" onClick={() => closeDatePicker()}>
+                Done
+              </button>
               <p className="sr-only" aria-live="polite">
                 {rangeAnchor
-                  ? `${formatCompactDate(rangeAnchor)} selected. Choose another date for a range, or finish for one day.`
+                  ? `${formatCompactDate(rangeAnchor)} selected. Choose another date for a range, or choose Done for one day.`
                   : "Choose one date, or choose a second date for a range."}
               </p>
             </div>
@@ -312,7 +308,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
       ) : (
         <div className="empty-state">
           <h2>No shows found</h2>
-          <p>Try an earlier date or a few more venues.</p>
+          <p>{hasFilters ? "Try different dates or venues." : "Check back soon for upcoming shows."}</p>
           {hasFilters ? <button type="button" onClick={clearFilters}>Show everything</button> : null}
         </div>
       )}
