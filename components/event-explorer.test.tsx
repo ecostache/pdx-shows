@@ -30,12 +30,12 @@ describe("EventExplorer", () => {
     expect(screen.queryByLabelText("Past Venue")).toBeNull();
   });
 
-  it("finishes a single date using Done and restores focus", () => {
+  it("finishes a single date on the second click and restores focus", () => {
     render(<EventExplorer events={events} today="2026-08-06" />);
     const trigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
     fireEvent.click(trigger);
     fireEvent.click(screen.getByRole("button", { name: /Friday, August 7/ }));
-    fireEvent.click(screen.getByRole("button", { name: "Done" }));
+    fireEvent.click(screen.getByRole("button", { name: /Friday, August 7/ }));
     expect(screen.queryByRole("dialog")).toBeNull();
     expect(document.activeElement).toBe(trigger);
     expect(screen.getByText("Tomorrow")).toBeTruthy();
@@ -50,7 +50,7 @@ describe("EventExplorer", () => {
     render(<EventExplorer events={events} today="2026-08-06" />);
     fireEvent.click(screen.getByRole("button", { name: /Dates, All upcoming/ }));
     fireEvent.click(screen.getByRole("button", { name: /Thursday, August 6/ }));
-    fireEvent.click(screen.getByRole("button", { name: "Done" }));
+    fireEvent.click(screen.getByRole("button", { name: /Thursday, August 6/ }));
     act(() => vi.advanceTimersByTime(60_000));
     expect(screen.queryByText("Today")).toBeNull();
     expect(screen.getByText("Tomorrow")).toBeTruthy();

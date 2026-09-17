@@ -224,12 +224,9 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
                 selected={calendarSelection}
                 onSelect={selectDate}
               />
-              <button type="button" className="date-picker-done" onClick={() => closeDatePicker()}>
-                Done
-              </button>
               <p className="sr-only" aria-live="polite">
                 {rangeAnchor
-                  ? `${formatCompactDate(rangeAnchor)} selected. Choose another date for a range, or choose Done for one day.`
+                  ? `${formatCompactDate(rangeAnchor)} selected. Choose another date for a range, or choose the same date again for one day.`
                   : "Choose one date, or choose a second date for a range."}
               </p>
             </div>
