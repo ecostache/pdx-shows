@@ -1,12 +1,12 @@
+import { connection } from "next/server";
 import rawEvents from "@/data/events.json";
 import { EventExplorer } from "@/components/event-explorer";
 import { parseEvents, portlandDate } from "@/lib/events";
 
-export default function Home() {
-  const events = parseEvents(rawEvents);
-  if (events.length === 0) {
-    throw new Error("The event feed is empty. Run `pnpm scrape` before building the site.");
-  }
+export default async function Home() {
+  await connection();
+  const today = portlandDate();
+  const events = parseEvents(rawEvents).filter((event) => event.date >= today);
 
   return (
     <main>
@@ -14,7 +14,7 @@ export default function Home() {
         <p className="eyebrow">Live music in Portland, Oregon</p>
         <h1 className="site-title">PDX Shows</h1>
       </header>
-      <EventExplorer events={events} today={portlandDate()} />
+      <EventExplorer events={events} today={today} />
     </main>
   );
 }

@@ -6,6 +6,7 @@ import "./globals.css";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
+  axes: ["opsz"],
   display: "swap",
   variable: "--font-dm-sans",
   fallback: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],

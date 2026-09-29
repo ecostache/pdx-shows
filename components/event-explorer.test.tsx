@@ -145,6 +145,45 @@ describe("EventExplorer", () => {
     expect(screen.getByText("Tomorrow")).toBeTruthy();
   });
 
+  it("closes filters when keyboard focus leaves, while allowing focus inside", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const dateTrigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
+    const venueSummary = screen.getByText("All venues").closest("summary") as HTMLElement;
+    const venueFilter = venueSummary.closest("details") as HTMLDetailsElement;
+
+    fireEvent.click(dateTrigger);
+    const date = screen.getByRole("button", { name: /Friday, August 7/ });
+    act(() => date.focus());
+    expect(screen.getByRole("dialog")).toBeTruthy();
+    act(() => venueSummary.focus());
+    expect(screen.queryByRole("dialog")).toBeNull();
+    expect(document.activeElement).toBe(venueSummary);
+
+    fireEvent.click(venueSummary);
+    act(() => screen.getByLabelText("Holocene").focus());
+    expect(venueFilter.open).toBe(true);
+    act(() => dateTrigger.focus());
+    expect(venueFilter.open).toBe(false);
+    expect(document.activeElement).toBe(dateTrigger);
+  });
+
+  it("restores focus when an unfocusable outside target dismisses a filter", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const dateTrigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
+    fireEvent.click(dateTrigger);
+    act(() => screen.getByRole("button", { name: /Friday, August 7/ }).focus());
+    fireEvent.pointerDown(document.body);
+    expect(screen.queryByRole("dialog")).toBeNull();
+    expect(document.activeElement).toBe(dateTrigger);
+
+    const venueSummary = screen.getByText("All venues").closest("summary") as HTMLElement;
+    fireEvent.click(venueSummary);
+    act(() => screen.getByLabelText("Holocene").focus());
+    fireEvent.pointerDown(document.body);
+    expect((venueSummary.closest("details") as HTMLDetailsElement).open).toBe(false);
+    expect(document.activeElement).toBe(venueSummary);
+  });
+
   it("keeps a one-day selection when dismissed and starts fresh when reopened", () => {
     render(<EventExplorer events={events} today="2026-08-06" />);
 

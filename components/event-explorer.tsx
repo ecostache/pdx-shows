@@ -5,6 +5,7 @@ import {
   useMemo,
   useRef,
   useState,
+  type FocusEvent,
   type KeyboardEvent,
 } from "react";
 import { DayPicker, TZDate, type DateRange } from "react-day-picker";
@@ -79,10 +80,16 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
       if (!(event.target instanceof Node)) return;
 
       const venueFilter = venueFilterRef.current;
-      if (venueFilter?.open && !venueFilter.contains(event.target)) venueFilter.open = false;
+      if (venueFilter?.open && !venueFilter.contains(event.target)) {
+        if (venueFilter.contains(document.activeElement)) {
+          venueFilter.querySelector("summary")?.focus();
+        }
+        venueFilter.open = false;
+      }
 
       const dateFilter = dateFilterRef.current;
       if (dateFilter && !dateFilter.contains(event.target)) {
+        if (dateFilter.contains(document.activeElement)) dateTriggerRef.current?.focus();
         setDatePickerOpen(false);
         setRangeAnchor(undefined);
       }
@@ -177,6 +184,16 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
     filter.querySelector("summary")?.focus();
   }
 
+  function closeFilterOnBlur(event: FocusEvent<HTMLElement>) {
+    if (event.currentTarget.contains(event.relatedTarget)) return;
+
+    if (event.currentTarget === venueFilterRef.current) {
+      venueFilterRef.current.open = false;
+    } else {
+      closeDatePicker(false);
+    }
+  }
+
   const calendarSelection: DateRange | undefined = selectedDates
     ? {
         from: calendarDate(selectedDates.from),
@@ -192,7 +209,12 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
   return (
     <section className="event-explorer" aria-label="Upcoming shows">
       <div className="filters">
-        <div ref={dateFilterRef} onKeyDown={closeFilterOnEscape} className={`date-filter${datePickerOpen ? " is-open" : ""}`}>
+        <div
+          ref={dateFilterRef}
+          onKeyDown={closeFilterOnEscape}
+          onBlur={closeFilterOnBlur}
+          className={`date-filter${datePickerOpen ? " is-open" : ""}`}
+        >
           <button
             ref={dateTriggerRef}
             type="button"
@@ -237,6 +259,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
           ref={venueFilterRef}
           className="venue-filter"
           onKeyDown={closeFilterOnEscape}
+          onBlur={closeFilterOnBlur}
           onToggle={(event) => {
             if (event.currentTarget.open) {
               setDatePickerOpen(false);

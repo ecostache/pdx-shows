@@ -11,6 +11,14 @@
   --accent: #d93a2f;
   --accent-contrast: #ffffff;
   --overlay-shadow: rgb(18 18 16 / 14%);
+  /* A restrained scale for the masthead, listings, controls, and labels. */
+  --type-display: clamp(1.625rem, 4vw, 3.5rem);
+  --type-headline: clamp(1.125rem, 1.025rem + 0.4vw, 1.375rem);
+  --type-body: 1rem;
+  --type-small: 0.875rem;
+  --type-label: 0.75rem;
+  --tracking-label: 0.045em;
+  --tracking-heading: -0.015em;
 }
 
 * {
@@ -28,11 +36,12 @@ body {
   background: var(--background);
   background-image: none;
   font-family: var(--font-dm-sans), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: var(--type-body);
   font-weight: 400;
   font-optical-sizing: auto;
   font-synthesis: none;
   font-kerning: normal;
-  line-height: 1.35;
+  line-height: 1.5;
   text-rendering: optimizeLegibility;
 }
 
@@ -51,34 +60,34 @@ input[type="checkbox"] {
 main {
   width: min(calc(100% - 3rem), 1340px);
   margin-inline: auto;
-  padding: 1.5rem 0 7rem;
+  padding: 1rem 0 3rem;
 }
 
 .site-header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: clamp(1.75rem, 3.5vw, 2.75rem);
-  padding: 0.9rem 0 clamp(1.4rem, 2.5vw, 2rem);
+  gap: 0.75rem;
+  padding: 0.65rem 0 0.9rem;
   border-top: 0.4rem solid var(--border);
 }
 
 .eyebrow {
   margin: 0;
-  color: var(--text);
-  font-size: 0.65rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  line-height: 1;
+  color: var(--muted);
+  font-size: var(--type-label);
+  font-weight: 500;
+  letter-spacing: var(--tracking-label);
+  line-height: 1.4;
   text-transform: uppercase;
 }
 
 .site-title {
   margin: 0;
-  font-size: clamp(2rem, 3.5vw, 2.65rem);
-  font-weight: 700;
-  letter-spacing: -0.05em;
-  line-height: 0.95;
+  font-size: var(--type-display);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
   text-align: left;
   text-transform: uppercase;
 }
@@ -100,8 +109,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.28rem;
-  min-height: 4.6rem;
+  gap: 0.15rem;
+  min-height: 3.5rem;
 }
 
 .date-filter {
@@ -113,7 +122,7 @@ main {
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 0.75rem 3rem 0.75rem 0;
+  padding: 0.5rem 3rem 0.5rem 0;
   border: 0;
   color: var(--text);
   background: transparent;
@@ -144,17 +153,18 @@ main {
 .date-filter > button > span,
 .venue-filter summary > span {
   color: var(--muted);
-  font-size: 0.59rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  line-height: 1;
+  font-size: var(--type-label);
+  font-weight: 500;
+  letter-spacing: var(--tracking-label);
+  line-height: 1.4;
   text-transform: uppercase;
 }
 
 .date-filter > button strong {
-  font-size: 0.92rem;
+  font-size: var(--type-body);
   font-weight: 500;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
   overflow-wrap: anywhere;
 }
 
@@ -210,7 +220,7 @@ main {
 }
 
 .date-picker-popover .rdp-caption_label {
-  font-size: 0.85rem;
+  font-size: var(--type-body);
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -222,8 +232,9 @@ main {
 
 .date-picker-popover .rdp-weekday {
   color: var(--muted);
-  font-size: 0.62rem;
+  font-size: var(--type-label);
   font-weight: 500;
+  letter-spacing: 0.025em;
   padding: 0.35rem 0 0.5rem;
   text-transform: uppercase;
 }
@@ -242,8 +253,9 @@ main {
   max-width: var(--rdp-day_button-width);
   margin-inline: auto;
   border: 0;
-  font-size: 0.78rem;
-  font-weight: 400;
+  font-size: var(--type-small);
+  font-weight: 450;
+  font-variant-numeric: tabular-nums;
   line-height: 1;
 }
 
@@ -285,7 +297,7 @@ main {
 
 .venue-filter summary {
   position: relative;
-  padding: 0.75rem 3rem 0.75rem 1rem;
+  padding: 0.5rem 3rem 0.5rem 1rem;
   list-style: none;
 }
 
@@ -310,9 +322,10 @@ main {
 }
 
 .venue-filter summary strong {
-  font-size: 0.92rem;
+  font-size: var(--type-body);
   font-weight: 500;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
   overflow-wrap: anywhere;
 }
 
@@ -339,8 +352,9 @@ main {
   min-height: 2.9rem;
   padding: 0.6rem 0.8rem;
   border-bottom: 1px solid var(--subtle-border);
-  font-size: 0.8rem;
-  font-weight: 500;
+  font-size: var(--type-small);
+  font-weight: 450;
+  line-height: 1.4;
 }
 
 .venue-filter fieldset label span {
@@ -365,10 +379,10 @@ main {
   padding: 0.65rem 1.4rem;
   border: 0;
   border-radius: 0;
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-size: var(--type-small);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.4;
 }
 
 .clear-button {
@@ -404,13 +418,13 @@ main {
 
 .event-group h2 {
   margin: 0;
-  padding: 1.45rem 1.5rem 1.45rem 0;
+  padding: 0.85rem 1.5rem 0.85rem 0;
   border-right: 1px solid var(--border);
-  font-size: 0.76rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  line-height: 1.5;
-  text-transform: uppercase;
+  font-size: var(--type-small);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
 }
 
 .event-group ul {
@@ -420,7 +434,7 @@ main {
 }
 
 .event-group li {
-  min-height: 5.65rem;
+  min-height: 4.25rem;
 }
 
 .event-group li:has(.event-link) {
@@ -442,8 +456,8 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  min-height: 5.65rem;
-  padding: 1.15rem 0.8rem 1.15rem 1.25rem;
+  min-height: 4.25rem;
+  padding: 0.65rem 0.8rem 0.65rem 1.25rem;
 }
 
 .event-link {
@@ -464,10 +478,11 @@ main {
   display: block;
   margin: 0;
   color: var(--text);
-  font-size: clamp(1.05rem, 1.55vw, 1.35rem);
+  font-size: var(--type-headline);
   font-weight: 500;
-  letter-spacing: -0.025em;
-  line-height: 1.2;
+  letter-spacing: var(--tracking-heading);
+  line-height: 1.3;
+  text-wrap: pretty;
   overflow-wrap: anywhere;
   transition: color 120ms ease;
 }
@@ -478,20 +493,19 @@ main {
 
 .venue {
   display: block;
-  margin: 0.45rem 0 0;
+  margin: 0.2rem 0 0;
   color: var(--venue);
-  font-size: 0.68rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  line-height: 1.2;
-  text-transform: uppercase;
+  font-size: var(--type-small);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.4;
   overflow-wrap: anywhere;
 }
 
 .arrow {
   flex: 0 0 auto;
   color: var(--muted);
-  font-size: 1.05rem;
+  font-size: var(--type-body);
   line-height: 1;
   transition: color 120ms ease, transform 120ms ease;
 }
@@ -502,8 +516,8 @@ main {
 }
 
 .empty-state {
-  min-height: 20rem;
-  padding: 4rem 0;
+  min-height: 14rem;
+  padding: 2.5rem 0;
   border-bottom: 1px solid var(--border);
 }
 
@@ -513,17 +527,17 @@ main {
 }
 
 .empty-state h2 {
-  font-size: clamp(2rem, 6vw, 4.5rem);
-  font-weight: 700;
-  letter-spacing: -0.045em;
-  line-height: 0.95;
-  text-transform: uppercase;
+  font-size: var(--type-headline);
+  font-weight: 500;
+  letter-spacing: var(--tracking-heading);
+  line-height: 1.3;
+  text-wrap: balance;
 }
 
 .empty-state p {
   margin-top: 0.75rem;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--type-body);
 }
 
 .empty-state button {
@@ -585,13 +599,6 @@ main {
   }
 }
 
-@media (min-width: 801px) {
-  .site-header {
-    gap: 1.4rem;
-    padding-bottom: 1.25rem;
-  }
-}
-
 @media (max-width: 800px) {
   main {
     width: min(calc(100% - 2rem), 1340px);
@@ -618,26 +625,23 @@ main {
   }
 
   .event-group h2 {
-    padding: 0.8rem 0;
+    padding: 0.5rem 0;
     border-right: 0;
     border-bottom: 1px solid var(--subtle-border);
-    color: var(--accent);
-    font-size: 0.72rem;
+    color: var(--venue);
+    font-size: var(--type-small);
   }
 
   .event-group li {
-    min-height: 5rem;
+    min-height: 4rem;
   }
 
   .event-link,
   .event-content {
-    min-height: 5rem;
-    padding: 1rem 0.35rem 1rem 0;
+    min-height: 4rem;
+    padding: 0.6rem 0.35rem 0.6rem 0;
   }
 
-  .event-title {
-    font-size: 1.08rem;
-  }
 }
 
 @media (max-width: 520px) {
@@ -647,13 +651,10 @@ main {
   }
 
   .site-header {
-    gap: 1.5rem;
-    padding-top: 0.75rem;
+    gap: 0.65rem;
+    padding-top: 0.6rem;
   }
 
-  .site-title {
-    font-size: clamp(2rem, 8vw, 2.4rem);
-  }
 
   .filters {
     grid-template-columns: 1fr;
