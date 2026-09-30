@@ -9,6 +9,7 @@ import {
   type KeyboardEvent,
 } from "react";
 import { DayPicker, TZDate, type DateRange } from "react-day-picker";
+import { useFilterPopovers } from "./use-filter-popovers";
 import {
   filterEvents,
   formatEventDate,
@@ -48,12 +49,15 @@ function formatDateSelection(selection?: DateSelection): string {
 export function EventExplorer({ events, today }: EventExplorerProps) {
   const dateFilterRef = useRef<HTMLDivElement>(null);
   const dateTriggerRef = useRef<HTMLButtonElement>(null);
-  const venueFilterRef = useRef<HTMLDetailsElement>(null);
+  const venueFilterRef = useRef<HTMLDivElement>(null);
   const [currentDate, setCurrentDate] = useState(today);
   const [datePickerOpen, setDatePickerOpen] = useState(false);
+  const [venuePickerOpen, setVenuePickerOpen] = useState(false);
   const [selectedDates, setSelectedDates] = useState<DateSelection>();
   const [rangeAnchor, setRangeAnchor] = useState<string>();
   const [selectedVenues, setSelectedVenues] = useState<Set<string>>(new Set());
+
+  useFilterPopovers(dateFilterRef, venueFilterRef, datePickerOpen, venuePickerOpen);
 
   useEffect(() => {
     function refreshCurrentDate() {
@@ -80,16 +84,16 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
       if (!(event.target instanceof Node)) return;
 
       const venueFilter = venueFilterRef.current;
-      if (venueFilter?.open && !venueFilter.contains(event.target)) {
+      if (venueFilter && !venueFilter.contains(event.target)) {
         if (venueFilter.contains(document.activeElement)) {
-          venueFilter.querySelector("summary")?.focus();
+          venueFilter.querySelector("button")?.focus({ preventScroll: true });
         }
-        venueFilter.open = false;
+        setVenuePickerOpen(false);
       }
 
       const dateFilter = dateFilterRef.current;
       if (dateFilter && !dateFilter.contains(event.target)) {
-        if (dateFilter.contains(document.activeElement)) dateTriggerRef.current?.focus();
+        if (dateFilter.contains(document.activeElement)) dateTriggerRef.current?.focus({ preventScroll: true });
         setDatePickerOpen(false);
         setRangeAnchor(undefined);
       }
@@ -136,12 +140,12 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
     setRangeAnchor(undefined);
     setDatePickerOpen(false);
     setSelectedVenues(new Set());
-    if (venueFilterRef.current) venueFilterRef.current.open = false;
+    setVenuePickerOpen(false);
   }
 
   function toggleDatePicker() {
     const opening = !datePickerOpen;
-    if (opening && venueFilterRef.current) venueFilterRef.current.open = false;
+    if (opening) setVenuePickerOpen(false);
     setRangeAnchor(undefined);
     setDatePickerOpen(opening);
   }
@@ -150,6 +154,12 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
     setDatePickerOpen(false);
     setRangeAnchor(undefined);
     if (restoreFocus) dateTriggerRef.current?.focus();
+  }
+
+  function toggleVenuePicker() {
+    const opening = !venuePickerOpen;
+    if (opening) closeDatePicker(false);
+    setVenuePickerOpen(opening);
   }
 
   function selectDate(_: DateRange | undefined, triggerDate: Date) {
@@ -180,15 +190,15 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
 
     const filter = venueFilterRef.current;
     if (!filter) return;
-    filter.open = false;
-    filter.querySelector("summary")?.focus();
+    setVenuePickerOpen(false);
+    filter.querySelector("button")?.focus();
   }
 
   function closeFilterOnBlur(event: FocusEvent<HTMLElement>) {
-    if (event.currentTarget.contains(event.relatedTarget)) return;
+    if (event.relatedTarget instanceof Node && event.currentTarget.contains(event.relatedTarget)) return;
 
     if (event.currentTarget === venueFilterRef.current) {
-      venueFilterRef.current.open = false;
+      setVenuePickerOpen(false);
     } else {
       closeDatePicker(false);
     }
@@ -255,26 +265,34 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
           ) : null}
         </div>
 
-        <details
+        <div
           ref={venueFilterRef}
-          className="venue-filter"
+          className={`venue-filter${venuePickerOpen ? " is-open" : ""}`}
           onKeyDown={closeFilterOnEscape}
           onBlur={closeFilterOnBlur}
-          onToggle={(event) => {
-            if (event.currentTarget.open) {
-              setDatePickerOpen(false);
-              setRangeAnchor(undefined);
-            }
-          }}
         >
-          <summary>
+          <button
+            type="button"
+            aria-expanded={venuePickerOpen}
+            aria-controls="venue-picker"
+            aria-label={`Venues, ${venueSummary}`}
+            onClick={toggleVenuePicker}
+          >
             <span>Venues</span>
             <strong aria-live="polite">{venueSummary}</strong>
-          </summary>
-          <fieldset>
+          </button>
+          <fieldset id="venue-picker" hidden={!venuePickerOpen}>
             <legend className="sr-only">Filter by venue</legend>
             {venues.map((venue) => (
-              <label key={venue}>
+              <label
+                key={venue}
+                onPointerDown={(event) => {
+                  if (event.button !== 0 || event.target instanceof HTMLInputElement) return;
+                  // Keep focus inside the filter until the label activates its checkbox.
+                  event.preventDefault();
+                  event.currentTarget.querySelector("input")?.focus({ preventScroll: true });
+                }}
+              >
                 <input
                   type="checkbox"
                   checked={selectedVenues.has(venue)}
@@ -284,7 +302,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
               </label>
             ))}
           </fieldset>
-        </details>
+        </div>
 
         <button type="button" className="clear-button" onClick={clearFilters} disabled={!hasFilters}>
           Clear filters

@@ -11,8 +11,8 @@ export default async function Home() {
   return (
     <main>
       <header className="site-header">
-        <p className="eyebrow">Live music in Portland, Oregon</p>
         <h1 className="site-title">PDX Shows</h1>
+        <p className="site-description">Live music in Portland, Oregon</p>
       </header>
       <EventExplorer events={events} today={today} />
     </main>

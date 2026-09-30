@@ -19,6 +19,7 @@ beforeEach(() => {
 afterEach(() => {
   cleanup();
   vi.useRealTimers();
+  vi.restoreAllMocks();
 });
 
 describe("EventExplorer", () => {
@@ -81,6 +82,31 @@ describe("EventExplorer", () => {
     expect(screen.getByRole("dialog", { name: "Choose a show date or range" })).toBeTruthy();
   });
 
+  it("fits the venue menu above a low trigger and repositions it after resizing", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const trigger = screen.getByText("All venues").closest("button") as HTMLElement;
+    const filter = trigger.closest(".venue-filter") as HTMLDivElement;
+    const panel = filter.querySelector("fieldset") as HTMLFieldSetElement;
+    vi.spyOn(trigger, "getBoundingClientRect").mockReturnValue(new DOMRect(16, 300, 288, 56));
+    vi.spyOn(panel, "scrollHeight", "get").mockReturnValue(800);
+    vi.spyOn(window, "innerHeight", "get").mockReturnValue(568);
+    const originalFontSize = document.documentElement.style.fontSize;
+    document.documentElement.style.fontSize = "16px";
+
+    try {
+      fireEvent.click(trigger);
+      expect(panel.style.getPropertyValue("--popover-available-height")).toBe("280px");
+      expect(panel.style.getPropertyValue("--popover-top")).toBe("-288px");
+
+      vi.spyOn(window, "innerHeight", "get").mockReturnValue(800);
+      fireEvent.resize(window);
+      expect(panel.style.getPropertyValue("--popover-available-height")).toBe("424px");
+      expect(panel.style.getPropertyValue("--popover-top")).toBe("64px");
+    } finally {
+      document.documentElement.style.fontSize = originalFontSize;
+    }
+  });
+
   it("dismisses the date and venue filters", () => {
     render(<EventExplorer events={events} today="2026-08-06" />);
     const dateTrigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
@@ -94,18 +120,18 @@ describe("EventExplorer", () => {
     fireEvent.pointerDown(document.body);
     expect(screen.queryByRole("dialog")).toBeNull();
 
-    const summary = screen.getByText("All venues").closest("summary") as HTMLElement;
-    const filter = summary.closest("details") as HTMLDetailsElement;
+    const trigger = screen.getByText("All venues").closest("button") as HTMLElement;
+    const filter = trigger.closest(".venue-filter") as HTMLDivElement;
 
-    fireEvent.click(summary);
-    expect(filter.open).toBe(true);
+    fireEvent.click(trigger);
+    expect(trigger.getAttribute("aria-expanded")).toBe("true");
     fireEvent.keyDown(filter, { key: "Escape" });
-    expect(filter.open).toBe(false);
-    expect(document.activeElement).toBe(summary);
+    expect(trigger.getAttribute("aria-expanded")).toBe("false");
+    expect(document.activeElement).toBe(trigger);
 
-    fireEvent.click(summary);
+    fireEvent.click(trigger);
     fireEvent.pointerDown(document.body);
-    expect(filter.open).toBe(false);
+    expect(trigger.getAttribute("aria-expanded")).toBe("false");
   });
 
   it("filters instantly by one date or an inclusive reverse-selected range", () => {
@@ -138,9 +164,7 @@ describe("EventExplorer", () => {
     expect(screen.queryByText("Tomorrow")).toBeNull();
 
     fireEvent.click(screen.getByRole("button", { name: "Clear filters" }));
-    expect(
-      (screen.getByText("All venues").closest("details") as HTMLDetailsElement).open,
-    ).toBe(false);
+    expect(screen.getByRole("button", { name: "Venues, All venues" }).getAttribute("aria-expanded")).toBe("false");
     expect(screen.getByText("Today")).toBeTruthy();
     expect(screen.getByText("Tomorrow")).toBeTruthy();
   });
@@ -148,22 +172,21 @@ describe("EventExplorer", () => {
   it("closes filters when keyboard focus leaves, while allowing focus inside", () => {
     render(<EventExplorer events={events} today="2026-08-06" />);
     const dateTrigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
-    const venueSummary = screen.getByText("All venues").closest("summary") as HTMLElement;
-    const venueFilter = venueSummary.closest("details") as HTMLDetailsElement;
+    const venueTrigger = screen.getByText("All venues").closest("button") as HTMLElement;
 
     fireEvent.click(dateTrigger);
     const date = screen.getByRole("button", { name: /Friday, August 7/ });
     act(() => date.focus());
     expect(screen.getByRole("dialog")).toBeTruthy();
-    act(() => venueSummary.focus());
+    act(() => venueTrigger.focus());
     expect(screen.queryByRole("dialog")).toBeNull();
-    expect(document.activeElement).toBe(venueSummary);
+    expect(document.activeElement).toBe(venueTrigger);
 
-    fireEvent.click(venueSummary);
+    fireEvent.click(venueTrigger);
     act(() => screen.getByLabelText("Holocene").focus());
-    expect(venueFilter.open).toBe(true);
+    expect(venueTrigger.getAttribute("aria-expanded")).toBe("true");
     act(() => dateTrigger.focus());
-    expect(venueFilter.open).toBe(false);
+    expect(venueTrigger.getAttribute("aria-expanded")).toBe("false");
     expect(document.activeElement).toBe(dateTrigger);
   });
 
@@ -176,12 +199,62 @@ describe("EventExplorer", () => {
     expect(screen.queryByRole("dialog")).toBeNull();
     expect(document.activeElement).toBe(dateTrigger);
 
-    const venueSummary = screen.getByText("All venues").closest("summary") as HTMLElement;
-    fireEvent.click(venueSummary);
+    const venueTrigger = screen.getByText("All venues").closest("button") as HTMLElement;
+    fireEvent.click(venueTrigger);
     act(() => screen.getByLabelText("Holocene").focus());
     fireEvent.pointerDown(document.body);
-    expect((venueSummary.closest("details") as HTMLDetailsElement).open).toBe(false);
-    expect(document.activeElement).toBe(venueSummary);
+    expect(venueTrigger.getAttribute("aria-expanded")).toBe("false");
+    expect(document.activeElement).toBe(venueTrigger);
+  });
+
+  it("dismisses filters without crashing when focus moves to a non-node target", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const errors: unknown[] = [];
+    function captureError(event: ErrorEvent) {
+      errors.push(event.error);
+      event.preventDefault();
+    }
+    window.addEventListener("error", captureError);
+
+    try {
+      const venueTrigger = screen.getByText("All venues").closest("button") as HTMLElement;
+      fireEvent.click(venueTrigger);
+      fireEvent.blur(venueTrigger, { relatedTarget: new window.EventTarget() });
+      expect(errors).toEqual([]);
+      expect(venueTrigger.getAttribute("aria-expanded")).toBe("false");
+
+      const dateTrigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
+      fireEvent.click(dateTrigger);
+      fireEvent.blur(dateTrigger, { relatedTarget: new window.EventTarget() });
+      expect(errors).toEqual([]);
+      expect(screen.queryByRole("dialog")).toBeNull();
+    } finally {
+      window.removeEventListener("error", captureError);
+    }
+  });
+
+  it("clears a focused venue selection and keeps only one filter open", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const venueTrigger = screen.getByRole("button", { name: "Venues, All venues" });
+    const dateTrigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
+
+    fireEvent.click(dateTrigger);
+    fireEvent.click(venueTrigger);
+    expect(screen.queryByRole("dialog")).toBeNull();
+    const checkbox = screen.getByRole("checkbox", { name: "Holocene" });
+    act(() => checkbox.focus());
+    fireEvent.click(checkbox);
+    const clear = screen.getByRole("button", { name: "Clear filters" });
+    fireEvent.pointerDown(clear);
+    fireEvent.click(clear);
+    expect(venueTrigger.getAttribute("aria-expanded")).toBe("false");
+    expect(screen.queryByRole("group", { name: "Filter by venue" })).toBeNull();
+    expect(screen.getByText("Tomorrow")).toBeTruthy();
+
+    fireEvent.click(venueTrigger);
+    fireEvent.click(dateTrigger);
+    expect(venueTrigger.getAttribute("aria-expanded")).toBe("false");
+    expect(screen.getByRole("dialog")).toBeTruthy();
   });
 
   it("keeps a one-day selection when dismissed and starts fresh when reopened", () => {

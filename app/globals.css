@@ -2,23 +2,24 @@
   color-scheme: light dark;
   --background: #ffffff;
   --surface: #ffffff;
-  --text: #121210;
-  --muted: #686861;
-  --venue: #4f4f49;
-  --border: #181816;
-  --subtle-border: #cecec7;
-  --hover: #ebebe5;
+  --text: #202020;
+  --muted: #707070;
+  --venue: #606060;
+  --border: #dedede;
+  --subtle-border: #eeeeee;
+  --hover: #f5f5f5;
+  --button-hover: #3b3b3b;
   --accent: #d93a2f;
   --accent-contrast: #ffffff;
-  --overlay-shadow: rgb(18 18 16 / 14%);
-  /* A restrained scale for the masthead, listings, controls, and labels. */
-  --type-display: clamp(1.625rem, 4vw, 3.5rem);
-  --type-headline: clamp(1.125rem, 1.025rem + 0.4vw, 1.375rem);
+  --overlay-shadow: rgb(0 0 0 / 8%);
+  --type-display: clamp(1.75rem, 1.5rem + 1vw, 2rem);
+  --type-headline: clamp(1.125rem, 1.0625rem + 0.25vw, 1.25rem);
   --type-body: 1rem;
-  --type-small: 0.875rem;
-  --type-label: 0.75rem;
-  --tracking-label: 0.045em;
-  --tracking-heading: -0.015em;
+  --type-small: 0.9375rem;
+  --type-label: 0.8125rem;
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --tracking-heading: -0.005em;
 }
 
 * {
@@ -28,6 +29,7 @@
 html {
   background: var(--background);
   background-image: none;
+  scroll-padding-top: 6rem;
 }
 
 body {
@@ -35,9 +37,11 @@ body {
   color: var(--text);
   background: var(--background);
   background-image: none;
-  font-family: var(--font-dm-sans), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--font-radio-canada), "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: var(--type-body);
-  font-weight: 400;
+  font-weight: var(--weight-normal);
+  font-stretch: 87.5%;
+  font-variation-settings: "wdth" 87.5;
   font-optical-sizing: auto;
   font-synthesis: none;
   font-kerning: normal;
@@ -49,6 +53,7 @@ button,
 input,
 summary {
   font: inherit;
+  font-variation-settings: inherit;
 }
 
 button,
@@ -58,38 +63,35 @@ input[type="checkbox"] {
 }
 
 main {
-  width: min(calc(100% - 3rem), 1340px);
+  width: min(calc(100% - clamp(2rem, 6vw, 3rem)), 880px);
   margin-inline: auto;
-  padding: 1rem 0 3rem;
+  padding: clamp(2rem, 5vw, 3rem) 0 4rem;
 }
 
 .site-header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.75rem;
-  padding: 0.65rem 0 0.9rem;
-  border-top: 0.4rem solid var(--border);
+  gap: 0.375rem;
+  padding-bottom: 1.5rem;
 }
 
-.eyebrow {
+.site-description {
   margin: 0;
   color: var(--muted);
-  font-size: var(--type-label);
-  font-weight: 500;
-  letter-spacing: var(--tracking-label);
-  line-height: 1.4;
-  text-transform: uppercase;
+  font-size: var(--type-small);
+  font-weight: var(--weight-normal);
+  line-height: 1.5;
 }
 
 .site-title {
   margin: 0;
   font-size: var(--type-display);
-  font-weight: 600;
-  letter-spacing: -0.04em;
-  line-height: 1.05;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  text-wrap: balance;
   text-align: left;
-  text-transform: uppercase;
 }
 
 .filters {
@@ -97,103 +99,115 @@ main {
   z-index: 10;
   top: 0;
   display: grid;
-  grid-template-columns: minmax(12rem, 1fr) minmax(12rem, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
   align-items: stretch;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding-block: 0.5rem;
   background: var(--background);
 }
 
 .date-filter > button,
-.venue-filter summary {
+.venue-filter > button {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.15rem;
   min-height: 3.5rem;
+  padding: 0.5rem 2.5rem 0.5rem 0.875rem;
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  color: var(--text);
+  background: var(--surface);
 }
 
-.date-filter {
+.date-filter,
+.venue-filter {
   position: relative;
-  border-right: 1px solid var(--border);
+  min-width: 0;
 }
 
-.date-filter > button {
+.date-filter > button,
+.venue-filter > button {
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 0.5rem 3rem 0.5rem 0;
-  border: 0;
-  color: var(--text);
-  background: transparent;
   text-align: left;
 }
 
 .date-filter.is-open > button,
-.venue-filter[open] summary {
-  background: var(--surface);
+.venue-filter.is-open > button {
+  background: var(--hover);
 }
 
-.date-filter > button::after {
+.date-filter > button::after,
+.venue-filter > button::after {
   position: absolute;
   right: 1rem;
   top: 50%;
-  content: "+";
-  color: var(--accent);
-  font-size: 1.35rem;
-  font-weight: 300;
-  line-height: 1;
-  transform: translateY(-50%);
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 1.5px solid var(--muted);
+  border-bottom: 1.5px solid var(--muted);
+  transform: translateY(-75%) rotate(45deg);
 }
 
-.date-filter.is-open > button::after {
-  content: "−";
+.date-filter.is-open > button::after,
+.venue-filter.is-open > button::after {
+  transform: translateY(-25%) rotate(225deg);
 }
 
 .date-filter > button > span,
-.venue-filter summary > span {
+.venue-filter > button > span {
   color: var(--muted);
   font-size: var(--type-label);
-  font-weight: 500;
-  letter-spacing: var(--tracking-label);
+  font-weight: var(--weight-normal);
+  letter-spacing: 0.01em;
   line-height: 1.4;
-  text-transform: uppercase;
 }
 
-.date-filter > button strong {
-  font-size: var(--type-body);
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  line-height: 1.35;
+.date-filter > button strong,
+.venue-filter > button strong {
+  font-size: var(--type-small);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0;
+  line-height: 1.4;
   overflow-wrap: anywhere;
 }
 
 .date-picker-popover {
   position: absolute;
   z-index: 30;
-  top: calc(100% + 1px);
-  left: -1px;
-  width: 20.5rem;
-  padding: 0.9rem;
+  top: var(--popover-top, calc(100% + 0.5rem));
+  left: 0;
+  width: min(22rem, calc(100vw - 2rem));
+  max-height: var(--popover-available-height, calc(100dvh - 2rem));
+  padding: 0.75rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-padding-top: var(--calendar-scroll-padding, 3.25rem);
   border: 1px solid var(--border);
+  border-radius: 0.375rem;
   color: var(--text);
   background: var(--surface);
-  box-shadow: 0 0.5rem 1.5rem var(--overlay-shadow);
+  box-shadow: 0 0.25rem 1rem var(--overlay-shadow);
 }
 
 .date-picker-popover .rdp-root {
+  container: calendar / inline-size;
   --rdp-accent-color: var(--accent);
   --rdp-accent-background-color: color-mix(in srgb, var(--accent) 16%, var(--surface));
-  --rdp-day-height: 2.5rem;
+  --rdp-day-height: 2.75rem;
   --rdp-day-width: 2.5rem;
-  --rdp-day_button-height: 2.25rem;
-  --rdp-day_button-width: 2.25rem;
+  --rdp-day_button-height: 2.5rem;
+  --rdp-day_button-width: 2.5rem;
   --rdp-day_button-border-radius: 50%;
   --rdp-selected-border: 0;
   --rdp-disabled-opacity: 0.4;
   --rdp-outside-opacity: 0.5;
-  --rdp-nav_button-height: 2.5rem;
-  --rdp-nav_button-width: 2.5rem;
+  --rdp-nav_button-height: 2.75rem;
+  --rdp-nav_button-width: 2.75rem;
   --rdp-nav-height: 2.75rem;
   --rdp-range_start-date-background-color: var(--accent);
   --rdp-range_start-background: transparent;
@@ -216,27 +230,62 @@ main {
 }
 
 .date-picker-popover .rdp-month_caption {
+  position: sticky;
+  z-index: 2;
+  top: 0;
   align-items: center;
+  min-height: var(--rdp-nav-height);
+  height: auto;
+  padding-right: 5.75rem;
+  background: var(--surface);
+}
+
+.date-picker-popover .rdp-nav {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  justify-content: flex-end;
+  margin-top: calc(-1 * var(--rdp-nav-height));
+  pointer-events: none;
 }
 
 .date-picker-popover .rdp-caption_label {
   font-size: var(--type-body);
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-weight: var(--weight-medium);
+  letter-spacing: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+@container calendar (max-width: 14rem) {
+  .date-picker-popover .rdp-month_caption {
+    padding-right: 0;
+  }
+
+  .date-picker-popover .rdp-nav {
+    top: var(--rdp-nav-height);
+    margin-top: 0;
+    background: var(--surface);
+  }
 }
 
 .date-picker-popover .rdp-button_previous,
 .date-picker-popover .rdp-button_next {
+  pointer-events: auto;
   border: 1px solid transparent;
+  border-radius: 0.375rem;
+}
+
+.date-picker-popover .rdp-chevron {
+  fill: var(--muted);
 }
 
 .date-picker-popover .rdp-weekday {
   color: var(--muted);
   font-size: var(--type-label);
-  font-weight: 500;
-  letter-spacing: 0.025em;
+  font-weight: var(--weight-normal);
+  letter-spacing: 0;
   padding: 0.35rem 0 0.5rem;
-  text-transform: uppercase;
 }
 
 .date-picker-popover .rdp-day,
@@ -254,14 +303,14 @@ main {
   margin-inline: auto;
   border: 0;
   font-size: var(--type-small);
-  font-weight: 450;
+  font-weight: var(--weight-normal);
   font-variant-numeric: tabular-nums;
   line-height: 1;
 }
 
 .date-picker-popover .rdp-today:not(.rdp-selected) .rdp-day_button {
-  color: var(--accent);
-  box-shadow: inset 0 0 0 1px var(--accent);
+  color: var(--text);
+  box-shadow: inset 0 0 0 1px var(--muted);
 }
 
 .date-picker-popover .rdp-selected {
@@ -272,6 +321,7 @@ main {
 .date-picker-popover .rdp-selected .rdp-day_button,
 .date-picker-popover .rdp-range_start .rdp-day_button,
 .date-picker-popover .rdp-range_end .rdp-day_button {
+  font-weight: var(--weight-medium);
   color: var(--accent-contrast);
   background: var(--accent);
   box-shadow: none;
@@ -290,62 +340,26 @@ main {
   outline-offset: -2px;
 }
 
-.venue-filter {
-  position: relative;
-  border-right: 1px solid var(--border);
-}
-
-.venue-filter summary {
-  position: relative;
-  padding: 0.5rem 3rem 0.5rem 1rem;
-  list-style: none;
-}
-
-.venue-filter summary::-webkit-details-marker {
-  display: none;
-}
-
-.venue-filter summary::after {
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  content: "+";
-  color: var(--accent);
-  font-size: 1.35rem;
-  font-weight: 300;
-  line-height: 1;
-  transform: translateY(-50%);
-}
-
-.venue-filter[open] summary::after {
-  content: "−";
-}
-
-.venue-filter summary strong {
-  font-size: var(--type-body);
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  line-height: 1.35;
-  overflow-wrap: anywhere;
-}
-
 .venue-filter fieldset {
   position: absolute;
-  top: calc(100% + 1px);
-  right: -1px;
-  width: min(25rem, calc(100vw - 3rem));
+  top: var(--popover-top, calc(100% + 0.5rem));
+  right: 0;
+  width: min(25rem, calc(100vw - 2rem));
   min-width: 0;
-  max-height: 25rem;
+  max-height: min(25rem, var(--popover-available-height, calc(100dvh - 2rem)));
   margin: 0;
   padding: 0;
   overflow-y: auto;
+  overscroll-behavior: contain;
   border: 1px solid var(--border);
+  border-radius: 0.375rem;
   background: var(--surface);
-  box-shadow: 0 0.5rem 1.5rem var(--overlay-shadow);
+  box-shadow: 0 0.25rem 1rem var(--overlay-shadow);
 }
 
 .venue-filter fieldset label {
   display: grid;
+  cursor: pointer;
   grid-template-columns: 1.25rem 1fr;
   gap: 0.65rem;
   align-items: center;
@@ -353,7 +367,7 @@ main {
   padding: 0.6rem 0.8rem;
   border-bottom: 1px solid var(--subtle-border);
   font-size: var(--type-small);
-  font-weight: 450;
+  font-weight: var(--weight-normal);
   line-height: 1.4;
 }
 
@@ -370,23 +384,24 @@ main {
   width: 1rem;
   height: 1rem;
   margin: 0;
-  accent-color: var(--accent);
+  accent-color: var(--text);
 }
 
 .clear-button,
 .empty-state button {
   min-height: 2.75rem;
-  padding: 0.65rem 1.4rem;
+  padding: 0.65rem 1rem;
   border: 0;
-  border-radius: 0;
+  border-radius: 0.375rem;
   font-size: var(--type-small);
-  font-weight: 500;
+  font-weight: var(--weight-normal);
   letter-spacing: 0;
   line-height: 1.4;
 }
 
 .clear-button {
-  color: var(--text);
+  align-self: center;
+  color: var(--venue);
   background: transparent;
 }
 
@@ -402,27 +417,20 @@ main {
 }
 
 .clear-button:not(:disabled):focus-visible {
-  color: var(--accent);
   background: var(--hover);
 }
 
 .event-groups {
-  border-top: 0;
-}
-
-.event-group {
   display: grid;
-  grid-template-columns: minmax(13rem, 0.28fr) minmax(0, 1fr);
-  border-bottom: 1px solid var(--border);
+  gap: 2rem;
 }
 
 .event-group h2 {
-  margin: 0;
-  padding: 0.85rem 1.5rem 0.85rem 0;
-  border-right: 1px solid var(--border);
+  margin: 0 0 0.5rem;
+  color: var(--venue);
   font-size: var(--type-small);
-  font-weight: 500;
-  letter-spacing: 0;
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.01em;
   line-height: 1.4;
   font-variant-numeric: tabular-nums;
 }
@@ -431,10 +439,6 @@ main {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.event-group li {
-  min-height: 4.25rem;
 }
 
 .event-group li:has(.event-link) {
@@ -457,7 +461,7 @@ main {
   align-items: center;
   width: 100%;
   min-height: 4.25rem;
-  padding: 0.65rem 0.8rem 0.65rem 1.25rem;
+  padding: 0.75rem 0.5rem 0.75rem 0;
 }
 
 .event-link {
@@ -479,16 +483,11 @@ main {
   margin: 0;
   color: var(--text);
   font-size: var(--type-headline);
-  font-weight: 500;
+  font-weight: var(--weight-normal);
   letter-spacing: var(--tracking-heading);
-  line-height: 1.3;
+  line-height: 1.4;
   text-wrap: pretty;
   overflow-wrap: anywhere;
-  transition: color 120ms ease;
-}
-
-.event-link:focus-visible .event-title {
-  color: var(--accent);
 }
 
 .venue {
@@ -496,9 +495,9 @@ main {
   margin: 0.2rem 0 0;
   color: var(--venue);
   font-size: var(--type-small);
-  font-weight: 400;
+  font-weight: var(--weight-normal);
   letter-spacing: 0;
-  line-height: 1.4;
+  line-height: 1.5;
   overflow-wrap: anywhere;
 }
 
@@ -507,18 +506,11 @@ main {
   color: var(--muted);
   font-size: var(--type-body);
   line-height: 1;
-  transition: color 120ms ease, transform 120ms ease;
-}
-
-.event-link:focus-visible .arrow {
-  color: var(--accent);
-  transform: translate(0.1rem, -0.1rem);
 }
 
 .empty-state {
   min-height: 14rem;
   padding: 2.5rem 0;
-  border-bottom: 1px solid var(--border);
 }
 
 .empty-state h2,
@@ -528,9 +520,9 @@ main {
 
 .empty-state h2 {
   font-size: var(--type-headline);
-  font-weight: 500;
+  font-weight: var(--weight-medium);
   letter-spacing: var(--tracking-heading);
-  line-height: 1.3;
+  line-height: 1.4;
   text-wrap: balance;
 }
 
@@ -562,7 +554,7 @@ main {
 
 @media (hover: hover) and (pointer: fine) {
   .date-filter > button:hover,
-  .venue-filter summary:hover,
+  .venue-filter > button:hover,
   .date-picker-popover .rdp-button_previous:hover,
   .date-picker-popover .rdp-button_next:hover,
   .date-picker-popover .rdp-day:not(.rdp-selected) .rdp-day_button:hover:not(:disabled),
@@ -571,113 +563,47 @@ main {
     background: var(--hover);
   }
 
-  .clear-button:not(:disabled):hover,
-  .event-link:hover .event-title,
-  .event-link:hover .arrow {
-    color: var(--accent);
-  }
-
   .empty-state button:hover {
-    color: var(--accent-contrast);
-    background: var(--accent);
+    background: var(--button-hover);
   }
 
   .event-group li:has(.event-link):hover {
     background: var(--hover);
   }
-
-  .event-link:hover .arrow {
-    transform: translate(0.1rem, -0.1rem);
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .event-group li:has(.event-link),
-  .event-title,
-  .arrow {
+  .event-group li:has(.event-link) {
     transition: none;
   }
 }
 
 @media (max-width: 800px) {
-  main {
-    width: min(calc(100% - 2rem), 1340px);
-    padding-top: 1rem;
+  html {
+    scroll-padding-top: 1rem;
   }
 
   .filters {
     position: relative;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .venue-filter {
-    border-right: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .clear-button {
     grid-column: 1 / -1;
     min-height: 2.75rem;
-    border-top: 1px solid var(--border);
+    justify-self: start;
+    padding-inline: 0.875rem;
   }
-
-  .event-group {
-    display: block;
-  }
-
-  .event-group h2 {
-    padding: 0.5rem 0;
-    border-right: 0;
-    border-bottom: 1px solid var(--subtle-border);
-    color: var(--venue);
-    font-size: var(--type-small);
-  }
-
-  .event-group li {
-    min-height: 4rem;
-  }
-
-  .event-link,
-  .event-content {
-    min-height: 4rem;
-    padding: 0.6rem 0.35rem 0.6rem 0;
-  }
-
 }
 
 @media (max-width: 520px) {
-  main {
-    width: calc(100% - 2rem);
-    padding-top: 0.65rem;
+  :root {
+    --type-small: 1rem;
+    --type-label: 0.875rem;
   }
-
-  .site-header {
-    gap: 0.65rem;
-    padding-top: 0.6rem;
-  }
-
 
   .filters {
     grid-template-columns: 1fr;
-  }
-
-  .date-filter {
-    border-right: 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .date-filter > button {
-    padding-left: 0.75rem;
-  }
-
-  .date-picker-popover {
-    right: -1px;
-    left: -1px;
-    width: auto;
-    box-shadow: 0 0.5rem 1.5rem var(--overlay-shadow);
-  }
-
-  .venue-filter summary {
-    padding-left: 0.75rem;
   }
 
   .venue-filter fieldset {
@@ -685,21 +611,35 @@ main {
     left: 0;
     width: 100%;
   }
+}
 
+@media (max-height: 520px) {
+  html {
+    scroll-padding-top: 1rem;
+  }
+
+  main {
+    padding-top: 1.5rem;
+  }
+
+  .filters {
+    position: relative;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #222220;
-    --surface: #282825;
-    --text: #d4d4ce;
-    --muted: #9a9a94;
-    --venue: #b3b3ad;
-    --border: #70706a;
-    --subtle-border: #3e3e39;
-    --hover: #30302c;
+    --background: #202020;
+    --surface: #262626;
+    --text: #ededed;
+    --muted: #a0a0a0;
+    --venue: #b5b5b5;
+    --border: #414141;
+    --subtle-border: #333333;
+    --hover: #2c2c2c;
+    --button-hover: #d0d0d0;
     --accent: #ec6257;
-    --accent-contrast: #222220;
-    --overlay-shadow: rgb(0 0 0 / 50%);
+    --accent-contrast: #202020;
+    --overlay-shadow: rgb(0 0 0 / 25%);
   }
 }

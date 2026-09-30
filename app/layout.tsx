@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { Radio_Canada } from "next/font/google";
 import type { ReactNode } from "react";
 import "react-day-picker/style.css";
 import "./globals.css";
 
-const dmSans = DM_Sans({
+const radioCanada = Radio_Canada({
   subsets: ["latin"],
-  axes: ["opsz"],
+  axes: ["wdth"],
   display: "swap",
-  variable: "--font-dm-sans",
+  variable: "--font-radio-canada",
   fallback: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
   adjustFontFallback: false,
 });
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="en" className={dmSans.variable}>
+    <html lang="en" className={radioCanada.variable}>
       <body>{children}</body>
     </html>
   );
