@@ -47,6 +47,7 @@ function formatDateSelection(selection?: DateSelection): string {
 }
 
 export function EventExplorer({ events, today }: EventExplorerProps) {
+  const filtersRef = useRef<HTMLDivElement>(null);
   const dateFilterRef = useRef<HTMLDivElement>(null);
   const dateTriggerRef = useRef<HTMLButtonElement>(null);
   const venueFilterRef = useRef<HTMLDivElement>(null);
@@ -58,6 +59,21 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
   const [selectedVenues, setSelectedVenues] = useState<Set<string>>(new Set());
 
   useFilterPopovers(dateFilterRef, venueFilterRef, datePickerOpen, venuePickerOpen);
+
+  useEffect(() => {
+    const filters = filtersRef.current;
+    const explorer = filters?.parentElement;
+    if (!filters || !explorer) return;
+
+    const updateFiltersHeight = () => {
+      explorer.style.setProperty("--filters-height", `${filters.getBoundingClientRect().height}px`);
+    };
+
+    updateFiltersHeight();
+    const observer = typeof ResizeObserver === "undefined" ? undefined : new ResizeObserver(updateFiltersHeight);
+    observer?.observe(filters);
+    return () => observer?.disconnect();
+  }, []);
 
   useEffect(() => {
     function refreshCurrentDate() {
@@ -218,7 +234,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
 
   return (
     <section className="event-explorer" aria-label="Upcoming shows">
-      <div className="filters">
+      <div ref={filtersRef} className="filters">
         <div
           ref={dateFilterRef}
           onKeyDown={closeFilterOnEscape}
