@@ -9,10 +9,12 @@ import {
   type KeyboardEvent,
 } from "react";
 import { DayPicker, TZDate, type DateRange } from "react-day-picker";
-import { useFilterPopovers } from "./use-filter-popovers";
+import { useFilterPopovers, type OpenFilter } from "./use-filter-popovers";
 import {
   filterEvents,
+  formatCompactDate,
   formatEventDate,
+  PORTLAND_TIME_ZONE,
   portlandDate,
   type DateSelection,
   type ShowEvent,
@@ -23,21 +25,9 @@ interface EventExplorerProps {
   today: string;
 }
 
-const PORTLAND_TIME_ZONE = "America/Los_Angeles";
-
 function calendarDate(date: string): Date {
   const [year, month, day] = date.split("-").map(Number);
   return new TZDate(year, month - 1, day, PORTLAND_TIME_ZONE);
-}
-
-function formatCompactDate(date: string): string {
-  const [year, month, day] = date.split("-").map(Number);
-  return new Intl.DateTimeFormat("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-    timeZone: "UTC",
-  }).format(new Date(Date.UTC(year, month - 1, day)));
 }
 
 function formatDateSelection(selection?: DateSelection): string {
@@ -52,13 +42,15 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
   const dateTriggerRef = useRef<HTMLButtonElement>(null);
   const venueFilterRef = useRef<HTMLDivElement>(null);
   const [currentDate, setCurrentDate] = useState(today);
-  const [datePickerOpen, setDatePickerOpen] = useState(false);
-  const [venuePickerOpen, setVenuePickerOpen] = useState(false);
+  const [calendarMonth, setCalendarMonth] = useState(today);
+  const [openFilter, setOpenFilter] = useState<OpenFilter>(null);
+  const datePickerOpen = openFilter === "date";
+  const venuePickerOpen = openFilter === "venue";
   const [selectedDates, setSelectedDates] = useState<DateSelection>();
   const [rangeAnchor, setRangeAnchor] = useState<string>();
   const [selectedVenues, setSelectedVenues] = useState<Set<string>>(new Set());
 
-  useFilterPopovers(dateFilterRef, venueFilterRef, datePickerOpen, venuePickerOpen);
+  useFilterPopovers(dateFilterRef, venueFilterRef, openFilter);
 
   useEffect(() => {
     const filters = filtersRef.current;
@@ -89,35 +81,34 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
 
     const initialTimer = window.setTimeout(refreshCurrentDate, 0);
     const interval = window.setInterval(refreshCurrentDate, 60_000);
+    function refreshVisibleDate() {
+      if (document.visibilityState === "visible") refreshCurrentDate();
+    }
+    document.addEventListener("visibilitychange", refreshVisibleDate);
     return () => {
       window.clearTimeout(initialTimer);
       window.clearInterval(interval);
+      document.removeEventListener("visibilitychange", refreshVisibleDate);
     };
   }, []);
 
   useEffect(() => {
-    function closeOpenFilters(event: PointerEvent) {
-      if (!(event.target instanceof Node)) return;
+    if (!openFilter) return;
+    const filter = (openFilter === "date" ? dateFilterRef : venueFilterRef).current;
+    if (!filter) return;
 
-      const venueFilter = venueFilterRef.current;
-      if (venueFilter && !venueFilter.contains(event.target)) {
-        if (venueFilter.contains(document.activeElement)) {
-          venueFilter.querySelector("button")?.focus({ preventScroll: true });
-        }
-        setVenuePickerOpen(false);
+    const closeOutsideFilter = (event: PointerEvent) => {
+      if (!(event.target instanceof Node) || filter.contains(event.target)) return;
+      if (filter.contains(document.activeElement)) {
+        filter.querySelector("button")?.focus({ preventScroll: true });
       }
+      setOpenFilter(null);
+      setRangeAnchor(undefined);
+    };
 
-      const dateFilter = dateFilterRef.current;
-      if (dateFilter && !dateFilter.contains(event.target)) {
-        if (dateFilter.contains(document.activeElement)) dateTriggerRef.current?.focus({ preventScroll: true });
-        setDatePickerOpen(false);
-        setRangeAnchor(undefined);
-      }
-    }
-
-    document.addEventListener("pointerdown", closeOpenFilters);
-    return () => document.removeEventListener("pointerdown", closeOpenFilters);
-  }, []);
+    document.addEventListener("pointerdown", closeOutsideFilter);
+    return () => document.removeEventListener("pointerdown", closeOutsideFilter);
+  }, [openFilter]);
 
   const venues = useMemo(
     () => [...new Set(
@@ -154,28 +145,26 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
   function clearFilters() {
     setSelectedDates(undefined);
     setRangeAnchor(undefined);
-    setDatePickerOpen(false);
+    setOpenFilter(null);
     setSelectedVenues(new Set());
-    setVenuePickerOpen(false);
+    dateTriggerRef.current?.focus();
   }
 
-  function toggleDatePicker() {
-    const opening = !datePickerOpen;
-    if (opening) setVenuePickerOpen(false);
+  function toggleFilter(filter: Exclude<OpenFilter, null>) {
+    if (filter === "date" && !datePickerOpen) {
+      setCalendarMonth(selectedDates?.from ?? currentDate);
+    }
     setRangeAnchor(undefined);
-    setDatePickerOpen(opening);
+    setOpenFilter((current) => current === filter ? null : filter);
   }
 
-  function closeDatePicker(restoreFocus = true) {
-    setDatePickerOpen(false);
+  function closeFilter(restoreFocus = true) {
+    setOpenFilter(null);
     setRangeAnchor(undefined);
-    if (restoreFocus) dateTriggerRef.current?.focus();
-  }
-
-  function toggleVenuePicker() {
-    const opening = !venuePickerOpen;
-    if (opening) closeDatePicker(false);
-    setVenuePickerOpen(opening);
+    if (restoreFocus && openFilter) {
+      const filter = (openFilter === "date" ? dateFilterRef : venueFilterRef).current;
+      filter?.querySelector("button")?.focus({ preventScroll: true });
+    }
   }
 
   function selectDate(_: DateRange | undefined, triggerDate: Date) {
@@ -192,32 +181,22 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
       from: clickedDate < rangeAnchor ? clickedDate : rangeAnchor,
       to: clickedDate < rangeAnchor ? rangeAnchor : clickedDate,
     });
-    closeDatePicker();
+    closeFilter();
   }
 
   function closeFilterOnEscape(event: KeyboardEvent<HTMLElement>) {
-    if (event.key !== "Escape") return;
+    if (event.key !== "Escape" || !openFilter) return;
 
     event.preventDefault();
-    if (datePickerOpen) {
-      closeDatePicker();
-      return;
-    }
-
-    const filter = venueFilterRef.current;
-    if (!filter) return;
-    setVenuePickerOpen(false);
-    filter.querySelector("button")?.focus();
+    closeFilter();
   }
 
   function closeFilterOnBlur(event: FocusEvent<HTMLElement>) {
+    const filter = (openFilter === "date" ? dateFilterRef : venueFilterRef).current;
+    if (!openFilter || event.currentTarget !== filter) return;
     if (event.relatedTarget instanceof Node && event.currentTarget.contains(event.relatedTarget)) return;
 
-    if (event.currentTarget === venueFilterRef.current) {
-      setVenuePickerOpen(false);
-    } else {
-      closeDatePicker(false);
-    }
+    closeFilter(false);
   }
 
   const calendarSelection: DateRange | undefined = selectedDates
@@ -248,34 +227,38 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
             aria-expanded={datePickerOpen}
             aria-controls="date-picker"
             aria-label={`Dates, ${formatDateSelection(selectedDates)}`}
-            onClick={toggleDatePicker}
+            onClick={() => toggleFilter("date")}
           >
             <span>Dates</span>
             <strong aria-live="polite">{formatDateSelection(selectedDates)}</strong>
           </button>
 
           {datePickerOpen ? (
-            <div className="date-picker-popover">
+            <div
+              className="date-picker-popover"
+              id="date-picker"
+              role="dialog"
+              aria-label="Choose a show date or range"
+              aria-describedby="date-picker-help"
+            >
               <DayPicker
-                id="date-picker"
                 mode="range"
-                role="dialog"
-                aria-label="Choose a show date or range"
                 autoFocus
                 navLayout="after"
                 timeZone={PORTLAND_TIME_ZONE}
                 noonSafe
                 today={calendarDate(currentDate)}
                 startMonth={calendarDate(currentDate)}
-                defaultMonth={calendarSelection?.from ?? calendarDate(currentDate)}
+                month={calendarDate(calendarMonth < currentDate ? currentDate : calendarMonth)}
+                onMonthChange={(month) => setCalendarMonth(portlandDate(month))}
                 disabled={{ before: calendarDate(currentDate) }}
                 selected={calendarSelection}
                 onSelect={selectDate}
               />
-              <p className="sr-only" aria-live="polite">
+              <p id="date-picker-help" className="calendar-help" aria-live="polite">
                 {rangeAnchor
                   ? `${formatCompactDate(rangeAnchor)} selected. Choose another date for a range, or choose the same date again for one day.`
-                  : "Choose one date, or choose a second date for a range."}
+                  : "Choose a date, then an end date for a range. Choose the same date twice for one day."}
               </p>
             </div>
           ) : null}
@@ -292,7 +275,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
             aria-expanded={venuePickerOpen}
             aria-controls="venue-picker"
             aria-label={`Venues, ${venueSummary}`}
-            onClick={toggleVenuePicker}
+            onClick={() => toggleFilter("venue")}
           >
             <span>Venues</span>
             <strong aria-live="polite">{venueSummary}</strong>
@@ -324,6 +307,10 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
           Clear filters
         </button>
       </div>
+
+      <p className="sr-only" role="status" aria-atomic="true">
+        {visibleEvents.length} {visibleEvents.length === 1 ? "show" : "shows"} found.
+      </p>
 
       {groups.length > 0 ? (
         <div className="event-groups">

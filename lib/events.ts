@@ -11,6 +11,27 @@ export interface DateSelection {
 }
 
 const DATE_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
+export const PORTLAND_TIME_ZONE = "America/Los_Angeles";
+
+const portlandDateFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: PORTLAND_TIME_ZONE,
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+});
+const eventDateFormatter = new Intl.DateTimeFormat("en-US", {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+  timeZone: "UTC",
+});
+const compactDateFormatter = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "numeric",
+  year: "numeric",
+  timeZone: "UTC",
+});
 
 export function isDateOnly(value: string): boolean {
   const match = DATE_PATTERN.exec(value);
@@ -71,12 +92,7 @@ function isHttpUrl(value: string): boolean {
 }
 
 export function portlandDate(now = new Date()): string {
-  const parts = new Intl.DateTimeFormat("en-US", {
-    timeZone: "America/Los_Angeles",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).formatToParts(now);
+  const parts = portlandDateFormatter.formatToParts(now);
   const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
   return `${values.year}-${values.month}-${values.day}`;
 }
@@ -97,12 +113,9 @@ export function filterEvents(
 }
 
 export function formatEventDate(date: string): string {
-  const [year, month, day] = date.split("-").map(Number);
-  return new Intl.DateTimeFormat("en-US", {
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-    timeZone: "UTC",
-  }).format(new Date(Date.UTC(year, month - 1, day)));
+  return eventDateFormatter.format(new Date(`${date}T00:00:00Z`));
+}
+
+export function formatCompactDate(date: string): string {
+  return compactDateFormatter.format(new Date(`${date}T00:00:00Z`));
 }

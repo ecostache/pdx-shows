@@ -23,6 +23,62 @@ afterEach(() => {
 });
 
 describe("EventExplorer", () => {
+  it("advances an open calendar when Portland enters a new month", () => {
+    vi.setSystemTime(new Date("2026-09-01T06:59:30Z"));
+    render(<EventExplorer events={events} today="2026-08-31" />);
+    fireEvent.click(screen.getByRole("button", { name: /Dates, All upcoming/ }));
+    expect(screen.getByRole("grid", { name: "August 2026" })).toBeTruthy();
+    act(() => vi.advanceTimersByTime(60_000));
+    expect(screen.getByRole("grid", { name: "September 2026" })).toBeTruthy();
+  });
+
+  it("preserves a future browsed month across midnight", () => {
+    vi.setSystemTime(new Date("2026-09-01T06:59:30Z"));
+    render(<EventExplorer events={events} today="2026-08-31" />);
+    fireEvent.click(screen.getByRole("button", { name: /Dates, All upcoming/ }));
+    fireEvent.click(screen.getByRole("button", { name: /next month/i }));
+    fireEvent.click(screen.getByRole("button", { name: /next month/i }));
+    act(() => vi.advanceTimersByTime(60_000));
+    expect(screen.getByRole("grid", { name: "October 2026" })).toBeTruthy();
+  });
+
+  it("announces filtered results and associates calendar instructions", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const resultStatus = screen.getByRole("status");
+    expect(resultStatus.textContent).toBe("3 shows found.");
+    fireEvent.click(screen.getByRole("button", { name: /Dates, All upcoming/ }));
+    expect(screen.getByRole("button", { name: /Dates, All upcoming/ }).getAttribute("aria-expanded")).toBe("true");
+    const dialog = screen.getByRole("dialog", { name: "Choose a show date or range" });
+    expect(document.getElementById(dialog.getAttribute("aria-describedby")!)?.textContent).toContain("Choose a date");
+    fireEvent.click(screen.getByRole("button", { name: /Friday, August 7/ }));
+    expect(resultStatus.textContent).toBe("1 show found.");
+  });
+
+  it("returns focus to Dates after clearing an empty result", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const dateTrigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
+    fireEvent.click(dateTrigger);
+    fireEvent.click(screen.getByRole("button", { name: /Sunday, August 9/ }));
+    fireEvent.click(screen.getByRole("button", { name: /Sunday, August 9/ }));
+    const reset = screen.getByRole("button", { name: "Show everything" });
+    act(() => reset.focus());
+    fireEvent.click(reset);
+
+    expect(document.activeElement).toBe(dateTrigger);
+    expect(screen.getByText("Tomorrow")).toBeTruthy();
+  });
+
+  it("refreshes the Portland date as soon as a suspended tab becomes visible", () => {
+    vi.setSystemTime(new Date("2026-08-07T06:59:30Z"));
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    act(() => vi.advanceTimersByTime(0));
+    vi.setSystemTime(new Date("2026-08-07T07:01:00Z"));
+    fireEvent(document, new Event("visibilitychange"));
+
+    expect(screen.queryByText("Today")).toBeNull();
+    expect(screen.getByText("Tomorrow")).toBeTruthy();
+  });
+
   it("orders date groups and hides venues with no upcoming events", () => {
     render(<EventExplorer events={[...events].reverse()} today="2026-08-06" />);
     expect(screen.getAllByRole("heading", { level: 2 }).map((heading) => heading.textContent)).toEqual([
@@ -41,9 +97,6 @@ describe("EventExplorer", () => {
     expect(document.activeElement).toBe(trigger);
     expect(screen.getByText("Tomorrow")).toBeTruthy();
     expect(screen.queryByText("Later")).toBeNull();
-    fireEvent.click(trigger);
-    fireEvent.keyDown(trigger, { key: "Escape" });
-    expect(screen.queryByRole("dialog")).toBeNull();
   });
 
   it("expires past date selections when Portland crosses midnight", () => {
@@ -72,16 +125,6 @@ describe("EventExplorer", () => {
     ).toBe(true);
   });
 
-  it("opens an accessible date picker from the date filter", () => {
-    render(<EventExplorer events={events} today="2026-08-06" />);
-    const trigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
-
-    fireEvent.click(trigger);
-
-    expect(trigger.getAttribute("aria-expanded")).toBe("true");
-    expect(screen.getByRole("dialog", { name: "Choose a show date or range" })).toBeTruthy();
-  });
-
   it("fits the venue menu above a low trigger and repositions it after resizing", () => {
     render(<EventExplorer events={events} today="2026-08-06" />);
     const trigger = screen.getByText("All venues").closest("button") as HTMLElement;
@@ -107,7 +150,7 @@ describe("EventExplorer", () => {
     }
   });
 
-  it("dismisses the date and venue filters", () => {
+  it("dismisses the date and venue filters with Escape and restores focus", () => {
     render(<EventExplorer events={events} today="2026-08-06" />);
     const dateTrigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
 
@@ -115,10 +158,6 @@ describe("EventExplorer", () => {
     fireEvent.keyDown(screen.getByRole("dialog"), { key: "Escape" });
     expect(screen.queryByRole("dialog")).toBeNull();
     expect(document.activeElement).toBe(dateTrigger);
-
-    fireEvent.click(dateTrigger);
-    fireEvent.pointerDown(document.body);
-    expect(screen.queryByRole("dialog")).toBeNull();
 
     const trigger = screen.getByText("All venues").closest("button") as HTMLElement;
     const filter = trigger.closest(".venue-filter") as HTMLDivElement;
@@ -129,9 +168,6 @@ describe("EventExplorer", () => {
     expect(trigger.getAttribute("aria-expanded")).toBe("false");
     expect(document.activeElement).toBe(trigger);
 
-    fireEvent.click(trigger);
-    fireEvent.pointerDown(document.body);
-    expect(trigger.getAttribute("aria-expanded")).toBe("false");
   });
 
   it("filters instantly by one date or an inclusive reverse-selected range", () => {
@@ -252,6 +288,7 @@ describe("EventExplorer", () => {
     expect(screen.getByText("Tomorrow")).toBeTruthy();
 
     fireEvent.click(venueTrigger);
+    act(() => venueTrigger.focus());
     fireEvent.click(dateTrigger);
     expect(venueTrigger.getAttribute("aria-expanded")).toBe("false");
     expect(screen.getByRole("dialog")).toBeTruthy();

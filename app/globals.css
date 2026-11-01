@@ -218,6 +218,12 @@ main {
   margin: 0;
 }
 
+.calendar-help {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: var(--type-label);
+}
+
 .date-picker-popover .rdp-months,
 .date-picker-popover .rdp-month,
 .date-picker-popover .rdp-month_grid {
@@ -278,6 +284,10 @@ main {
 
 .date-picker-popover .rdp-chevron {
   fill: var(--muted);
+}
+
+.date-picker-popover button:disabled {
+  cursor: default;
 }
 
 .date-picker-popover .rdp-weekday {
@@ -565,8 +575,8 @@ main {
 @media (hover: hover) and (pointer: fine) {
   .date-filter > button:hover,
   .venue-filter > button:hover,
-  .date-picker-popover .rdp-button_previous:hover,
-  .date-picker-popover .rdp-button_next:hover,
+  .date-picker-popover .rdp-button_previous:hover:not(:disabled),
+  .date-picker-popover .rdp-button_next:hover:not(:disabled),
   .date-picker-popover .rdp-day:not(.rdp-selected) .rdp-day_button:hover:not(:disabled),
   .venue-filter fieldset label:hover,
   .clear-button:not(:disabled):hover {
@@ -621,6 +631,17 @@ main {
 @media (max-height: 520px) {
   main {
     padding-top: 1.5rem;
+  }
+
+  .filters,
+  .event-group h2 {
+    position: relative;
+    top: auto;
+  }
+
+  .event-group,
+  .event-link {
+    scroll-margin-top: 0;
   }
 }
 
