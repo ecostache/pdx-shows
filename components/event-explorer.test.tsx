@@ -87,6 +87,33 @@ describe("EventExplorer", () => {
     expect(screen.queryByLabelText("Past Venue")).toBeNull();
   });
 
+  it("keeps a selected venue removable after refreshed data drops its events", () => {
+    const { rerender } = render(<EventExplorer events={events} today="2026-08-06" />);
+    fireEvent.click(screen.getByRole("button", { name: "Venues, All venues" }));
+    fireEvent.click(screen.getByRole("checkbox", { name: "Holocene" }));
+
+    rerender(<EventExplorer events={events.filter((event) => event.venue !== "Holocene")} today="2026-08-06" />);
+    expect(screen.getByText("No shows found")).toBeTruthy();
+    fireEvent.click(screen.getByRole("checkbox", { name: "Holocene" }));
+    expect(screen.getByText("Tomorrow")).toBeTruthy();
+    expect(screen.queryByRole("checkbox", { name: "Holocene" })).toBeNull();
+  });
+
+  it("starts a new range when an unfinished anchor expires at midnight", () => {
+    vi.setSystemTime(new Date("2026-08-07T06:59:30Z"));
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    fireEvent.click(screen.getByRole("button", { name: /Dates, All upcoming/ }));
+    fireEvent.click(screen.getByRole("button", { name: /Thursday, August 6/ }));
+    act(() => vi.advanceTimersByTime(60_000));
+    fireEvent.click(screen.getByRole("button", { name: /Saturday, August 8/ }));
+
+    expect(screen.getByRole("dialog")).toBeTruthy();
+    expect(screen.getByText("Later")).toBeTruthy();
+    expect(screen.queryByText("Tomorrow")).toBeNull();
+    fireEvent.click(screen.getByRole("button", { name: /Saturday, August 8/ }));
+    expect(screen.queryByRole("dialog")).toBeNull();
+  });
+
   it("finishes a single date on the second click and restores focus", () => {
     render(<EventExplorer events={events} today="2026-08-06" />);
     const trigger = screen.getByRole("button", { name: /Dates, All upcoming/ });
@@ -148,6 +175,25 @@ describe("EventExplorer", () => {
     } finally {
       document.documentElement.style.fontSize = originalFontSize;
     }
+  });
+
+  it("keeps popovers inside the viewport without accumulating horizontal corrections", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const trigger = screen.getByRole("button", { name: "Venues, All venues" });
+    const panel = trigger.parentElement!.querySelector("fieldset")!;
+    vi.spyOn(trigger, "getBoundingClientRect").mockReturnValue(new DOMRect(16, 100, 240, 56));
+    vi.spyOn(panel, "getBoundingClientRect").mockReturnValue(new DOMRect(-80, 164, 400, 200));
+    vi.spyOn(window, "innerWidth", "get").mockReturnValue(540);
+
+    fireEvent.click(trigger);
+    expect(panel.style.getPropertyValue("--popover-shift-x")).toBe("92px");
+    expect(panel.style.getPropertyValue("--popover-available-width")).toBe("516px");
+    fireEvent.scroll(window);
+    expect(panel.style.getPropertyValue("--popover-shift-x")).toBe("92px");
+
+    vi.spyOn(panel, "getBoundingClientRect").mockReturnValue(new DOMRect(200, 164, 400, 200));
+    fireEvent.resize(window);
+    expect(panel.style.getPropertyValue("--popover-shift-x")).toBe("-72px");
   });
 
   it("dismisses the date and venue filters with Escape and restores focus", () => {

@@ -5,9 +5,21 @@ import {
   isDateOnly,
   parseEvents,
   portlandDate,
+  upcomingDateSelection,
 } from "./events";
 
 describe("event data", () => {
+  it("clips active ranges and expires past selections without mutating them", () => {
+    const selection = { from: "2026-08-06", to: "2026-08-08" };
+    expect(upcomingDateSelection(selection, "2026-08-07")).toEqual({
+      from: "2026-08-07", to: "2026-08-08",
+    });
+    expect(upcomingDateSelection(selection, "2026-08-08")).toEqual({
+      from: "2026-08-08", to: "2026-08-08",
+    });
+    expect(upcomingDateSelection(selection, "2026-08-09")).toBeUndefined();
+    expect(selection.from).toBe("2026-08-06");
+  });
   it("keeps calendar dates valid and stable at Portland timezone boundaries", () => {
     expect(isDateOnly("2026-02-28")).toBe(true);
     expect(isDateOnly("2026-02-29")).toBe(false);

@@ -112,6 +112,14 @@ export function filterEvents(
   );
 }
 
+export function upcomingDateSelection(
+  selection: DateSelection | undefined,
+  today: string,
+): DateSelection | undefined {
+  if (!selection || selection.to < today) return undefined;
+  return selection.from < today ? { from: today, to: selection.to } : selection;
+}
+
 export function formatEventDate(date: string): string {
   return eventDateFormatter.format(new Date(`${date}T00:00:00Z`));
 }

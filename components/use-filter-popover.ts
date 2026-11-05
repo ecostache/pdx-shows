@@ -1,14 +1,19 @@
-"use client";
-
-import { useLayoutEffect, type RefObject } from "react";
-
-export type OpenFilter = "date" | "venue" | null;
+import { useEffect, useLayoutEffect, useRef, type FocusEvent, type KeyboardEvent } from "react";
 
 function fitPopover(trigger: HTMLElement, panel: HTMLElement, heightLimit = Infinity) {
   const anchor = trigger.getBoundingClientRect();
   if (!anchor.width) return;
 
   const viewport = window.visualViewport;
+  const leftEdge = (viewport?.offsetLeft ?? 0) + 12;
+  const rightEdge = (viewport?.offsetLeft ?? 0) + (viewport?.width ?? window.innerWidth) - 12;
+  panel.style.setProperty("--popover-available-width", `${Math.max(0, rightEdge - leftEdge)}px`);
+  // Measure without the previous correction so repeated scrolls cannot accumulate it.
+  panel.style.setProperty("--popover-shift-x", "0px");
+  const bounds = panel.getBoundingClientRect();
+  const left = Math.max(leftEdge, Math.min(bounds.left, rightEdge - bounds.width));
+  panel.style.setProperty("--popover-shift-x", `${left - bounds.left}px`);
+
   const topEdge = (viewport?.offsetTop ?? 0) + 12;
   const bottomEdge = (viewport?.offsetTop ?? 0) + (viewport?.height ?? window.innerHeight) - 12;
   const belowTop = Math.min(bottomEdge, Math.max(topEdge, anchor.bottom + 8));
@@ -27,22 +32,53 @@ function fitPopover(trigger: HTMLElement, panel: HTMLElement, heightLimit = Infi
   panel.style.setProperty("--popover-top", `${panelTop - anchor.top}px`);
 }
 
-export function useFilterPopovers(
-  dateFilterRef: RefObject<HTMLDivElement | null>,
-  venueFilterRef: RefObject<HTMLDivElement | null>,
-  openFilter: OpenFilter,
+export function useFilterPopover<T extends HTMLElement>(
+  open: boolean,
+  onClose: () => void,
+  kind: "date" | "venue",
 ) {
+  const filterRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const panelRef = useRef<T>(null);
+
+  function close(restoreFocus = true) {
+    if (restoreFocus) triggerRef.current?.focus({ preventScroll: true });
+    onClose();
+  }
+
+  function onKeyDown(event: KeyboardEvent<HTMLDivElement>) {
+    if (!open || event.key !== "Escape") return;
+    event.preventDefault();
+    close();
+  }
+
+  function onBlur(event: FocusEvent<HTMLDivElement>) {
+    if (!open) return;
+    if (event.relatedTarget instanceof Node && event.currentTarget.contains(event.relatedTarget)) return;
+    close(false);
+  }
+
+  useEffect(() => {
+    if (!open) return;
+    const filter = filterRef.current;
+    if (!filter) return;
+    const onPointerDown = (event: PointerEvent) => {
+      if (!(event.target instanceof Node) || filter.contains(event.target)) return;
+      if (filter.contains(document.activeElement)) triggerRef.current?.focus({ preventScroll: true });
+      onClose();
+    };
+    document.addEventListener("pointerdown", onPointerDown);
+    return () => document.removeEventListener("pointerdown", onPointerDown);
+  }, [open, onClose]);
+
   useLayoutEffect(() => {
-    if (!openFilter) return;
-    const filter = (openFilter === "date" ? dateFilterRef : venueFilterRef).current;
-    const trigger = filter?.querySelector("button");
-    const panel = filter?.querySelector<HTMLElement>(
-      openFilter === "date" ? ".date-picker-popover" : "fieldset",
-    );
+    if (!open) return;
+    const trigger = triggerRef.current;
+    const panel = panelRef.current;
     if (!trigger || !panel) return;
 
     const updatePositions = () => {
-      if (openFilter === "date") {
+      if (kind === "date") {
         const caption = panel.querySelector<HTMLElement>(".rdp-month_caption");
         const navigation = panel.querySelector<HTMLElement>(".rdp-nav");
         const navigationBottom = navigation
@@ -52,7 +88,7 @@ export function useFilterPopovers(
         panel.style.setProperty("--calendar-scroll-padding", `${headerHeight + 12}px`);
         fitPopover(trigger, panel);
       } else {
-        const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
+        const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
         fitPopover(trigger, panel, 25 * rem);
       }
     };
@@ -75,5 +111,7 @@ export function useFilterPopovers(
       window.visualViewport?.removeEventListener("resize", updatePositions);
       window.visualViewport?.removeEventListener("scroll", updatePositions);
     };
-  }, [dateFilterRef, venueFilterRef, openFilter]);
+  }, [open, kind]);
+
+  return { filterProps: { ref: filterRef, onKeyDown, onBlur }, triggerRef, panelRef, close };
 }

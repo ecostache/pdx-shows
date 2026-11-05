@@ -28,7 +28,6 @@
 
 html {
   background: var(--background);
-  background-image: none;
   scroll-padding-top: 3rem;
 }
 
@@ -36,7 +35,6 @@ body {
   margin: 0;
   color: var(--text);
   background: var(--background);
-  background-image: none;
   font-family: var(--font-radio-canada), "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: var(--type-body);
   font-weight: var(--weight-normal);
@@ -50,14 +48,12 @@ body {
 }
 
 button,
-input,
-summary {
+input {
   font: inherit;
   font-variation-settings: inherit;
 }
 
 button,
-summary,
 input[type="checkbox"] {
   cursor: pointer;
 }
@@ -182,6 +178,8 @@ main {
   top: var(--popover-top, calc(100% + 0.5rem));
   left: 0;
   width: min(22rem, calc(100vw - 2rem));
+  max-width: var(--popover-available-width, calc(100vw - 2rem));
+  translate: var(--popover-shift-x, 0) 0;
   max-height: var(--popover-available-height, calc(100dvh - 2rem));
   padding: 0.75rem;
   overflow-y: auto;
@@ -355,6 +353,8 @@ main {
   top: var(--popover-top, calc(100% + 0.5rem));
   right: 0;
   width: min(25rem, calc(100vw - 2rem));
+  max-width: var(--popover-available-width, calc(100vw - 2rem));
+  translate: var(--popover-shift-x, 0) 0;
   min-width: 0;
   max-height: min(25rem, var(--popover-available-height, calc(100dvh - 2rem)));
   margin: 0;
@@ -494,7 +494,7 @@ main {
 }
 
 .event-link > span,
-.event-content > div {
+.event-content > span {
   min-width: 0;
 }
 
