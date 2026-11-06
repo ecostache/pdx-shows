@@ -95,10 +95,10 @@ main {
   z-index: 10;
   top: 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: stretch;
   gap: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   padding-block: 0.5rem;
   background: var(--background);
 }
@@ -110,7 +110,7 @@ main {
   justify-content: center;
   gap: 0.15rem;
   min-height: 3.5rem;
-  padding: 0.5rem 2.5rem 0.5rem 0.875rem;
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
   border: 1px solid var(--border);
   border-radius: 0.375rem;
   color: var(--text);
@@ -139,7 +139,7 @@ main {
 .date-filter > button::after,
 .venue-filter > button::after {
   position: absolute;
-  right: 1rem;
+  right: 0.75rem;
   top: 50%;
   content: "";
   width: 0.4rem;
@@ -165,11 +165,18 @@ main {
 
 .date-filter > button strong,
 .venue-filter > button strong {
+  width: 100%;
   font-size: var(--type-small);
   font-weight: var(--weight-medium);
   letter-spacing: 0;
   line-height: 1.4;
   overflow-wrap: anywhere;
+}
+
+.venue-filter > button strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .date-picker-popover {
@@ -410,9 +417,11 @@ main {
 }
 
 .clear-button {
-  align-self: center;
-  color: var(--venue);
+  flex: 0 0 auto;
+  color: var(--text);
   background: transparent;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 .empty-state button {
@@ -421,13 +430,30 @@ main {
 }
 
 .clear-button:disabled {
-  cursor: default;
-  color: var(--muted);
-  background: transparent;
+  visibility: hidden;
 }
 
 .clear-button:not(:disabled):focus-visible {
   background: var(--hover);
+}
+
+.results-summary {
+  display: flex;
+  grid-column: 1 / -1;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: var(--muted);
+  font-size: var(--type-small);
+}
+
+.results-summary p {
+  margin: 0;
+}
+
+.results-summary .clear-button {
+  padding-inline: 0.5rem;
+  margin-right: -0.5rem;
 }
 
 .event-groups {
@@ -446,6 +472,7 @@ main {
   top: var(--filters-height, 4.5rem);
   margin: 0 0 0.5rem;
   padding-block: 0.5rem;
+  border-bottom: 1px solid var(--border);
   color: var(--venue);
   background: var(--background);
   font-size: var(--type-small);
@@ -590,24 +617,17 @@ main {
   .event-group li:has(.event-link):hover {
     background: var(--hover);
   }
+
+  .event-link:hover .event-title {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .event-group li:has(.event-link) {
     transition: none;
-  }
-}
-
-@media (max-width: 800px) {
-  .filters {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .clear-button {
-    grid-column: 1 / -1;
-    min-height: 2.75rem;
-    justify-self: start;
-    padding-inline: 0.875rem;
   }
 }
 
@@ -617,14 +637,9 @@ main {
     --type-label: 0.875rem;
   }
 
-  .filters {
-    grid-template-columns: 1fr;
-  }
-
   .venue-filter fieldset {
     right: 0;
-    left: 0;
-    width: 100%;
+    width: calc(100vw - 2rem);
   }
 }
 

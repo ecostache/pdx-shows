@@ -15,6 +15,27 @@
 - Clear filters and the empty-state Show everything action reset both filters.
 - Menus fit the viewport and scroll internally when space is limited.
 
+## November 6, 2026 design review
+
+Kept the existing typography and pure-white light background. Filters now sit
+side by side on phones, with a visible result count and a reset action that
+appears only when filters are active. Reset remains available in the sticky
+toolbar. A single selected venue shows its name, with visual truncation for long
+names and the full name retained in the button's accessible label and tooltip.
+Date headings have a subtle dividing rule and semantic time elements. Event
+links use consistent SVG arrows and underline their titles on hover.
+
+Verified the local UI at 320 × 568, 390 × 844, 844 × 390, and 1280 × 800.
+Checks covered long venue labels, combined date ranges and venues, Escape,
+reset, constrained calendar scrolling, sticky filters and date headings, and
+desktop alignment. The desktop page had no horizontal overflow, its computed
+background was pure white, and no browser warnings or errors were captured.
+`pnpm check` passed lint, TypeScript, all 75 tests, and the production build.
+Dark-mode visual testing and physical-device Safari were not repeated in this pass.
+
+Screenshots: [desktop](visual-review/2026-11-06-desktop.jpg) and
+[mobile](visual-review/2026-11-06-mobile.jpg).
+
 ## November 5, 2026 review
 
 The deployed calendar closed when its month heading was clicked. The shared
@@ -45,7 +66,7 @@ viewport checks and simulated focus events do not replace that validation.
 3. Dismiss using an outside tap, Escape, and keyboard focus leaving the menu.
    After tapping the calendar heading, verify Escape still works.
 4. Select a combination with no shows, then use Show everything. Verify Clear
-   filters also restores all upcoming shows and becomes disabled.
+   filters also restores all upcoming shows and becomes hidden and disabled.
 5. Repeat at phone, landscape, and desktop sizes. Check menu edges, internal
    scrolling, sticky filters, and long event titles. Check both color schemes;
    light-mode page backgrounds must remain pure white.

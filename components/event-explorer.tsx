@@ -132,7 +132,9 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
   const venueSummary =
     selectedVenues.size === 0
       ? "All venues"
-      : `${selectedVenues.size} venue${selectedVenues.size === 1 ? "" : "s"}`;
+      : selectedVenues.size === 1
+        ? [...selectedVenues][0]
+        : `${selectedVenues.size} venues`;
 
   return (
     <section className="event-explorer" aria-label="Upcoming shows">
@@ -187,7 +189,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
             onClick={() => toggleFilter("venue")}
           >
             <span>Venues</span>
-            <strong aria-live="polite">{venueSummary}</strong>
+            <strong aria-live="polite" title={venueSummary}>{venueSummary}</strong>
           </button>
           <fieldset ref={venuePanelRef} id={`${id}-venue-picker`} hidden={!venuePickerOpen}>
             <legend className="sr-only">Filter by venue</legend>
@@ -204,20 +206,21 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
           </fieldset>
         </div>
 
-        <button type="button" className="clear-button" onClick={clearFilters} disabled={!hasFilters}>
-          Clear filters
-        </button>
+        <div className="results-summary">
+          <p role="status" aria-atomic="true">
+            {visibleEvents.length.toLocaleString("en-US")} {visibleEvents.length === 1 ? "show" : "shows"} found.
+          </p>
+          <button type="button" className="clear-button" onClick={clearFilters} disabled={!hasFilters}>
+            Clear filters
+          </button>
+        </div>
       </div>
-
-      <p className="sr-only" role="status" aria-atomic="true">
-        {visibleEvents.length} {visibleEvents.length === 1 ? "show" : "shows"} found.
-      </p>
 
       {groups.length > 0 ? (
         <div className="event-groups">
           {groups.map(([date, dateEvents]) => (
             <section className="event-group" key={date}>
-              <h2>{formatEventDate(date)}</h2>
+              <h2><time dateTime={date}>{formatEventDate(date)}</time></h2>
               <ul>
                 {dateEvents.map((event) => {
                   const key = JSON.stringify([event.date, event.venue, event.title, event.url]);
@@ -233,7 +236,9 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
                         <a className="event-link" href={event.url} target="_blank" rel="noreferrer">
                           {details}
                           <span className="sr-only"> (opens in a new tab)</span>
-                          <span className="arrow" aria-hidden="true">↗</span>
+                          <svg className="arrow" aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.25">
+                            <path d="M4 12 12 4M4 4h8v8" />
+                          </svg>
                         </a>
                       ) : (
                         <div className="event-content">
