@@ -22,3 +22,15 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000).
 
 Run `pnpm check` to lint, typecheck, test, and build.
+
+## Filters and UI checks
+
+Date and venue filters apply immediately and can be combined. Choose a date
+twice for a single day, or choose two dates for an inclusive range. Select one
+or more venues, and use **Clear filters** to reset both filters.
+
+See [UI verification](docs/ui-verification.md) for interaction expectations,
+responsive checks, and the latest review results.
+
+Light mode uses a pure white background. Fonts must use `next/font/google`;
+resolve or report font download failures instead of adding local font files.

@@ -23,6 +23,52 @@ afterEach(() => {
 });
 
 describe("EventExplorer", () => {
+  it("keeps the calendar open through a touch blur before a date activates", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    fireEvent.click(screen.getByRole("button", { name: /Dates, All upcoming/ }));
+    const date = screen.getByRole("button", { name: /Friday, August 7/ });
+    fireEvent.blur(document.activeElement!, { relatedTarget: null });
+    expect(screen.getByRole("dialog")).toBeTruthy();
+    fireEvent.click(date);
+    expect(screen.getByText("Tomorrow")).toBeTruthy();
+    expect(screen.queryByText("Later")).toBeNull();
+  });
+
+  it("allows native venue label activation after focus temporarily leaves the trigger", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const trigger = screen.getByRole("button", { name: "Venues, All venues" });
+    fireEvent.click(trigger);
+    act(() => trigger.focus());
+    const label = screen.getByRole("checkbox", { name: "Holocene" }).closest("label")!;
+    fireEvent.blur(trigger, { relatedTarget: null });
+    expect(trigger.getAttribute("aria-expanded")).toBe("true");
+    fireEvent.click(label);
+    expect((screen.getByRole("checkbox", { name: "Holocene" }) as HTMLInputElement).checked).toBe(true);
+    expect(screen.queryByText("Tomorrow")).toBeNull();
+    expect(screen.getByText("Later")).toBeTruthy();
+  });
+
+  it("dismisses after a transient blur with Escape, outside focus, or window blur", () => {
+    render(<EventExplorer events={events} today="2026-08-06" />);
+    const trigger = screen.getByRole("button", { name: "Venues, All venues" });
+    fireEvent.click(trigger);
+    act(() => trigger.focus());
+    act(() => trigger.blur());
+    expect(trigger.getAttribute("aria-expanded")).toBe("true");
+    fireEvent.keyDown(document.body, { key: "Escape" });
+    expect(trigger.getAttribute("aria-expanded")).toBe("false");
+    expect(document.activeElement).toBe(trigger);
+
+    fireEvent.click(trigger);
+    act(() => trigger.blur());
+    act(() => screen.getByRole("link", { name: /Today/ }).focus());
+    expect(trigger.getAttribute("aria-expanded")).toBe("false");
+
+    fireEvent.click(trigger);
+    fireEvent(window, new Event("blur"));
+    expect(trigger.getAttribute("aria-expanded")).toBe("false");
+  });
+
   it("advances an open calendar when Portland enters a new month", () => {
     vi.setSystemTime(new Date("2026-09-01T06:59:30Z"));
     render(<EventExplorer events={events} today="2026-08-31" />);

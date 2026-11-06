@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, type FocusEvent, type KeyboardEvent } from "react";
+import { useEffect, useLayoutEffect, useRef, type FocusEvent as ReactFocusEvent } from "react";
 
 function fitPopover(trigger: HTMLElement, panel: HTMLElement, heightLimit = Infinity) {
   const anchor = trigger.getBoundingClientRect();
@@ -46,14 +46,11 @@ export function useFilterPopover<T extends HTMLElement>(
     onClose();
   }
 
-  function onKeyDown(event: KeyboardEvent<HTMLDivElement>) {
-    if (!open || event.key !== "Escape") return;
-    event.preventDefault();
-    close();
-  }
-
-  function onBlur(event: FocusEvent<HTMLDivElement>) {
+  function onBlur(event: ReactFocusEvent<HTMLDivElement>) {
     if (!open) return;
+    // Touch browsers and label activation can blur to the document before the
+    // click reaches its control. Outside pointers/focus are handled separately.
+    if (event.relatedTarget === null) return;
     if (event.relatedTarget instanceof Node && event.currentTarget.contains(event.relatedTarget)) return;
     close(false);
   }
@@ -67,8 +64,25 @@ export function useFilterPopover<T extends HTMLElement>(
       if (filter.contains(document.activeElement)) triggerRef.current?.focus({ preventScroll: true });
       onClose();
     };
+    const onFocusIn = (event: FocusEvent) => {
+      if (event.target instanceof Node && !filter.contains(event.target)) onClose();
+    };
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== "Escape") return;
+      event.preventDefault();
+      triggerRef.current?.focus({ preventScroll: true });
+      onClose();
+    };
     document.addEventListener("pointerdown", onPointerDown);
-    return () => document.removeEventListener("pointerdown", onPointerDown);
+    document.addEventListener("focusin", onFocusIn);
+    document.addEventListener("keydown", onKeyDown);
+    window.addEventListener("blur", onClose);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("focusin", onFocusIn);
+      document.removeEventListener("keydown", onKeyDown);
+      window.removeEventListener("blur", onClose);
+    };
   }, [open, onClose]);
 
   useLayoutEffect(() => {
@@ -113,5 +127,5 @@ export function useFilterPopover<T extends HTMLElement>(
     };
   }, [open, kind]);
 
-  return { filterProps: { ref: filterRef, onKeyDown, onBlur }, triggerRef, panelRef, close };
+  return { filterProps: { ref: filterRef, onBlur }, triggerRef, panelRef, close };
 }

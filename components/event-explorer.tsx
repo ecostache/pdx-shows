@@ -192,15 +192,7 @@ export function EventExplorer({ events, today }: EventExplorerProps) {
           <fieldset ref={venuePanelRef} id={`${id}-venue-picker`} hidden={!venuePickerOpen}>
             <legend className="sr-only">Filter by venue</legend>
             {venues.map((venue) => (
-              <label
-                key={venue}
-                onPointerDown={(event) => {
-                  if (event.button !== 0 || event.target instanceof HTMLInputElement) return;
-                  // Keep focus inside the filter until the label activates its checkbox.
-                  event.preventDefault();
-                  event.currentTarget.querySelector("input")?.focus({ preventScroll: true });
-                }}
-              >
+              <label key={venue}>
                 <input
                   type="checkbox"
                   checked={selectedVenues.has(venue)}
